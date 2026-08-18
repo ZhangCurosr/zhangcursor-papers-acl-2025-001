@@ -4,5 +4,33 @@
  "title": "JuStRank-Benchmarking-LLM-Judges-for-System-Ranking",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 06:57:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a0017b3f-eb26-4436-ac00-1b5357256c41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a0017b3f-eb26-4436-ac00-1b5357256c41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:09:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-a-judge",
+    "system ranking",
+    "reward model",
+    "benchmark",
+    "judge bias",
+    "decisiveness",
+    "instance-level vs system-level"
+   ],
+   "field": "LLM评估与对齐",
+   "innovations": [
+    "提出首个大规模LLM judge系统级排名基准JuStRank",
+    "定义并量化judge的决断力(decisiveness)与系统特异性bias",
+    "揭示instance-level性能与system-level排名能力的非对齐性"
+   ],
+   "benchmarks": [
+    "JuStRank",
+    "Arena Hard v0.1",
+    "Chatbot Arena English Hard Prompts",
+    "RewardBench"
+   ]
+  }
+ }
 }

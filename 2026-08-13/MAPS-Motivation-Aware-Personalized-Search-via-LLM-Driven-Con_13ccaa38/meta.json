@@ -4,5 +4,31 @@
  "title": "MAPS-Motivation-Aware-Personalized-Search-via-LLM-Driven-Con",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 14:55:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c943830a-2f99-4b8d-a5e5-798132c3fc82.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c943830a-2f99-4b8d-a5e5-798132c3fc82.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:11:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化搜索",
+    "动机感知",
+    "LLM对齐",
+    "MoAE",
+    "咨询对话",
+    "对比学习",
+    "电商推荐"
+   ],
+   "field": "个性化检索与排序",
+   "innovations": [
+    "首次将用户咨询历史显式建模为搜索动机源，提出双路对齐框架桥接自然语言咨询与商品ID语义",
+    "设计MoAE混合注意力专家池化网络，自适应聚焦关键token语义，替代传统平均/CLS池化"
+   ],
+   "benchmarks": [
+    "Commercial电商数据集",
+    "Amazon Reviews合成数据集",
+    "HR@k, NDCG@k, MRR@k"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "No-Questions-are-Stupid-but-some-are-Poorly-Posed-Understand",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 14:55:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d2dcea47-7c92-4e59-8a18-3b40f85d2ad4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d2dcea47-7c92-4e59-8a18-3b40f85d2ad4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:13:25",
+  "chunks": 1
+ }
 }

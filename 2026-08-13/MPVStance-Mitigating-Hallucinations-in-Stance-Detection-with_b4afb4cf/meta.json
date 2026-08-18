@@ -4,5 +4,30 @@
  "title": "MPVStance-Mitigating-Hallucinations-in-Stance-Detection-with",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-13 14:55:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/880de5e7-4092-46d4-9f1b-533c06fadf4e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/880de5e7-4092-46d4-9f1b-533c06fadf4e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:11:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "stance detection",
+    "hallucination mitigation",
+    "multi-perspective verification",
+    "retrieval-augmented generation",
+    "large language models",
+    "zero-shot learning"
+   ],
+   "field": "立场检测与幻觉缓解",
+   "innovations": [
+    "提出 MPVStance 框架，通过多视角验证与 RAG 结合系统性缓解 LLM 立场检测中的幻觉",
+    "设计五步结构化验证流程与 11 维多视角核查体系，显著提升零样本及挑战性场景性能",
+    "在 SemEval-2016 与 VAST 数据集上刷新 SOTA，消融实验验证各模块有效性"
+   ],
+   "benchmarks": [
+    "SemEval-2016",
+    "VAST"
+   ]
+  }
+ }
 }

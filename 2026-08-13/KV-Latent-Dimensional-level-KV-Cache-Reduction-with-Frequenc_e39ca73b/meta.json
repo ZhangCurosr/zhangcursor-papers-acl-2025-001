@@ -4,5 +4,32 @@
  "title": "KV-Latent-Dimensional-level-KV-Cache-Reduction-with-Frequenc",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 06:57:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/99dd84df-b8d2-4ea1-94ff-e31a33f13f04.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/99dd84df-b8d2-4ea1-94ff-e31a33f13f04.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:10:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV Cache",
+    "LLM推理优化",
+    "RoPE",
+    "模型压缩",
+    "注意力降维",
+    "推理加速"
+   ],
+   "field": "大语言模型高效推理",
+   "innovations": [
+    "提出KV-Latent范式直接降维KV heads并仅需<1%额外训练恢复性能",
+    "发现模型性能对d_vo比d_qk更敏感揭示Key/Value信息密度差异",
+    "提出频率感知RoPE解决低维位置编码数值不稳定问题"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "OBQA",
+    "AI2ARC",
+    "Needle In A Haystack"
+   ]
+  }
+ }
 }

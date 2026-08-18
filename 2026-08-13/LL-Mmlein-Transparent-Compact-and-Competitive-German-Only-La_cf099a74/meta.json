@@ -4,5 +4,30 @@
  "title": "LL-Mmlein-Transparent-Compact-and-Competitive-German-Only-La",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:00:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5a53a3a4-2ee5-4b86-9049-e3913a2ea266.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5a53a3a4-2ee5-4b86-9049-e3913a2ea266.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:10:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "German LLM",
+    "monolingual training",
+    "transparent training",
+    "tokenizer efficiency",
+    "SuperGLEBer",
+    "pretraining dynamics"
+   ],
+   "field": "低资源语言大模型",
+   "innovations": [
+    "首个从零训练并完全透明的纯德语 LLM 家族（120M/1B）",
+    "发现小数据集训练的 Tokenizer 分词效率更高的反直觉现象",
+    "系统化训练动态分析揭示部分任务在30%数据后即达平台期"
+   ],
+   "benchmarks": [
+    "SuperGLEBer",
+    "lm-evaluation-harness-de"
+   ]
+  }
+ }
 }

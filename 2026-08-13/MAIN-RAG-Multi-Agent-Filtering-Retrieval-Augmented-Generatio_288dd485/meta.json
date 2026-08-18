@@ -4,5 +4,30 @@
  "title": "MAIN-RAG-Multi-Agent-Filtering-Retrieval-Augmented-Generatio",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 14:56:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/81a759bb-179c-4c22-93a7-62f432fb299d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/81a759bb-179c-4c22-93a7-62f432fb299d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:10:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "Multi-Agent",
+    "Document Filtering",
+    "Training-free",
+    "Adaptive Threshold"
+   ],
+   "field": "检索增强生成",
+   "innovations": [
+    "多代理协作文档过滤框架，无需训练即可显著提升RAG性能",
+    "基于分数分布的自适应阈值机制动态调整噪声过滤标准"
+   ],
+   "benchmarks": [
+    "TriviaQA",
+    "PopQA",
+    "ARC-Challenge",
+    "ASQA"
+   ]
+  }
+ }
 }

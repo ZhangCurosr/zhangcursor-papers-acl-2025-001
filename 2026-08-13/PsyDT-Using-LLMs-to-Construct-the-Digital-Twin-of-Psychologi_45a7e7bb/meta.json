@@ -4,5 +4,32 @@
  "title": "PsyDT-Using-LLMs-to-Construct-the-Digital-Twin-of-Psychologi",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-13 14:55:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/18076e00-d65c-45ca-8c19-ef2f679f0ce3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/18076e00-d65c-45ca-8c19-ef2f679f0ce3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:15:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "心理健康LLM",
+    "数字孪生",
+    "心理咨询风格",
+    "多轮对话合成",
+    "大五人格模拟",
+    "指令微调"
+   ],
+   "field": "心理健康大语言模型",
+   "innovations": [
+    "首个利用LLM构建个性化心理咨询风格数字孪生的框架",
+    "动态单样本学习结合大五人格模拟的多轮对话合成方法",
+    "面向心理咨询的专业四维人工评估体系"
+   ],
+   "benchmarks": [
+    "PsyDTCorpus",
+    "SMILECHAT",
+    "SoulChatCorpus",
+    "CPsyCounD"
+   ]
+  }
+ }
 }

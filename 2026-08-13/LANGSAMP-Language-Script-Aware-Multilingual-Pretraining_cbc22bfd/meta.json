@@ -4,5 +4,34 @@
  "title": "LANGSAMP-Language-Script-Aware-Multilingual-Pretraining",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 06:57:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61575a49-5b40-4a31-a0d7-3bb5c6f7de10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61575a49-5b40-4a31-a0d7-3bb5c6f7de10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:10:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言预训练",
+    "跨语言迁移",
+    "语言嵌入",
+    "语言中性",
+    "零样本迁移",
+    "masked language modeling"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "在Transformer输出后而非输入前加入语言/书写系统嵌入，使预训练分担语言特定信息负担而推理无需ID",
+    "证明语言嵌入可捕捉类型学特征并用于自动选择跨语言迁移最优源语言",
+    "从预训练架构层面直接增强语言中性而非依赖后对齐"
+   ],
+   "benchmarks": [
+    "SR-B (Bible)",
+    "SR-T (Tatoeba)",
+    "Taxi1500",
+    "SIB200",
+    "WikiANN NER",
+    "Universal Dependencies POS"
+   ]
+  }
+ }
 }

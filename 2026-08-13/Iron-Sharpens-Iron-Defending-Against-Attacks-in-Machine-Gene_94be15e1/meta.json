@@ -4,5 +4,38 @@
  "title": "Iron-Sharpens-Iron-Defending-Against-Attacks-in-Machine-Gene",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 06:57:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4a1e1dac-85b9-407a-b82e-d22f54e2e715.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4a1e1dac-85b9-407a-b82e-d22f54e2e715.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:10:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Machine-Generated Text Detection",
+    "Adversarial Training",
+    "Black-box Attack",
+    "Robustness Defense",
+    "Text Perturbation",
+    "GREATER"
+   ],
+   "field": "机器生成文本检测与对抗鲁棒性",
+   "innovations": [
+    "提出同步更新攻击器与检测器的黑盒对抗训练框架 GREATER，实现跨攻击泛化防御",
+    "设计基于代理模型重要性评分与嵌入扰动的贪心搜索剪枝攻击方法，查询次数降低至 SOTA 的 1/4",
+    "在 16 种扰动与对抗攻击上取得最优防御性能，平均 ASR 较次优方法降低 4.42%-5.10%"
+   ],
+   "benchmarks": [
+    "SemEval Task 8",
+    "Paraphrasing Attack",
+    "Mixed Edit",
+    "PWWS",
+    "TextFooler",
+    "BERTAttack",
+    "HQA",
+    "ABP",
+    "T-PGD",
+    "FastTextDodger"
+   ]
+  }
+ }
 }

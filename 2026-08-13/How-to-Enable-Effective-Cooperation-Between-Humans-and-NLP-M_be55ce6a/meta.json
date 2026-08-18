@@ -4,5 +4,29 @@
  "title": "How-to-Enable-Effective-Cooperation-Between-Humans-and-NLP-M",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:58:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d33d8eef-74b6-4429-9377-13974e482da3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d33d8eef-74b6-4429-9377-13974e482da3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:08:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人机协作",
+    "Human-Model Cooperation",
+    "大语言模型",
+    "协作形式化",
+    "综述",
+    "协作原则"
+   ],
+   "field": "人机协作与自然语言处理",
+   "innovations": [
+    "首次提出基于决策责任归属与协作方式的统一三类协作形式分类体系",
+    "将Grice合作原则重新诠释并适配于人类-NLP模型协作场景",
+    "系统性区分辅助者-执行者与平等伙伴两种角色框架并关联到不同协作形式"
+   ],
+   "benchmarks": [
+    "未提供统一评测基准，引用方法涉及对话信息检索、法律文档匹配、数据标注等任务"
+   ]
+  }
+ }
 }

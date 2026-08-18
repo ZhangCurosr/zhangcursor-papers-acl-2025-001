@@ -4,5 +4,31 @@
  "title": "Model-Extrapolation-Expedites-Alignment",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-13 14:55:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fb15c98e-a896-4840-8a4b-f7a967bb4b05.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fb15c98e-a896-4840-8a4b-f7a967bb4b05.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:11:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型外推",
+    "偏好对齐",
+    "大语言模型",
+    "DPO",
+    "RLHF",
+    "参数外推",
+    "高效对齐"
+   ],
+   "field": "大语言模型对齐与高效训练",
+   "innovations": [
+    "基于一阶近似放大参数变化实现模型外推(EXPO)，无需额外训练即可提升对齐性能",
+    "验证部分训练模型(20%步数)经EXPO后可超越完整训练模型，降低75%计算成本"
+   ],
+   "benchmarks": [
+    "AlpacaEval 2.0",
+    "MT-Bench",
+    "UltraFeedback"
+   ]
+  }
+ }
 }

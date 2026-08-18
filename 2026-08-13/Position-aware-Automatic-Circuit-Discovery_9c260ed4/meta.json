@@ -4,5 +4,30 @@
  "title": "Position-aware-Automatic-Circuit-Discovery",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 14:55:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/92f8d468-6911-49cc-836e-ca37349b0a30.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/92f8d468-6911-49cc-836e-ca37349b0a30.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:14:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mechanistic Interpretability",
+    "Circuit Discovery",
+    "Position-aware Analysis",
+    "Edge Attribution Patching",
+    "Dataset Schema",
+    "Automated Pipeline"
+   ],
+   "field": "可解释AI（Mechanistic Interpretability）",
+   "innovations": [
+    "提出位置感知的边缘属性补丁（PEAP）方法，首次系统性地将位置区分引入自动电路发现，显著提升电路的faithfulness和精确度。",
+    "引入数据集模式（Schema）概念及基于LLM的自动生成与saliency引导的增强管道，使位置感知电路发现能有效处理变长、非模板化的真实输入。"
+   ],
+   "benchmarks": [
+    "IOI (Indirect Object Identification)",
+    "Greater-Than",
+    "Winobias"
+   ]
+  }
+ }
 }

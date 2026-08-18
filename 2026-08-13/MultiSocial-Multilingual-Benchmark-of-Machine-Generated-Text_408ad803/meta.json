@@ -4,5 +4,10 @@
  "title": "MultiSocial-Multilingual-Benchmark-of-Machine-Generated-Text",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-13 14:54:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/41246e9f-62b6-494f-b21c-5ed8ab144d52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/41246e9f-62b6-494f-b21c-5ed8ab144d52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:16:25",
+  "chunks": 8
+ }
 }

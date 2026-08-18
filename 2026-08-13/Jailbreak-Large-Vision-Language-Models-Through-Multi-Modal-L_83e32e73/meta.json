@@ -4,5 +4,30 @@
  "title": "Jailbreak-Large-Vision-Language-Models-Through-Multi-Modal-L",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 06:57:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-01/c1c08200-66c2-4a80-aa04-9179d3a8de7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-01/c1c08200-66c2-4a80-aa04-9179d3a8de7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:09:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLM safety",
+    "jailbreak attack",
+    "multi-modal security",
+    "prompt engineering",
+    "red teaming"
+   ],
+   "field": "大模型安全与对抗攻击",
+   "innovations": [
+    "跨模态加密-解密机制隐藏有害图像内容",
+    "邪恶对齐策略通过虚构游戏场景提升恶意输出对齐",
+    "解密提示设计利用打乱词表提升还原成功率"
+   ],
+   "benchmarks": [
+    "SafeBench",
+    "MM-SafeBench",
+    "HADES-Dataset"
+   ]
+  }
+ }
 }

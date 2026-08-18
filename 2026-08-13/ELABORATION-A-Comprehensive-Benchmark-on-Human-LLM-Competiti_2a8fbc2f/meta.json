@@ -4,5 +4,32 @@
  "title": "ELABORATION-A-Comprehensive-Benchmark-on-Human-LLM-Competiti",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:08:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/92a6447c-c76f-41ad-b753-cd496f222f12.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/92a6447c-c76f-41ad-b753-cd496f222f12.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:08:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human-LLM Collaboration",
+    "Competitive Programming",
+    "Code Generation",
+    "Benchmark",
+    "Human Feedback",
+    "LLM Evaluation"
+   ],
+   "field": "代码生成与人机协作",
+   "innovations": [
+    "首个覆盖竞赛编程全流程四阶段的人类反馈分类体系与综合基准",
+    "首个专为人类-LLM协作设计的竞赛编程数据集ELABORATIONSET（8,320题，含精细化注释）",
+    "系统揭示编码阶段反馈收益最高但Token开销大、人类与LLM Bug识别能力互补的发现"
+   ],
+   "benchmarks": [
+    "ELABORATION",
+    "ELABORATIONSET",
+    "Codeforces",
+    "AtCoder"
+   ]
+  }
+ }
 }

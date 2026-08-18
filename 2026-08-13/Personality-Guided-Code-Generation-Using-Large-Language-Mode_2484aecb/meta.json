@@ -4,5 +4,32 @@
  "title": "Personality-Guided-Code-Generation-Using-Large-Language-Mode",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-13 14:55:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/439713d4-e5d1-4b35-aded-04a4e6dab534.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/439713d4-e5d1-4b35-aded-04a4e6dab534.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:15:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码生成",
+    "人格引导",
+    "LLM提示工程",
+    "MBTI",
+    "Chain of Thought",
+    "大模型"
+   ],
+   "field": "LLM代码生成与提示工程",
+   "innovations": [
+    "首次系统研究基于MBTI人格引导的LLM代码生成，提出任务-人格匹配的生成管道",
+    "发现人格多样性对代码生成的关键作用，均匀人格显著劣于多样化人格",
+    "证明MBTI优于Big Five人格建模，且完整描述优于类型标签，与CoT结合增益最大"
+   ],
+   "benchmarks": [
+    "MBPP Sanitized",
+    "MBPP+",
+    "HumanEval+",
+    "APPS"
+   ]
+  }
+ }
 }

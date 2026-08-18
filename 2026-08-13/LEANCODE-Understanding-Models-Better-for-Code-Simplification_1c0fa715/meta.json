@@ -4,5 +4,30 @@
  "title": "LEANCODE-Understanding-Models-Better-for-Code-Simplification",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 06:57:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5fc62d6b-bb1d-4108-91e0-2fa717756f40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5fc62d6b-bb1d-4108-91e0-2fa717756f40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:10:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "code simplification",
+    "attention mechanism",
+    "pre-trained language models",
+    "code search",
+    "code summarization",
+    "token importance"
+   ],
+   "field": "代码理解的模型压缩与简化",
+   "innovations": [
+    "提出类别本地注意力平均替代全局平均自注意力，降低 token 重要性评估方差",
+    "区分分类任务（CLS注意力）和序列生成任务（Encoder-Decoder注意力）设计差异化的token重要性度量机制"
+   ],
+   "benchmarks": [
+    "CodeSearchNet (Java)",
+    "MRR",
+    "BLEU-4"
+   ]
+  }
+ }
 }

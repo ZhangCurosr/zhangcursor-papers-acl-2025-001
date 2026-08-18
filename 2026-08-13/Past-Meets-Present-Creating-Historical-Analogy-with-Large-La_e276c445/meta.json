@@ -4,5 +4,10 @@
  "title": "Past-Meets-Present-Creating-Historical-Analogy-with-Large-La",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-08-13 14:56:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5051f42d-33f3-400b-a412-3b74a77f278b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5051f42d-33f3-400b-a412-3b74a77f278b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:14:15",
+  "chunks": 1
+ }
 }

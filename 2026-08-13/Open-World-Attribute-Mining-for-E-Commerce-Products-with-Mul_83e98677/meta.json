@@ -4,5 +4,10 @@
  "title": "Open-World-Attribute-Mining-for-E-Commerce-Products-with-Mul",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 14:56:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9c62458e-e036-4cbe-a29e-e22f70f49f2f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9c62458e-e036-4cbe-a29e-e22f70f49f2f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:14:03",
+  "chunks": 1
+ }
 }

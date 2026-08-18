@@ -4,5 +4,29 @@
  "title": "PunchBench-Benchmarking-MLLMs-in-Multimodal-Punchline-Compre",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-13 14:54:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f1f41156-a5c2-4e10-b17a-c94549e5d831.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f1f41156-a5c2-4e10-b17a-c94549e5d831.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:15:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Punchline Comprehension",
+    "PunchBench",
+    "SC-CoQ",
+    "Shortcut Mitigation",
+    "MLLM Evaluation",
+    "Humor and Sarcasm"
+   ],
+   "field": "多模态大模型评测与推理",
+   "innovations": [
+    "提出PunchBench基准，首次针对多模态笑点理解提供准确且全面的评测",
+    "生成同义/反义Caption以消除模型对文本捷径的依赖",
+    "设计SC-CoQ由简到繁的链式提问策略，超越ICL与CoT"
+   ],
+   "benchmarks": [
+    "PunchBench"
+   ]
+  }
+ }
 }

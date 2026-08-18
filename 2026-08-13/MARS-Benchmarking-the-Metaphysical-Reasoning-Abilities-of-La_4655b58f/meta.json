@@ -4,5 +4,29 @@
  "title": "MARS-Benchmarking-the-Metaphysical-Reasoning-Abilities-of-La",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 14:56:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aba372c6-f3ea-4193-ac6e-79fa821dbe56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aba372c6-f3ea-4193-ac6e-79fa821dbe56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:11:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "形而上学推理",
+    "大语言模型评测",
+    "分布变化",
+    "多任务基准",
+    "常识推理",
+    "知识蒸馏"
+   ],
+   "field": "语言模型推理能力评测",
+   "innovations": [
+    "提出三步骤形而上学推理框架以评估LLMs对分布变化的推理能力",
+    "构建首个大规模多任务基准MARS",
+    "展示基于概念化知识迁移可有效提升推理性能"
+   ],
+   "benchmarks": [
+    "MARS"
+   ]
+  }
+ }
 }

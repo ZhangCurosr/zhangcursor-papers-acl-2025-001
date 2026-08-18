@@ -4,5 +4,31 @@
  "title": "MIND-A-Multi-agent-Framework-for-Zero-shot-Harmful-Meme-Dete",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-13 14:54:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bfa12aa4-526d-48fe-bb22-f6ec7cd32673.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bfa12aa4-526d-48fe-bb22-f6ec7cd32673.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:11:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本学习",
+    "多智能体系统",
+    "有害内容检测",
+    "迷因分析",
+    "大语言模型",
+    "多模态推理"
+   ],
+   "field": "多模态内容安全检测",
+   "innovations": [
+    "提出首个零样本有害迷因检测的多智能体框架，无需标注数据",
+    "设计双向洞察推导机制，从相似迷因中提取全面理解",
+    "引入多智能体辩论机制，通过理性仲裁提高决策鲁棒性"
+   ],
+   "benchmarks": [
+    "HarM",
+    "FHM",
+    "MAMI"
+   ]
+  }
+ }
 }

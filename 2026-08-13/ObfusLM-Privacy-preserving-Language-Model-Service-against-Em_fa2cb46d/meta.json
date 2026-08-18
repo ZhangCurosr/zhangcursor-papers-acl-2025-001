@@ -4,5 +4,30 @@
  "title": "ObfusLM-Privacy-preserving-Language-Model-Service-against-Em",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-13 14:55:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/da3d2263-fb46-4e4d-97c1-f2c69265594e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/da3d2263-fb46-4e4d-97c1-f2c69265594e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:13:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "隐私保护",
+    "机器学习即服务",
+    "嵌入反转攻击",
+    "差分隐私",
+    "语言模型"
+   ],
+   "field": "AI安全与隐私",
+   "innovations": [
+    "首次将(k,ε)-匿名性引入嵌入空间",
+    "支持分类与生成任务的端到端隐私保护",
+    "单层混淆与双层混淆的渐进式安全设计"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "Alpaca",
+    "Databricks-dolly-15k"
+   ]
+  }
+ }
 }

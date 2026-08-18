@@ -4,5 +4,28 @@
  "title": "ECERC-Evidence-Cause-Attention-Network-for-Multi-Modal-Emoti",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:00:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1c168401-8673-43e6-8979-82909e48546f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1c168401-8673-43e6-8979-82909e48546f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:09:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态对话情绪识别",
+    "情感因果",
+    "证据-因果交互",
+    "多模态融合",
+    "对话理解"
+   ],
+   "field": "多模态对话情绪识别",
+   "innovations": [
+    "首次系统性地将四类情感因果（自我/他人事件、自我/他人情绪）纳入MMERC框架并显式建模",
+    "提出五阶段Evidence-Cause交互架构，包含双级门控机制（证据门控+特征门控）"
+   ],
+   "benchmarks": [
+    "IEMOCAP",
+    "MELD"
+   ]
+  }
+ }
 }

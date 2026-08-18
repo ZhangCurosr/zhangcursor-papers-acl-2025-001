@@ -4,5 +4,32 @@
  "title": "Multimodal-Transformers-are-Hierarchical-Modal-wise-Heteroge",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 14:56:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e62c7eec-5c35-4471-a6e1-95388742ca87.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e62c7eec-5c35-4471-a6e1-95388742ca87.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:12:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Sentiment Analysis",
+    "Multimodal Transformer",
+    "Graph Attention Network",
+    "Efficient Fusion",
+    "Interlaced Mask",
+    "Parameter Compression"
+   ],
+   "field": "多模态情感分析",
+   "innovations": [
+    "首次证明MulT等价于层级模态异构图(HMHG)并从图论视角重新形式化",
+    "提出Interlaced Mask机制实现All-Modal-In-One高效权重共享",
+    "设计Decomposition算子在保持零额外计算开销下将参数压缩至1/3"
+   ],
+   "benchmarks": [
+    "CMU-MOSI",
+    "CMU-MOSEI",
+    "CH-SIMS",
+    "MIntRec"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "LADM-Long-context-Training-Data-Selection-with-Attention-bas",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 06:57:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/abd6fb86-15b8-4b34-b23b-d5f626d28e37.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/abd6fb86-15b8-4b34-b23b-d5f626d28e37.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:10:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Long-context",
+    "Data Selection",
+    "Attention Mechanism",
+    "Large Language Models",
+    "Pre-training",
+    "Dependency Measurement"
+   ],
+   "field": "长上下文大语言模型",
+   "innovations": [
+    "提出基于注意力分数累积的三级依赖度量体系（PFS/AFS/CDS）",
+    "利用轻量模型作为 Long Attention Calculator 高效筛选高质量长上下文数据",
+    "仅用1B tokens筛选数据即超越随机采样使用2B+ tokens的性能"
+   ],
+   "benchmarks": [
+    "LongBench",
+    "Needle-in-the-Haystack",
+    "Proof-Pile Perplexity"
+   ]
+  }
+ }
 }

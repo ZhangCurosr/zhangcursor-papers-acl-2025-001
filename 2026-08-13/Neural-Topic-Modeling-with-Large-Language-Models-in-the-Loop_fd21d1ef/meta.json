@@ -4,5 +4,32 @@
  "title": "Neural-Topic-Modeling-with-Large-Language-Models-in-the-Loop",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-13 14:55:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4547a089-8f7e-4394-8637-c9aeb06f0755.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4547a089-8f7e-4394-8637-c9aeb06f0755.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:12:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "主题建模",
+    "神经主题模型",
+    "大语言模型",
+    "最优传输",
+    "主题可解释性",
+    "LLM-in-the-loop"
+   ],
+   "field": "自然语言处理-主题建模",
+   "innovations": [
+    "提出LLM-ITL框架将LLM集成到NTM训练循环中，通过OT对齐和置信度加权精炼提升主题可解释性",
+    "设计warm-up两阶段训练策略平衡语料学习与LLM外部知识注入",
+    "提出标签token概率和词汇入侵置信度两种LLM置信度评估方法"
+   ],
+   "benchmarks": [
+    "20News",
+    "R8",
+    "DBpedia",
+    "AGNews"
+   ]
+  }
+ }
 }

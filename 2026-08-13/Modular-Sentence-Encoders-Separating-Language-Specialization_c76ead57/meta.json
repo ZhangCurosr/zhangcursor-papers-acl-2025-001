@@ -4,5 +4,35 @@
  "title": "Modular-Sentence-Encoders-Separating-Language-Specialization",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 14:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5a86402f-9d31-493f-9607-738367078fcf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5a86402f-9d31-493f-9607-738367078fcf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:12:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual sentence encoding",
+    "curse of multilinguality",
+    "parameter-efficient fine-tuning",
+    "cross-lingual alignment",
+    "modular training",
+    "adapter"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "三阶段模块化训练（LA+SE+CLA）隔离多语言诅咒与跨语言对齐冲突",
+    "英语枢纽双语对齐策略优于全对多语言对齐",
+    "验证MT生成多语言paraphrase数据可用于大规模句子编码训练"
+   ],
+   "benchmarks": [
+    "STS17",
+    "STSB",
+    "SICK",
+    "STR24",
+    "SIB-200",
+    "FLORES",
+    "Tatoeba"
+   ]
+  }
+ }
 }

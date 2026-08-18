@@ -4,5 +4,34 @@
  "title": "On-the-Mutual-Influence-of-Gender-and-Occupation-in-LLM-Repr",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 14:56:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/57b683d0-7135-4d34-9cba-42deb9b7ca6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/57b683d0-7135-4d34-9cba-42deb9b7ca6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:13:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM性别偏见",
+    "性别-职业刻板印象",
+    "嵌入空间分析",
+    "内部表征解释性",
+    "反事实评估",
+    "职业预测偏差"
+   ],
+   "field": "大语言模型公平性与可解释性",
+   "innovations": [
+    "提出Internal Coefficient度量内部性别表征与外部偏差行为的中度关联",
+    "系统验证性别方向近似在现代LLM中的有效性并揭示职业语境对性别表征的动态调制",
+    "在1200万条提示规模上建立首名性别表征、现实统计与下游偏见行为的三重关联"
+   ],
+   "benchmarks": [
+    "Bias in Bios",
+    "SSA Social Security",
+    "Llama-3.1-8B-Instruct",
+    "Mistral-7B-Instruct-v0.3",
+    "OLMo-7B-0724-hf",
+    "Phi-3.5-mini-instruct"
+   ]
+  }
+ }
 }

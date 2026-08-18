@@ -4,5 +4,34 @@
  "title": "Pre-training-Distillation-for-Large-Language-Models-A-Design",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 14:55:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6c92f2da-099a-4737-baac-3425c188389a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6c92f2da-099a-4737-baac-3425c188389a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:15:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "pre-training distillation",
+    "knowledge distillation",
+    "large language models",
+    "design space exploration",
+    "scaling law",
+    "WSD scheduler"
+   ],
+   "field": "大语言模型预训练与模型压缩",
+   "innovations": [
+    "首次系统探索LLM预训练蒸馏设计空间，验证可行性并提出最优配置",
+    "发现学生模型越大获益越多、教师模型越大未必更好的反直觉规律",
+    "提出WSD-α+WSD-LR联合调度策略，实现+8.0%平均性能提升"
+   ],
+   "benchmarks": [
+    "HellaSwag",
+    "WinoGrande",
+    "PIQA",
+    "MMLU",
+    "C-Eval",
+    "GSM8k"
+   ]
+  }
+ }
 }

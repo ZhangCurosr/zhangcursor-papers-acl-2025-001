@@ -4,5 +4,31 @@
  "title": "Measuring-Social-Biases-in-Masked-Language-Models-by-Proxy-o",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-13 14:55:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cd307986-9498-4533-a24e-cfd4c1802d78.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cd307986-9498-4533-a24e-cfd4c1802d78.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:11:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "social bias",
+    "masked language model",
+    "bias evaluation",
+    "CrowS-Pairs",
+    "StereoSet",
+    "retraining bias",
+    "prediction quality proxy"
+   ],
+   "field": "语言模型偏见评估与去偏",
+   "innovations": [
+    "提出注意力加权的 ∆PA/CRRA 代理度量以更高灵敏度检测 MLM 偏见",
+    "设计 BSRT 比较指标量化 MLMO 再训练引入的偏见增量",
+    "证明新度量在对再训练后偏见估计上比 AUL/AULA/CSPS 更准确且更少低估"
+   ],
+   "benchmarks": [
+    "CrowS-Pairs (CPS)",
+    "StereoSet (SS)"
+   ]
+  }
+ }
 }

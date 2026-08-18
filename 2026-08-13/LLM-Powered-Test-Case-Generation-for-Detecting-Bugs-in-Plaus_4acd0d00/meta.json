@@ -4,5 +4,30 @@
  "title": "LLM-Powered-Test-Case-Generation-for-Detecting-Bugs-in-Plaus",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:58:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/41551b3f-3129-4703-9147-81db77f6ebd1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/41551b3f-3129-4703-9147-81db77f6ebd1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:10:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "plausible programs",
+    "bug detection",
+    "test case generation",
+    "differential testing",
+    "LLM",
+    "program variants"
+   ],
+   "field": "软件测试与Bug检测",
+   "innovations": [
+    "PUT-guided program variant generation: 以被测程序为基础引导LLM生成高质量变体",
+    "Generator-based input generation: 通过生成输入生成器脚本解决复杂约束下的输入有效性问题",
+    "Diversity-driven differential testing: 颠覆多数投票原则，优先信任与PUT输出不同的变体"
+   ],
+   "benchmarks": [
+    "TrickyBugs",
+    "EvalPlus"
+   ]
+  }
+ }
 }

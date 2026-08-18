@@ -4,5 +4,28 @@
  "title": "Modeling-Uncertainty-in-Composed-Image-Retrieval-via-Probabi",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-13 14:55:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7e3bcb7f-4f35-4ab6-947c-dec15f7d2044.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7e3bcb7f-4f35-4ab6-947c-dec15f7d2044.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:12:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Composed Image Retrieval",
+    "Probabilistic Embedding",
+    "Uncertainty Quantification",
+    "Multi-modal Retrieval",
+    "Gaussian Distribution"
+   ],
+   "field": "多模态检索",
+   "innovations": [
+    "提出COPE概率嵌入框架，将查询与候选表示为高斯分布以建模不确定性",
+    "设计不确定性感知距离度量与分层学习目标，同时建模实例级与特征级不确定性"
+   ],
+   "benchmarks": [
+    "Fashion-IQ",
+    "CIRR"
+   ]
+  }
+ }
 }

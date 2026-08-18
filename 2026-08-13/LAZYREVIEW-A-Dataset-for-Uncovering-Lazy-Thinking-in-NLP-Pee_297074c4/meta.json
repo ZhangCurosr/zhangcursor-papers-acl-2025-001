@@ -4,5 +4,31 @@
  "title": "LAZYREVIEW-A-Dataset-for-Uncovering-Lazy-Thinking-in-NLP-Pee",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 06:57:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1c1b69b9-4ed9-44f3-87e0-72d07300e9f4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1c1b69b9-4ed9-44f3-87e0-72d07300e9f4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:10:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "lazy thinking",
+    "peer review",
+    "LLM evaluation",
+    "instruction tuning",
+    "NLP datasets",
+    "bias detection",
+    "scientific publishing"
+   ],
+   "field": "NLP学术评审质量分析",
+   "innovations": [
+    "首个NLP同行评审懒惰思维细粒度标注数据集LAZYREVIEW（500 expert + 1276 silver segments，18类别）",
+    "三阶段迭代式指南演化方法结合positive examples显著提升标注一致性",
+    "通过受控人类实验首次证明懒惰思维标注反馈可显著提升评审质量（90%胜率）"
+   ],
+   "benchmarks": [
+    "LAZYREVIEW",
+    "NLPEER"
+   ]
+  }
+ }
 }
