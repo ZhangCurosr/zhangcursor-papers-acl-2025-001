@@ -4,5 +4,30 @@
  "title": "Towards-Better-Evaluation-for-Generated-Patent-Claims",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-08-13 14:55:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cac62dce-9ecd-4521-b198-58853e61ead3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cac62dce-9ecd-4521-b198-58853e61ead3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:23:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "专利权利要求",
+    "自动评测",
+    "对比学习",
+    "LLM-as-a-Judge",
+    "Patent-CE",
+    "PatClaimEval"
+   ],
+   "field": "法律文本自动生成与评测",
+   "innovations": [
+    "提出首个专利权利要求综合评测基准 Patent-CE（1,228 条专家标注对比数据）",
+    "设计基于 Longformer+对比学习的多维自动评测方法 PatClaimEval，在五维度上均超越现有指标",
+    "揭示 N-gram 指标在专利评估中的反直觉优势，修正通用文本评测在垂直领域的适用性认知"
+   ],
+   "benchmarks": [
+    "Patent-CE",
+    "G-Eval-4"
+   ]
+  }
+ }
 }

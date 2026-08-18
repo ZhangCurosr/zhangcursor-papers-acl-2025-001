@@ -4,5 +4,30 @@
  "title": "Re-identification-of-De-identified-Documents-with-Autoregres",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-13 14:55:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/42239c67-8112-4b24-8668-44a987499b66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/42239c67-8112-4b24-8668-44a987499b66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:18:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text de-identification",
+    "re-identification attack",
+    "retrieval-augmented generation",
+    "text infilling",
+    "privacy-preserving NLP",
+    "PII masking"
+   ],
+   "field": "隐私保护的文本去标识化与安全评估",
+   "innovations": [
+    "提出 RAG 驱动的两级检索+自回归填充文本再识别框架",
+    "构建 L1-L4 四档背景知识强度的去标识化鲁棒性评测协议"
+   ],
+   "benchmarks": [
+    "Wikipedia Biographies",
+    "Text Anonymization Benchmark (TAB)",
+    "Synthea Clinical Notes"
+   ]
+  }
+ }
 }

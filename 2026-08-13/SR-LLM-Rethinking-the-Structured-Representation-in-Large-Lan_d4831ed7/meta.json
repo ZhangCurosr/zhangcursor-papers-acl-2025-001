@@ -4,5 +4,39 @@
  "title": "SR-LLM-Rethinking-the-Structured-Representation-in-Large-Lan",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 14:56:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/21e47bc0-6e56-44f2-b85c-0a87b3c98044.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/21e47bc0-6e56-44f2-b85c-0a87b3c98044.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:20:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "结构化表示",
+    "大语言模型",
+    "AMR",
+    "自然语言描述",
+    "提示工程",
+    "监督微调"
+   ],
+   "field": "大语言模型推理增强",
+   "innovations": [
+    "提出SR-NLD将结构化表示转换为自然语言描述，避免直接嵌入代码格式导致的性能下降",
+    "构建Gen-SR混合训练数据集，通过50%文本+50%结构微调显著提升弱模型推理能力",
+    "首次系统证明合理整合结构化表示可实质性提升LLM在多种NLP任务上的性能"
+   ],
+   "benchmarks": [
+    "PAWS",
+    "SuperGLUE",
+    "SNLI",
+    "WMT16",
+    "SPIDER",
+    "CoNLL2003",
+    "SST-2",
+    "AGNEWS",
+    "WiC",
+    "Logic",
+    "Pubmed45"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Positional-Overload-Positional-Debiasing-and-Context-Window",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-08-13 14:55:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3be85d65-6f15-4d0c-919a-6c4772fd1655.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3be85d65-6f15-4d0c-919a-6c4772fd1655.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:19:23",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Towards-Reward-Fairness-in-RLHF-From-a-Resource-Allocation-P",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 14:55:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7fb5373c-549b-4594-bdc3-bbd6af6999f3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7fb5373c-549b-4594-bdc3-bbd6af6999f3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:23:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLHF",
+    "Reward Fairness",
+    "Resource Allocation",
+    "DPO",
+    "Length Bias",
+    "Reward Model"
+   ],
+   "field": "大语言模型对齐",
+   "innovations": [
+    "从资源分配视角统一建模reward unfairness，提出Fairness Regularization和Fairness Coefficient两种通用方法",
+    "在BT-RM和DPO框架下实现公平性奖励分配，同时缓解长度偏置、类别偏置和社会偏置",
+    "提出统一的公平度量函数族（含Jain's index推广形式），支持τ参数灵活调节公平偏好强度"
+   ],
+   "benchmarks": [
+    "Reward Bench",
+    "HH-RLHF",
+    "AlpacaEval2",
+    "MT-Bench",
+    "CrowS-Pairs"
+   ]
+  }
+ }
 }

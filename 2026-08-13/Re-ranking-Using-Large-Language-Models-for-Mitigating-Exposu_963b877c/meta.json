@@ -4,5 +4,31 @@
  "title": "Re-ranking-Using-Large-Language-Models-for-Mitigating-Exposu",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-13 14:54:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2357ae53-3e33-41e8-9d26-5b470f59fbc9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2357ae53-3e33-41e8-9d26-5b470f59fbc9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:18:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "内容安全",
+    "大语言模型",
+    "排序重排",
+    "有害内容缓解",
+    "零样本学习",
+    "社媒推荐系统"
+   ],
+   "field": "推荐系统安全与内容治理",
+   "innovations": [
+    "基于LLM的pairwise偏好重排方法，零样本/少样本即可降低有害内容暴露",
+    "提出PP-k和EWN两个新型评估指标，衡量排序质量与有害内容推迟效果",
+    "利用RoBERTA嵌入+K-Means聚类选取代表性ICL示例，避免示例选择偏差"
+   ],
+   "benchmarks": [
+    "YouTube Harm Dataset",
+    "Jigsaw Toxicity Dataset",
+    "D-Lab Hate Speech Dataset"
+   ]
+  }
+ }
 }

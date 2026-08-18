@@ -4,5 +4,31 @@
  "title": "The-Impossibility-of-Fair-LLMs",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-13 14:54:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73436a32-cb25-431a-94f5-e5e16a6597ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73436a32-cb25-431a-94f5-e5e16a6597ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:23:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型",
+    "算法公平性",
+    "群体公平",
+    "公平表征",
+    "多方公平",
+    "AI伦理"
+   ],
+   "field": "人工智能伦理与公平性",
+   "innovations": [
+    "系统论证通用LLM在技术公平框架下的内在不可行性",
+    "揭示非结构化训练数据对公平性的根本制约",
+    "提出'公平性不组合'理论及其对多模型系统的影响"
+   ],
+   "benchmarks": [
+    "WinoBias",
+    "BBQ",
+    "BOLD"
+   ]
+  }
+ }
 }

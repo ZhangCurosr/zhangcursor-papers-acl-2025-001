@@ -4,5 +4,31 @@
  "title": "Statistical-Deficiency-for-Task-Inclusion-Estimation",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-13 14:54:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/321300da-2b24-42e0-8a7f-5edc2048322b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/321300da-2b24-42e0-8a7f-5edc2048322b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:21:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "task inclusion",
+    "statistical deficiency",
+    "information sufficiency",
+    "task space structure",
+    "NLP pipeline",
+    "multitask learning",
+    "embedding comparison"
+   ],
+   "field": "任务学习与表示理论",
+   "innovations": [
+    "基于 Le Cam 统计缺陷的形式化任务包含定义",
+    "信息充分性作为缺陷的可计算代理及其理论界",
+    "在 NLP 流水线经验性重构非对称任务偏序"
+   ],
+   "benchmarks": [
+    "OntoNotes 5.0 (news domain)",
+    "Synthetic HMM classification tasks"
+   ]
+  }
+ }
 }

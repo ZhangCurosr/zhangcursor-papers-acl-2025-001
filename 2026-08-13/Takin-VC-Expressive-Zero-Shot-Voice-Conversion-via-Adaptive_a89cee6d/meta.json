@@ -4,5 +4,36 @@
  "title": "Takin-VC-Expressive-Zero-Shot-Voice-Conversion-via-Adaptive",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-13 14:56:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/540aa518-fa7b-42d9-b805-79c2e285099d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/540aa518-fa7b-42d9-b805-79c2e285099d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:22:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本语音转换",
+    "流匹配",
+    "音色建模",
+    "自监督学习",
+    "语音编码",
+    "自适应融合"
+   ],
+   "field": "零样本语音转换",
+   "innovations": [
+    "自适应混合内容编码器：梯度驱动的PPG与量化SSL隐式融合，解耦内容与非语言信息",
+    "记忆增强上下文感知音色建模：洗牌Mel+声纹嵌入+CA机制对齐源内容与目标音色",
+    "条件流匹配解码器：OT-CFM实现10步快速推理，RTF=0.154"
+   ],
+   "benchmarks": [
+    "LibriTTS",
+    "50万小时多语数据集",
+    "NMOS",
+    "SMOS",
+    "WER",
+    "UTMOS",
+    "SECS",
+    "RTF"
+   ]
+  }
+ }
 }

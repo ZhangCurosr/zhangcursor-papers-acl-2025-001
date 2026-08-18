@@ -4,5 +4,10 @@
  "title": "Steering-into-New-Embedding-Spaces-Analyzing-Cross-Lingual-A",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 14:57:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3bcbfa95-befd-48b4-b4ac-e71fd670cb61.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3bcbfa95-befd-48b4-b4ac-e71fd670cb61.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:21:55",
+  "chunks": 1
+ }
 }

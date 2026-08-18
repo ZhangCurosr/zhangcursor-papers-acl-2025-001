@@ -4,5 +4,10 @@
  "title": "UniICL-An-Efficient-Unified-Framework-Unifying-Compression-S",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-13 14:54:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e0655c3b-06d3-4e31-9f48-9b2f36334031.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e0655c3b-06d3-4e31-9f48-9b2f36334031.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:25:08",
+  "chunks": 1
+ }
 }

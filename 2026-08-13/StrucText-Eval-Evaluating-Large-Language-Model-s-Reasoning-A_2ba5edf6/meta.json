@@ -4,5 +4,10 @@
  "title": "StrucText-Eval-Evaluating-Large-Language-Model-s-Reasoning-A",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-13 14:54:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e62f398b-012a-42ad-a01d-9b81c2cd2c58.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e62f398b-012a-42ad-a01d-9b81c2cd2c58.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:21:55",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Sliding-Windows-Are-Not-the-End-Exploring-Full-Ranking-with",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-13 14:54:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/04fd2909-4528-4e41-b604-d78f10cd9ce7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/04fd2909-4528-4e41-b604-d78f10cd9ce7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:20:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "listwise ranking",
+    "full ranking",
+    "long-context LLM",
+    "sliding window",
+    "importance-aware loss",
+    "supervised fine-tuning",
+    "information retrieval"
+   ],
+   "field": "信息检索与文本排序",
+   "innovations": [
+    "首次系统性研究长上下文LLM在列表排序任务中的应用，揭示微调后全量排序显著优于滑动窗口",
+    "提出多遍滑动窗口方法生成完整排序标签，解决单遍方法只能保证Top-K位置的局限",
+    "设计重要性感知损失函数，按排名位置加权段落ID以对齐NDCG评估目标"
+   ],
+   "benchmarks": [
+    "TREC DL19",
+    "TREC DL20",
+    "BEIR (8 subsets)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Smarter-Better-Faster-Longer-A-Modern-Bidirectional-Encoder",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 14:56:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/53f0a00f-1529-4d02-92a2-ba7fd65ace73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/53f0a00f-1529-4d02-92a2-ba7fd65ace73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:20:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ModernBERT",
+    "encoder-only transformer",
+    "长上下文检索",
+    "DPR",
+    "ColBERT",
+    "全量 unpadding",
+    "交替注意力"
+   ],
+   "field": "编码器模型与语义检索",
+   "innovations": [
+    "全模型 unpadding + 在线 sequence packing 实现 >99% token 利用率与 10–20% 训练加速",
+    "Hardware-aware 模型设计 + 交替全局/局部注意力达成短/长上下文下的最优吞吐-精度 Pareto",
+    "基于 2T token（含代码）的预训练使 ModernBERT 在 GLUE/BEIR/Code 多项任务上刷新 encoder SOTA"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "BEIR",
+    "MLDR",
+    "CodeSearchNet",
+    "StackOverflow-QA"
+   ]
+  }
+ }
 }

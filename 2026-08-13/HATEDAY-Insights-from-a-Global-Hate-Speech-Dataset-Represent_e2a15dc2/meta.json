@@ -4,5 +4,30 @@
  "title": "HATEDAY-Insights-from-a-Global-Hate-Speech-Dataset-Represent",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:00:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/003fbef8-4375-4612-b2cf-a8b2312407cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/003fbef8-4375-4612-b2cf-a8b2312407cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:18:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "仇恨言论检测",
+    "代表性数据集",
+    "跨语言评估",
+    "内容审核",
+    "虚假阳性分析"
+   ],
+   "field": "有害内容检测与审核",
+   "innovations": [
+    "首个基于真实社交媒体随机采样的全球仇恨言论数据集HATEDAY",
+    "证明学术评估严重高估真实检测性能，揭示target对齐是关键性能预测因子",
+    "量化人工介入审核的成本-效果权衡"
+   ],
+   "benchmarks": [
+    "HATEDAY",
+    "HateCheck",
+    "Perspective API"
+   ]
+  }
+ }
 }

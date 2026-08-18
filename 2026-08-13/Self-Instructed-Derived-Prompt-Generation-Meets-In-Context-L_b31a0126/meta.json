@@ -4,5 +4,32 @@
  "title": "Self-Instructed-Derived-Prompt-Generation-Meets-In-Context-L",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-13 14:56:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/16ae8ac7-980b-4723-a0e1-7b034c951376.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/16ae8ac7-980b-4723-a0e1-7b034c951376.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:20:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Prompt Optimization",
+    "In-Context Learning",
+    "Black-Box LLM",
+    "Reinforcement Learning",
+    "Prompt Refinement",
+    "LLM Alignment"
+   ],
+   "field": "提示工程与大模型对齐",
+   "innovations": [
+    "自指令强化学习免数据收集训练派生提示生成模型",
+    "语义一致性导向的ICL查询框架保留原始提示意图",
+    "通用即插即用ICL增强模块适配多种提示优化基线"
+   ],
+   "benchmarks": [
+    "Dolly Eval",
+    "Vicuna Eval",
+    "Self-Instruct Eval",
+    "BPO-test Eval"
+   ]
+  }
+ }
 }

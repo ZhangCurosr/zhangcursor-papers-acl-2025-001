@@ -4,5 +4,29 @@
  "title": "Untie-the-Knots-An-Efficient-Data-Augmentation-Strategy-for",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-13 14:55:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9977fd3b-7a65-4ca9-9aeb-9358820f16d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9977fd3b-7a65-4ca9-9aeb-9358820f16d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:24:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-context pre-training",
+    "data augmentation",
+    "retrieval",
+    "RoPE",
+    "large language models"
+   ],
+   "field": "长上下文语言模型训练",
+   "innovations": [
+    "通过分块打乱+knot token+回溯任务的数据增强策略提升长上下文能力",
+    "以'更长训练长度'覆盖目标推理长度的位置编码训练技巧"
+   ],
+   "benchmarks": [
+    "RULER",
+    "LV-Eval",
+    "InfiniteBench"
+   ]
+  }
+ }
 }

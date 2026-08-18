@@ -4,5 +4,33 @@
  "title": "Taming-LLMs-with-Gradient-Grouping",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 14:55:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5455cfa0-e961-4adb-be11-4e310845b5c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5455cfa0-e961-4adb-be11-4e310845b5c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:22:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM 优化器",
+    "梯度分组",
+    "参数高效微调",
+    "AdamW",
+    "LoRA",
+    "自适应学习率"
+   ],
+   "field": "大语言模型训练优化",
+   "innovations": [
+    "提出SGG优化器包装器，通过在线聚类+簇级MDA缩放实现'缩放而非替换'的自适应学习率校准",
+    "首次使低秩预训练(LoRA+SGG)达到与全参数训练相当的C4 perplexity水平",
+    "基于全局MAD的跨层学习率homogenization机制，显著提升大batch/LR下的训练鲁棒性"
+   ],
+   "benchmarks": [
+    "C4 pre-training",
+    "GLUE",
+    "Commonsense Reasoning (8 tasks)",
+    "DPO (ultrafeedback_binarized)",
+    "LLaVA-v1.5 MLLM benchmarks"
+   ]
+  }
+ }
 }

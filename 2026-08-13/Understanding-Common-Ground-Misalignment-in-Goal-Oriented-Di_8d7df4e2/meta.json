@@ -4,5 +4,30 @@
  "title": "Understanding-Common-Ground-Misalignment-in-Goal-Oriented-Di",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 14:55:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ffa3e507-506c-4fff-959e-75bbd0dadf40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ffa3e507-506c-4fff-959e-75bbd0dadf40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:24:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "common ground",
+    "conversational friction",
+    "goal-oriented dialogue",
+    "grounding acts",
+    "LLM evaluation",
+    "dialogue analysis"
+   ],
+   "field": "对话系统与语用学",
+   "innovations": [
+    "首次在对讲式任务对话中量化研究共同基础错位与任务成功的关系",
+    "提出对话摩擦概念并构建 Ubuntu-CG 标注数据集",
+    "系统评估 LLM 识别隐式和显式对话摩擦的能力及局限"
+   ],
+   "benchmarks": [
+    "Ubuntu-CG",
+    "Ubuntu Dialog Corpus"
+   ]
+  }
+ }
 }

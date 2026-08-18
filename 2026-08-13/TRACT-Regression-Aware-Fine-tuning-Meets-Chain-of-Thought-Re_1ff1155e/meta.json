@@ -4,5 +4,34 @@
  "title": "TRACT-Regression-Aware-Fine-tuning-Meets-Chain-of-Thought-Re",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 14:55:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/80db7d33-cf08-480d-afec-4eeac0543201.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/80db7d33-cf08-480d-afec-4eeac0543201.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:22:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-a-Judge",
+    "回归感知微调",
+    "链式思维推理",
+    "RAFT",
+    "分布对齐",
+    "数值预测",
+    "自生成数据"
+   ],
+   "field": "大语言模型评估与对齐",
+   "innovations": [
+    "提出CoT-RAFT联合训练目标，融合CE损失与回归损失",
+    "两阶段自生成CoT策略缓解训练-推理分布偏移",
+    "单点评分模型在有限推理预算下超越同规模SOTA"
+   ],
+   "benchmarks": [
+    "Feedback Bench",
+    "FLASK",
+    "Vicuna Bench",
+    "MT Bench",
+    "RewardBench"
+   ]
+  }
+ }
 }

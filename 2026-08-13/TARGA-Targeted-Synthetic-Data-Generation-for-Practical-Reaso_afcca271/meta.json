@@ -4,5 +4,33 @@
  "title": "TARGA-Targeted-Synthetic-Data-Generation-for-Practical-Reaso",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 14:56:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1d4c076f-c863-439a-a92e-fe6b0999c1df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1d4c076f-c863-439a-a92e-fe6b0999c1df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:21:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KBQA",
+    "语义解析",
+    "合成数据生成",
+    "In-Context Learning",
+    "结构化推理",
+    "泛化能力"
+   ],
+   "field": "知识图谱问答与语义解析",
+   "innovations": [
+    "动态在线生成与测试问题高度相关的合成数据作为示范，无需任何人工标注",
+    "逐层扩展+跨层组合的递推查询构造机制，结合执行验证规避组合爆炸",
+    "层级重排序与Query Textification桥接嵌入模型与结构化查询的语义gap"
+   ],
+   "benchmarks": [
+    "GrailQA",
+    "GraphQ",
+    "KBQA-Agent",
+    "MetaQA-3Hop",
+    "WikiSQL"
+   ]
+  }
+ }
 }

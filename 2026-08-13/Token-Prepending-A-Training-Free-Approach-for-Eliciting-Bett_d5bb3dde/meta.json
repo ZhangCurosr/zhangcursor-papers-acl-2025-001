@@ -4,5 +4,32 @@
  "title": "Token-Prepending-A-Training-Free-Approach-for-Eliciting-Bett",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 14:55:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fc410092-e608-41c5-9c32-545b51037edd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fc410092-e608-41c5-9c32-545b51037edd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:23:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "句子嵌入",
+    "大语言模型",
+    "零样本",
+    "Token Prepending",
+    "因果注意力",
+    "Prompt工程"
+   ],
+   "field": "句子表示学习",
+   "innovations": [
+    "提出无需训练的Token Preparing即插即用技术，通过层间预置句向量弥补因果注意力反向依赖",
+    "发现仅前7-8层执行TP操作即可最优，并提出中间层Early-Exit策略",
+    "在多个LLM和多种prompt基线上均显著提升句子embedding质量且推理开销几乎不变"
+   ],
+   "benchmarks": [
+    "STS 2012-2016",
+    "STS-B",
+    "SICK-R",
+    "SentEval (MR, CR, SUBJ, MPQA, SST-2, TREC, MRPC)"
+   ]
+  }
+ }
 }

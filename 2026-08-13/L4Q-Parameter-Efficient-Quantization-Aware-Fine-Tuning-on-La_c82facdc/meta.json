@@ -4,5 +4,30 @@
  "title": "L4Q-Parameter-Efficient-Quantization-Aware-Fine-Tuning-on-La",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 07:00:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/db18484a-3583-477d-a561-85a1f5de7038.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/db18484a-3583-477d-a561-85a1f5de7038.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:18:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "quantization-aware fine-tuning",
+    "parameter-efficient fine-tuning",
+    "LoRA",
+    "LLM quantization",
+    "QAT",
+    "low-bit LLM"
+   ],
+   "field": "大语言模型压缩与高效微调",
+   "innovations": [
+    "先合并权重再量化的全量化线性层设计，无需约束LoRA结构即可实现完全量化",
+    "局部就地计算权重梯度并复用以同时更新量化参数与LoRA参数，消除梯度存储开销",
+    "针对LLM异常值特征的保守对称量化初始化方案L4Q_init，显著降低clip误差"
+   ],
+   "benchmarks": [
+    "CSQA",
+    "MMLU"
+   ]
+  }
+ }
 }

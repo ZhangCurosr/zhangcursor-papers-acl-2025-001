@@ -4,5 +4,31 @@
  "title": "Semantic-Exploration-with-Adaptive-Gating-for-Efficient-Prob",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-13 14:54:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/354fc56d-f3a4-4f29-b522-a6cc909a3f20.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/354fc56d-f3a4-4f29-b522-a6cc909a3f20.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:20:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义推理",
+    "树搜索",
+    "自适应门控",
+    "大语言模型",
+    "计算效率",
+    "语义聚类",
+    "不确定性估计"
+   ],
+   "field": "大语言模型复杂推理与效率优化",
+   "innovations": [
+    "提出自适应门控机制，基于CoT-SC答案熵动态决定是否需要树搜索，避免对简单任务过度计算",
+    "引入语义聚类剪枝替代传统节点扩展，将语义等价动作合并为簇，削减20%-65%冗余搜索路径",
+    "设计语义PUCT与簇大小加权聚合，使搜索优先探索高共识语义方向并在高置信时提前终止"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "ARC"
+   ]
+  }
+ }
 }

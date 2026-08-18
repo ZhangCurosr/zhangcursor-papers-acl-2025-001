@@ -4,5 +4,34 @@
  "title": "Towards-Robust-and-Efficient-Federated-Low-Rank-Adaptation-w",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-13 14:54:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ffc80266-44b5-4265-b6dd-7575c95a965c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ffc80266-44b5-4265-b6dd-7575c95a965c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:23:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Federated Learning",
+    "LoRA",
+    "Low-Rank Adaptation",
+    "Parameter-Efficient Fine-Tuning",
+    "Data Heterogeneity",
+    "Communication Efficiency",
+    "LLM Fine-tuning"
+   ],
+   "field": "联邦学习与参数高效微调",
+   "innovations": [
+    "交替冻结机制：奇偶轮交替冻结LoRA的B/A模块以解决聚合失配同时保持双模块可优化",
+    "基于A/B交互贡献度的自适应秩选择：通过Frobenius范数度量每个秩对更新的影响并动态筛选上传",
+    "理论证明参数空间严格包含关系：LoRA-A²的参数空间严格大于FFA-LoRA、FL+LoRA和FlexLoRA"
+   ],
+   "benchmarks": [
+    "BANKING77",
+    "20 Newsgroups",
+    "RoBERTa-base",
+    "RoBERTa-large",
+    "DistilBERT"
+   ]
+  }
+ }
 }

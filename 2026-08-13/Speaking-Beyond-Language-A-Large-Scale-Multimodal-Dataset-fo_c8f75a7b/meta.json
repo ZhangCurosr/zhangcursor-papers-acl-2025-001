@@ -4,5 +4,37 @@
  "title": "Speaking-Beyond-Language-A-Large-Scale-Multimodal-Dataset-fo",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 14:56:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a18410ca-be81-4ef8-a92a-120138de5001.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a18410ca-be81-4ef8-a92a-120138de5001.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:20:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "非言语沟通",
+    "多模态语言模型",
+    "VQ-VAE",
+    "对话生成",
+    "3D人体建模",
+    "大规模数据集"
+   ],
+   "field": "多模态对话生成",
+   "innovations": [
+    "提出VENUS大规模多模态对话数据集，首次同时提供时间对齐文本、FLAME面部参数与SMPL-X全身参数",
+    "提出MARS多模态语言模型，在同一Transformer中联合自回归预测文本、面部与肢体离散token",
+    "设计面部/身体双分支VQ-VAE并引入运动速度损失，量化效果超越Ng et al. (2023)与Guo et al. (2024)"
+   ],
+   "benchmarks": [
+    "VMSE",
+    "LVD",
+    "Window Vertex L2",
+    "Diversity",
+    "Variance",
+    "PPL",
+    "BERT-score",
+    "METEOR",
+    "NLL"
+   ]
+  }
+ }
 }

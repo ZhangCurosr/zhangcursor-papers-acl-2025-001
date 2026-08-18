@@ -4,5 +4,32 @@
  "title": "S-sup-3-sup-Semantic-Signal-Separation",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-13 14:54:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5c55ab3d-06df-4a86-9e61-b403653d8bc8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5c55ab3d-06df-4a86-9e61-b403653d8bc8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:20:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Topic Modeling",
+    "Independent Component Analysis",
+    "Semantic Axes",
+    "Contextual Embeddings",
+    "Unsupervised Learning"
+   ],
+   "field": "主题建模与语义表示",
+   "innovations": [
+    "将主题建模重新概念化为在上下文嵌入空间中寻找独立语义轴，通过 FastICA 分解文档嵌入矩阵",
+    "首次系统性证明 S³ 在原始未预处理文本上显著优于所有现有上下文主题基线",
+    "提出轴向/角度/组合三种词汇重要性估算变体，支持正负双向语义解释以区分相似主题"
+   ],
+   "benchmarks": [
+    "20 Newsgroups",
+    "BBC News",
+    "ArXiv ML Papers",
+    "StackExchange",
+    "Wiki Medical"
+   ]
+  }
+ }
 }

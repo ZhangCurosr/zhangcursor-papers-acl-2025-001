@@ -4,5 +4,31 @@
  "title": "Real-time-Factuality-Assessment-from-Adversarial-Feedback",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 14:56:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/855d541d-152c-4534-9745-4c81fc41c37e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/855d541d-152c-4534-9745-4c81fc41c37e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:19:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fake news detection",
+    "adversarial generation",
+    "RAG",
+    "factuality assessment",
+    "LLM evaluation",
+    "temporal reasoning"
+   ],
+   "field": "虚假信息检测与时序推理",
+   "innovations": [
+    "利用RAG检测器反馈（含rationale）的对抗性迭代假新闻生成流水线",
+    "系统性揭示传统事实验证网站数据在LLM评估中的数据污染与浅层模式捷径问题"
+   ],
+   "benchmarks": [
+    "PolitiFact",
+    "Snopes",
+    "LIAR",
+    "NBC News real-time dataset"
+   ]
+  }
+ }
 }

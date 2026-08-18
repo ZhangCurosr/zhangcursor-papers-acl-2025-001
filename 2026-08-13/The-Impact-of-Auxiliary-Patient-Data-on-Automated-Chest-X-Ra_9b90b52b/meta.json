@@ -4,5 +4,10 @@
  "title": "The-Impact-of-Auxiliary-Patient-Data-on-Automated-Chest-X-Ra",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-13 14:54:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/98840286-20ac-4f02-9fd4-f1809e0079b3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/98840286-20ac-4f02-9fd4-f1809e0079b3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:23:36",
+  "chunks": 1
+ }
 }

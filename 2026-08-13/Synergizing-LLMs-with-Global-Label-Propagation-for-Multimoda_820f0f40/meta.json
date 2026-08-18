@@ -4,5 +4,31 @@
  "title": "Synergizing-LLMs-with-Global-Label-Propagation-for-Multimoda",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-13 14:55:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3256cbba-ca00-4432-b4ff-04c7714e8612.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3256cbba-ca00-4432-b4ff-04c7714e8612.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:21:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fake news detection",
+    "large language models",
+    "label propagation",
+    "multimodal learning",
+    "graph neural networks",
+    "pseudo labeling"
+   ],
+   "field": "多模态虚假信息检测",
+   "innovations": [
+    "将LLM伪标签通过全局标签传播机制融入多模态假新闻检测，而非直接拼接预测",
+    "设计基于Mask的全局标签传播机制防止训练时标签泄露",
+    "提出混合主动标签策略，通过置信度阈值筛选高质量LLM伪标签"
+   ],
+   "benchmarks": [
+    "Twitter",
+    "PHEME",
+    "Weibo"
+   ]
+  }
+ }
 }

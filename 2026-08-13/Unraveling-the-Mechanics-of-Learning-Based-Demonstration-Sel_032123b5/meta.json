@@ -4,5 +4,38 @@
  "title": "Unraveling-the-Mechanics-of-Learning-Based-Demonstration-Sel",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 14:56:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8a34257f-1ca8-4315-a0a6-a3694e5938fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8a34257f-1ca8-4315-a0a6-a3694e5938fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:24:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "in-context learning",
+    "demonstration selection",
+    "exemplar retrieval",
+    "large language models",
+    "few-shot learning",
+    "similarity learning"
+   ],
+   "field": "上下文学习与示例选择",
+   "innovations": [
+    "揭示学习基于示范选择方法通过自适应集成多层级任务无关输入相似度提升性能",
+    "发现学习方法隐式捕获示例与测试案例输出间的任务特定相似度",
+    "提出低成本替代方法MLSM和TTF避免昂贵LLM交互"
+   ],
+   "benchmarks": [
+    "SST-5",
+    "MRPC",
+    "QNLI",
+    "CMSQA",
+    "HellaSwag",
+    "WebQs",
+    "NL2Bash",
+    "GeoQuery",
+    "MTOP",
+    "SMCalFlow"
+   ]
+  }
+ }
 }

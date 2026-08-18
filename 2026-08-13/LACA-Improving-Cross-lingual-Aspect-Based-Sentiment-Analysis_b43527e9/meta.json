@@ -4,5 +4,29 @@
  "title": "LACA-Improving-Cross-lingual-Aspect-Based-Sentiment-Analysis",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 06:57:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/797a27ba-09fb-44d3-93b8-9b9af0519f22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/797a27ba-09fb-44d3-93b8-9b9af0519f22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:18:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言ABSA",
+    "LLM数据增强",
+    "伪标签生成",
+    "零样本迁移",
+    "情感分析",
+    "方面级情感分析"
+   ],
+   "field": "跨语言自然语言处理",
+   "innovations": [
+    "提出LACA框架利用LLM生成伪标签目标语言数据替代翻译方法",
+    "首次在跨语言ABSA中验证微调LLM优于小多语言模型",
+    "设计情感重平衡与动态few-shot轮换提升生成数据质量"
+   ],
+   "benchmarks": [
+    "SemEval-2016 Task 5"
+   ]
+  }
+ }
 }

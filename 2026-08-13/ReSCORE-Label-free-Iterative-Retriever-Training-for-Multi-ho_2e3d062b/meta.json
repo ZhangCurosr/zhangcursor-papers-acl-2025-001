@@ -4,5 +4,31 @@
  "title": "ReSCORE-Label-free-Iterative-Retriever-Training-for-Multi-ho",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-13 14:54:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/948cf326-b8cc-483e-a8fb-8c5883ffe434.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/948cf326-b8cc-483e-a8fb-8c5883ffe434.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:19:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多跳问答",
+    "检索器训练",
+    "检索增强生成",
+    "大语言模型监督",
+    "无标注学习",
+    "迭代推理"
+   ],
+   "field": "多跳问答与检索器训练",
+   "innovations": [
+    "提出ReSCORE无标注检索器训练方法，联合建模文档相关性与答案一致性",
+    "在迭代RAG框架中直接训练密集检索器，实现多跳场景下的渐进式检索优化",
+    "证明伪标签在迭代多跳检索中优于GT标签，揭示对比学习在多跳场景的centroid对齐缺陷"
+   ],
+   "benchmarks": [
+    "MuSiQue",
+    "HotpotQA",
+    "2WikiMHQA"
+   ]
+  }
+ }
 }

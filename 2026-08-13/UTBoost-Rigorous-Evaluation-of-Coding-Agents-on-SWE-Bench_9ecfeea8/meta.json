@@ -4,5 +4,29 @@
  "title": "UTBoost-Rigorous-Evaluation-of-Coding-Agents-on-SWE-Bench",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-08-13 14:55:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/890775e7-4135-46da-bc42-6e56a5e4a975.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/890775e7-4135-46da-bc42-6e56a5e4a975.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:24:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SWE-Bench",
+    "代码生成评估",
+    "测试用例生成",
+    "内态射测试",
+    "Coding Agent",
+    "Benchmark Robustness"
+   ],
+   "field": "代码生成评估与基准测试",
+   "innovations": [
+    "首个面向SWE-Bench的LLM自动化测试用例增强框架UTBoost",
+    "首次将内态射测试应用于真实世界开源软件评测并构建测试预言机"
+   ],
+   "benchmarks": [
+    "SWE-Bench Lite",
+    "SWE-Bench Verified"
+   ]
+  }
+ }
 }
