@@ -4,5 +4,31 @@
  "title": "VReST-Enhancing-Reasoning-in-Large-Vision-Language-Models-th",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-08-13 14:55:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0eb32e41-d4cc-40c3-9bd7-d487842885ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0eb32e41-d4cc-40c3-9bd7-d487842885ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:07:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Model",
+    "Chain-of-Thought",
+    "Monte Carlo Tree Search",
+    "Self-Reward",
+    "Test-time Scaling",
+    "Multimodal Reasoning"
+   ],
+   "field": "多模态大模型推理",
+   "innovations": [
+    "免训练MCTS树搜索框架增强LVLM推理深度",
+    "多模态自奖励机制（子问题效用+答案正确性）零样本评估推理轨迹",
+    "验证多模态测试时扩展定律并实现三基准SOTA"
+   ],
+   "benchmarks": [
+    "MathVista",
+    "MathVision",
+    "CharXiv"
+   ]
+  }
+ }
 }

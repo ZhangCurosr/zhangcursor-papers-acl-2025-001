@@ -4,5 +4,31 @@
  "title": "Unveiling-the-Power-of-Source-Source-based-Minimum-Bayes-Ris",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 14:55:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/db08d534-e87d-4f94-afe9-ea296f930bda.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/db08d534-e87d-4f94-afe9-ea296f930bda.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:07:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Minimum Bayes Risk",
+    "Neural Machine Translation",
+    "Quality Estimation",
+    "Decoding",
+    "Paraphrase Generation",
+    "Back-Translation",
+    "COMET",
+    "Reference-free Evaluation"
+   ],
+   "field": "机器翻译解码方法",
+   "innovations": [
+    "首次提出仅用源语作为MBR支持假设的sMBR解码框架",
+    "证明QE reranking是sMBR的特例（K=1），统一两类解码策略",
+    "提出基于paraphrase和back-translation的准源语生成策略并系统验证"
+   ],
+   "benchmarks": [
+    "WMT generaltest2023 (En-De, En-Ru, Zh-En)"
+   ]
+  }
+ }
 }

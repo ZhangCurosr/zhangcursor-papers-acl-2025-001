@@ -4,5 +4,10 @@
  "title": "Retrieve-to-Explain-Evidence-driven-Predictions-for-Explaina",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 14:55:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eb132675-a754-47c5-a3cd-d6fa5e139563.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eb132675-a754-47c5-a3cd-d6fa5e139563.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:07:12",
+  "chunks": 1
+ }
 }

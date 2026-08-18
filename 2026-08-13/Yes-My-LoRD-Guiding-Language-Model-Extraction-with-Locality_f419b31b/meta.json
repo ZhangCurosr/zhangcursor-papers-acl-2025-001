@@ -4,5 +4,40 @@
  "title": "Yes-My-LoRD-Guiding-Language-Model-Extraction-with-Locality",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-13 14:55:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/81a68d54-85e5-45b0-af1a-664248bffb0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/81a68d54-85e5-45b0-af1a-664248bffb0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:08:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Model Extraction Attack",
+    "Large Language Model",
+    "Reinforcement Learning from Human Feedback",
+    "Policy Gradient",
+    "Watermark Resistance",
+    "LaViSH"
+   ],
+   "field": "大语言模型安全与提取攻击",
+   "innovations": [
+    "提出首个对齐感知策略梯度式模型提取算法LoRD",
+    "理论证明LoRD收敛与LLM RLHF优化目标一致",
+    "通过本地概率增量隐式构造奖励实现无反馈高效窃取"
+   ],
+   "benchmarks": [
+    "WMT16",
+    "PIQA",
+    "TruthfulQA",
+    "E2E NLG",
+    "CommonGen",
+    "WikiSQL",
+    "Spider",
+    "TLDR",
+    "SamSUM",
+    "CNN Daily Mail",
+    "SafeRLHF",
+    "DiaSafety"
+   ]
+  }
+ }
 }

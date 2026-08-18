@@ -4,5 +4,32 @@
  "title": "Whose-Boat-Does-it-Float-Improving-Personalization-in-Prefer",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 14:55:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f5fb645e-a93b-40a6-84f6-45d16a5509bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f5fb645e-a93b-40a6-84f6-45d16a5509bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:08:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化",
+    "偏好优化",
+    "溯因推理",
+    "用户画像",
+    "DPO",
+    "LLM对齐"
+   ],
+   "field": "大语言模型个性化与对齐",
+   "innovations": [
+    "从偏好数据中通过溯因推理自动推断用户画像（PI）",
+    "将PI生成的画像增强偏好数据并训练个性化模型（PT），证明被拒响应对应画像可构建更强评测基准",
+    "用大模型蒸馏小模型实现高效个性化，LLaMA-8B在仅2%参数下接近LLaMA-405B的few-shot个性化表现"
+   ],
+   "benchmarks": [
+    "BeaverTails",
+    "Anthropic HHH",
+    "Mnemonic",
+    "Stanford Human Preferences"
+   ]
+  }
+ }
 }
