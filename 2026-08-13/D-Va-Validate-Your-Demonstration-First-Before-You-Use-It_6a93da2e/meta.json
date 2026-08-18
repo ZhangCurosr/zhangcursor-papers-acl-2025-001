@@ -4,5 +4,38 @@
  "title": "D-Va-Validate-Your-Demonstration-First-Before-You-Use-It",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 06:58:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bcb60c03-0e08-4330-9e16-502553ccd517.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bcb60c03-0e08-4330-9e16-502553ccd517.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:54:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "In-Context Learning",
+    "Demonstration Selection",
+    "Self-Adaptive Method",
+    "Cross-Model Generalization",
+    "Prompt Engineering"
+   ],
+   "field": "上下文学习与提示工程",
+   "innovations": [
+    "首次将验证集机制引入自适应性演示选择，提出 D.Va 框架",
+    "设计验证损失与偏好校准余项的综合评分函数 Score(d, x_t)",
+    "证明小模型代理选演示在跨模型场景下的高效泛化能力"
+   ],
+   "benchmarks": [
+    "Trec",
+    "AgNews",
+    "CMS QA",
+    "SST-2",
+    "SST-5",
+    "QNLI",
+    "SNLI",
+    "MNLI",
+    "Flores200",
+    "SQuAD v2",
+    "Samsum"
+   ]
+  }
+ }
 }

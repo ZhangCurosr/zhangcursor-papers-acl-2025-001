@@ -4,5 +4,28 @@
  "title": "Beyond-Demographics-Fine-tuning-Large-Language-Models-to-Pre",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:00:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/99381dea-c65f-4beb-90b4-87a006d15610.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/99381dea-c65f-4beb-90b4-87a006d15610.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:51:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "社会人口学提示",
+    "标注者建模",
+    "主观分类",
+    "LLM微调",
+    "个体化预测",
+    "泛化评估"
+   ],
+   "field": "NLP中主观判断与标注者建模",
+   "innovations": [
+    "提出instance split与annotator split双划分框架系统评估LLM社会人口学建模能力",
+    "通过unique/frequent profile分析揭示人口学信息实质充当个体ID代理而非学到人口学规律"
+   ],
+   "benchmarks": [
+    "DEMO (Intimacy, Offensiveness, Politeness, Safety, Sentiment)"
+   ]
+  }
+ }
 }

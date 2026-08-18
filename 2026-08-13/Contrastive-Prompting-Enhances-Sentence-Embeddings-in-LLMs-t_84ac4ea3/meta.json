@@ -4,5 +4,34 @@
  "title": "Contrastive-Prompting-Enhances-Sentence-Embeddings-in-LLMs-t",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-13 06:58:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dc89e571-7991-4c3c-8cbd-b7f7a7e4bab6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dc89e571-7991-4c3c-8cbd-b7f7a7e4bab6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:53:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "句子嵌入",
+    "大语言模型",
+    "对比提示",
+    "推理时干预",
+    "激活导向",
+    "零样本",
+    "语义相似度"
+   ],
+   "field": "LLM表征学习",
+   "innovations": [
+    "提出对比提示方法，通过辅助提示与正常提示的激活差分化干预最后一token隐藏状态",
+    "首次将推理时激活干预应用于句子嵌入提取任务，无需训练或额外数据",
+    "设计两种范数调整策略（NS/NR）并证明中间层提取优于最后一层"
+   ],
+   "benchmarks": [
+    "STS12-16",
+    "STS-B",
+    "SICK-R",
+    "SentEval",
+    "MTEB"
+   ]
+  }
+ }
 }

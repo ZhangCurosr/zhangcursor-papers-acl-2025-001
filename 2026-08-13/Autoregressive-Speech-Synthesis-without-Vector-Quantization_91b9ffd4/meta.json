@@ -4,5 +4,31 @@
  "title": "Autoregressive-Speech-Synthesis-without-Vector-Quantization",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 06:57:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c53082e2-e5a5-4b6b-a6fc-47cead76ce10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c53082e2-e5a5-4b6b-a6fc-47cead76ce10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:50:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot TTS",
+    "autoregressive modeling",
+    "continuous token",
+    "vector quantization",
+    "variational inference",
+    "mel-spectrogram",
+    "speech synthesis"
+   ],
+   "field": "零样本语音合成",
+   "innovations": [
+    "去向量量化的连续值自回归TTS范式，直接用mel谱图帧替代离散codec code",
+    "基于变分推断的潜在采样模块，以高斯重参数化替代top-p随机采样",
+    "谱图通量损失正则化，鼓励连续帧动态变化并抑制重复/静音"
+   ],
+   "benchmarks": [
+    "LibriSpeech test-clean",
+    "Libriheavy"
+   ]
+  }
+ }
 }

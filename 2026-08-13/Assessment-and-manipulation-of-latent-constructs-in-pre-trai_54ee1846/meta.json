@@ -4,5 +4,34 @@
  "title": "Assessment-and-manipulation-of-latent-constructs-in-pre-trai",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 06:58:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5b654129-6e08-4812-83c7-d8bd67b6f88c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5b654129-6e08-4812-83c7-d8bd67b6f88c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:50:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "预训练语言模型",
+    "心理测量学",
+    "自然语言推理",
+    "模型评估",
+    "可解释AI",
+    "潜在构念",
+    "域适应干预"
+   ],
+   "field": "大模型可解释性与对齐",
+   "innovations": [
+    "提出适用于非对话基础模型的心理学量表NLI转换评估框架EMPALC",
+    "引入两向归一化消除词汇先验频率偏差，结合多维度效度验证体系",
+    "通过域适应微调演示了对模型焦虑、抑郁、连贯感等心理构造进行干预的可行性"
+   ],
+   "benchmarks": [
+    "MNLI",
+    "88个HuggingFace公开PLM",
+    "GAD-7",
+    "PHQ-9",
+    "SoC-13"
+   ]
+  }
+ }
 }

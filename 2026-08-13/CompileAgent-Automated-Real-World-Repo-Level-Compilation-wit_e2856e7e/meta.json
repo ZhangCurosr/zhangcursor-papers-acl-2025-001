@@ -4,5 +4,28 @@
  "title": "CompileAgent-Automated-Real-World-Repo-Level-Compilation-wit",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 06:59:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d84bba4f-0b4d-42a7-91e4-56f0c2a86ee4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d84bba4f-0b4d-42a7-91e4-56f0c2a86ee4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:52:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "仓库级编译",
+    "LLM Agent",
+    "代码编译自动化",
+    "工具增强大模型",
+    "软件工程自动化"
+   ],
+   "field": "代码编译自动化",
+   "innovations": [
+    "首个基于LLM Agent的仓库级编译框架CompileAgent",
+    "Flow-based Agent策略适配编译工作流",
+    "Multi-Agent Discussion解决编译错误"
+   ],
+   "benchmarks": [
+    "CompileAgentBench"
+   ]
+  }
+ }
 }

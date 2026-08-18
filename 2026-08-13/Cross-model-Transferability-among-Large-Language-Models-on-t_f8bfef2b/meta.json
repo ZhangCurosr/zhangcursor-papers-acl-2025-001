@@ -4,5 +4,33 @@
  "title": "Cross-model-Transferability-among-Large-Language-Models-on-t",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 06:58:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/65db2da3-eef3-49b5-a4f4-c21eb5d64b0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/65db2da3-eef3-49b5-a4f4-c21eb5d64b0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:54:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Steering Vectors",
+    "跨模型迁移",
+    "LLM可解释性",
+    "表示工程",
+    "弱到强迁移",
+    "线性表示假设"
+   ],
+   "field": "大语言模型可解释性与表示工程",
+   "innovations": [
+    "提出L-Cross Modulation线性变换实现跨模型概念向量迁移",
+    "发现不同概念共享同一线性变换矩阵T并具有强泛化能力",
+    "证实小模型SV经变换后可有效调控大模型行为"
+   ],
+   "benchmarks": [
+    "CAA 7概念评测",
+    "RepE 4概念评测",
+    "Llama2-7B",
+    "Qwen2-7B",
+    "Llama3.1-8B"
+   ]
+  }
+ }
 }

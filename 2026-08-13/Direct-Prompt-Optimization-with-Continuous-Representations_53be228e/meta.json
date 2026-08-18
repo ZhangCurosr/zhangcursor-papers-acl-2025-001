@@ -4,5 +4,34 @@
  "title": "Direct-Prompt-Optimization-with-Continuous-Representations",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 06:58:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/85634f6e-e63f-4f5b-aa55-ad24607b2682.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/85634f6e-e63f-4f5b-aa55-ad24607b2682.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:55:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt optimization",
+    "Gumbel-Max",
+    "gradient-based methods",
+    "adversarial attack",
+    "discrete optimization",
+    "SGCG"
+   ],
+   "field": "提示词优化与大语言模型应用",
+   "innovations": [
+    "提出SGCG框架将提示优化建模为概率分布的直接优化目标",
+    "融合连续梯度更新与贪婪采样并利用滑动窗口保留历史信息",
+    "发现恒等函数作为Straight-Through代理梯度优于Softmax"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "IMDB",
+    "Amazon",
+    "Yelp",
+    "DBPedia",
+    "AGNews"
+   ]
+  }
+ }
 }

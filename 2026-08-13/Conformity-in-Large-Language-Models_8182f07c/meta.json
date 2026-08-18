@@ -4,5 +4,33 @@
  "title": "Conformity-in-Large-Language-Models",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 06:58:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/caf9256b-a4ee-4ac8-b194-0702c2522f4d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/caf9256b-a4ee-4ac8-b194-0702c2522f4d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:53:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Conformity in LLMs",
+    "Social bias",
+    "Prompt intervention",
+    "Confidence estimation",
+    "Sycophancy mitigation"
+   ],
+   "field": "大语言模型的社会偏差与对齐",
+   "innovations": [
+    "首次系统量化LLM从众效应并识别初始置信度为关键预测因子",
+    "提出无需训练的两种提示干预方法（DA/QD）有效缓解从众偏差"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "BigBenchHard",
+    "PopQA",
+    "CommonsenseQA",
+    "Politiscale",
+    "OpinionsQA",
+    "TriviaQA"
+   ]
+  }
+ }
 }

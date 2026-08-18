@@ -4,5 +4,32 @@
  "title": "CLEME2-0-Towards-Interpretable-Evaluation-by-Disentangling-E",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:08:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8faa4351-e530-44ff-b5a1-8d1ba9e173b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8faa4351-e530-44ff-b5a1-8d1ba9e173b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:52:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Grammar Error Correction",
+    "Evaluation Metric",
+    "Interpretable Evaluation",
+    "Edit-based Scoring",
+    "Human Consistency",
+    "BERTScore"
+   ],
+   "field": "语法错误纠正评估",
+   "innovations": [
+    "将GEC编辑解耦为TP/FP_ne/FN/FP_un四类，对应Hit/Wrong/Under/Over四维可解释得分",
+    "引入基于PTScore的连续语义编辑加权，突破表面形式相似性局限"
+   ],
+   "benchmarks": [
+    "GJG15",
+    "SEEDA",
+    "CoNLL-2014",
+    "BN-10GEC",
+    "SN-8GEC"
+   ]
+  }
+ }
 }

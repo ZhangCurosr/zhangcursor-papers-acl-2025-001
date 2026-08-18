@@ -4,5 +4,32 @@
  "title": "Cracking-the-Code-of-Hallucination-in-LVLMs-with-Vision-awar",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-13 06:58:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6de5aca9-b6cb-45a7-a6cb-9cd4552f257b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6de5aca9-b6cb-45a7-a6cb-9cd4552f257b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:54:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幻觉",
+    "大型视觉语言模型",
+    "注意力机制",
+    "语言偏见",
+    "训练无干预",
+    "对比解码",
+    "多模态"
+   ],
+   "field": "多模态大模型可靠性与可解释性",
+   "innovations": [
+    "提出VHD度量量化注意力头对视觉上下文的敏感性",
+    "提出训练无的VHR方法通过放大视觉敏感头缓解幻觉",
+    "建立T-VHD指标并证实语言偏见与幻觉的统计关联"
+   ],
+   "benchmarks": [
+    "CHAIR",
+    "POPE",
+    "LLaVA-Bench (In-the-Wild)"
+   ]
+  }
+ }
 }

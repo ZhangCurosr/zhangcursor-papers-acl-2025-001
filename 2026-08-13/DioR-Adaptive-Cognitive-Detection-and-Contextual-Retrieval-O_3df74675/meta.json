@@ -4,5 +4,34 @@
  "title": "DioR-Adaptive-Cognitive-Detection-and-Contextual-Retrieval-O",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 06:58:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63450bfa-4e3d-40a6-b273-2dc230c30f40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63450bfa-4e3d-40a6-b273-2dc230c30f40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:55:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval-Augmented Generation",
+    "Hallucination Detection",
+    "Dynamic RAG",
+    "Late-Stage Generation",
+    "Context-Aware Retrieval"
+   ],
+   "field": "检索增强生成与幻觉检测",
+   "innovations": [
+    "提出生成前Early Detection与生成时Real-time Detection双阶段幻觉检测框架，基于IG归因熵和实体相似度替代传统token置信度阈值",
+    "设计四维度Token重要性加权排序（注意力+TF-IDF+位置+语义相似度）优化检索关键词选择",
+    "提出分步检索与句子级语义分块的后检索优化机制，缓解长文本信息过载问题"
+   ],
+   "benchmarks": [
+    "2WikiMultihopQA",
+    "HotpotQA",
+    "IIRC",
+    "StrategyQA",
+    "NaturalQuestions",
+    "TriviaQA",
+    "SQuAD"
+   ]
+  }
+ }
 }

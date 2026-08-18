@@ -4,5 +4,33 @@
  "title": "ATLANTIS-Weak-to-Strong-Learning-via-Importance-Sampling",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 06:58:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7c4b9b9a-f42d-4cfb-b627-a6ce37281776.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7c4b9b9a-f42d-4cfb-b627-a6ce37281776.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:49:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ATLANTIS",
+    "重要性采样",
+    "监督微调",
+    "弱到强学习",
+    "影响权重",
+    "模型对齐",
+    "大语言模型"
+   ],
+   "field": "大语言模型指令微调",
+   "innovations": [
+    "首次将重要性采样引入 SFT，用小模型概率差估计采样比以调整优化方向",
+    "提出影响权重机制，使方法可与数据选择等现有 SFT 技术兼容并增强效果"
+   ],
+   "benchmarks": [
+    "Open LLM Leaderboard 2",
+    "TruthfulQA",
+    "MT-Bench",
+    "AlpacaEval",
+    "Arena-Hard-Auto"
+   ]
+  }
+ }
 }

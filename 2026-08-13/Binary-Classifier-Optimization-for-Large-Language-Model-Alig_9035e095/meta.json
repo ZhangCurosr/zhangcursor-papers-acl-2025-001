@@ -4,5 +4,34 @@
  "title": "Binary-Classifier-Optimization-for-Large-Language-Model-Alig",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 06:57:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f2a0259c-a567-4602-9f18-1a602e7bb63e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f2a0259c-a567-4602-9f18-1a602e7bb63e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:52:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM alignment",
+    "binary classifier",
+    "DPO",
+    "KTO",
+    "reward shift",
+    "preference optimization"
+   ],
+   "field": "大语言模型对齐",
+   "innovations": [
+    "证明BCE损失是DPO损失的上界，建立二元信号对齐与偏好优化的理论桥梁",
+    "提出reward shift技术最小化BCE与DPO损失间隙",
+    "揭示KTO参考点设计的潜在缺陷并提出替代方案"
+   ],
+   "benchmarks": [
+    "UltraFeedback",
+    "Capybara",
+    "HelpSteer2",
+    "MT Bench",
+    "AlpacaEval 2.0 LC",
+    "Arena-Hard"
+   ]
+  }
+ }
 }

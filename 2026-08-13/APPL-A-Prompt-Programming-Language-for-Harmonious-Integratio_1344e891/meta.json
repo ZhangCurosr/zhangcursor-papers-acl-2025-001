@@ -4,5 +4,33 @@
  "title": "APPL-A-Prompt-Programming-Language-for-Harmonious-Integratio",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 06:59:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c450abc3-3019-4b20-a6fb-a87ac10f1e69.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c450abc3-3019-4b20-a6fb-a87ac10f1e69.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:49:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Prompt Programming Language",
+    "LLM Integration",
+    "Async Parallelization",
+    "Program Synthesis",
+    "LLM Agents",
+    "Prompt Engineering"
+   ],
+   "field": "LLM System & Tooling",
+   "innovations": [
+    "Python-native seamless prompt-program integration via transpilation and implicit context",
+    "Automatic parallelization of LLM calls through asynchronous semantics and Future objects",
+    "Built-in tracing module supporting strict/non-strict failure recovery and replay"
+   ],
+   "benchmarks": [
+    "CoT-SC",
+    "Skeleton-of-Thought",
+    "MemWalker",
+    "Tree of Thoughts",
+    "ReAct Tool-Use Agent"
+   ]
+  }
+ }
 }

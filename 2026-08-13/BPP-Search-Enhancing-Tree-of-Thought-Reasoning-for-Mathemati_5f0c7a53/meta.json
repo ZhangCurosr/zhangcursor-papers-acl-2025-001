@@ -4,5 +4,31 @@
  "title": "BPP-Search-Enhancing-Tree-of-Thought-Reasoning-for-Mathemati",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 06:57:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b5fc4d0c-6d45-4b65-bd1c-11c93d30e5b3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b5fc4d0c-6d45-4b65-bd1c-11c93d30e5b3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:50:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tree of Thought",
+    "Process Reward Model",
+    "数学建模",
+    "运筹优化",
+    "Beam Search",
+    "偏好模型",
+    "StructuredOR"
+   ],
+   "field": "运筹优化与大模型推理",
+   "innovations": [
+    "提出BPP-Search算法，将Beam Search、PRM与成对偏好模型集成于Tree-of-Thought框架，解决OR建模中多候选节点选择难题",
+    "发布StructuredOR数据集，首次提供包含完整建模过程标注（集合/参数/变量/目标/约束）的运筹优化数据集，填补RL训练数据空白"
+   ],
+   "benchmarks": [
+    "StructuredOR",
+    "NL4OPT",
+    "Mamo-ComplexLP"
+   ]
+  }
+ }
 }

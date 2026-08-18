@@ -4,5 +4,10 @@
  "title": "Battling-against-Tough-Resister-Strategy-Planning-with-Adver",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 06:58:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f7806a2d-6403-43d1-8b87-f52a1cf191b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f7806a2d-6403-43d1-8b87-f52a1cf191b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:51:36",
+  "chunks": 1
+ }
 }

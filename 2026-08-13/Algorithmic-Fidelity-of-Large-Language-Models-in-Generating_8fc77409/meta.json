@@ -4,5 +4,32 @@
  "title": "Algorithmic-Fidelity-of-Large-Language-Models-in-Generating",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 06:57:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5b36358-0bbe-42b3-922e-8f47f2d182c1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5b36358-0bbe-42b3-922e-8f47f2d182c1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:49:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "algorithmic fidelity",
+    "synthetic data",
+    "public opinion",
+    "LLM bias",
+    "German survey",
+    "open-ended questions",
+    "Jensen-Shannon divergence"
+   ],
+   "field": "LLM与社会计算",
+   "innovations": [
+    "首次在德国开放题数据上评估LLM算法保真度",
+    "揭示提示变量数量对代表性及多样性的关键影响",
+    "量化模型对左翼政党的偏向及对右翼政党的匹配不足"
+   ],
+   "benchmarks": [
+    "GLES Panel",
+    "Jensen-Shannon Distance",
+    "Cramér's V"
+   ]
+  }
+ }
 }

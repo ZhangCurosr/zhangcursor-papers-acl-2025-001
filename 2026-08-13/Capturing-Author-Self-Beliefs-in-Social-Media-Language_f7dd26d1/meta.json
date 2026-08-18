@@ -4,5 +4,32 @@
  "title": "Capturing-Author-Self-Beliefs-in-Social-Media-Language",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 06:57:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/535d3882-4663-4cc4-be89-4bec9f504ca2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/535d3882-4663-4cc4-be89-4bec9f504ca2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:52:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-belief classification",
+    "social media language",
+    "implicit belief detection",
+    "mental health prediction",
+    "curriculum learning",
+    "encoder-based classifier",
+    "computational psychology"
+   ],
+   "field": "计算心理学与社交媒体分析",
+   "innovations": [
+    "首个自我信念显式/隐式三分类数据集与任务定义，人工标注一致性Kappa达0.80-0.87",
+    "SelfAwareNet课程学习微调策略使335M小模型AUC达0.944，超越GPT-4o few-shot（0.839）",
+    "数据驱动的50类自我信念主题体系及其与抑郁/焦虑/压力/效价的外部效度关联验证"
+   ],
+   "benchmarks": [
+    "SelfAwareNet AUC=0.944 vs GPT-4o few-shot AUC=0.839",
+    "Cohen's Kappa=0.803 (Reddit) / 0.871 (Twitter) interrater agreement",
+    "50 LDA topics correlated with PHQ-9/GAD-7/PSS/PANAS outcomes, all p<0.05 after BH correction"
+   ]
+  }
+ }
 }

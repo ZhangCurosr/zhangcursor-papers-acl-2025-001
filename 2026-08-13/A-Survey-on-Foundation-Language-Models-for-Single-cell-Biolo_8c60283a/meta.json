@@ -4,5 +4,10 @@
  "title": "A-Survey-on-Foundation-Language-Models-for-Single-cell-Biolo",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:58:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75699af4-f896-4350-bfb2-bc20001dcda4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75699af4-f896-4350-bfb2-bc20001dcda4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:49:18",
+  "chunks": 1
+ }
 }

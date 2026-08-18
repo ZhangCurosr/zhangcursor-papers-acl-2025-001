@@ -4,5 +4,10 @@
  "title": "A-TASC-Asian-TED-Based-Automatic-Subtitling-Corpus",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 06:57:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e386adce-a184-4313-8181-db4148da8f4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e386adce-a184-4313-8181-db4148da8f4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:49:34",
+  "chunks": 1
+ }
 }

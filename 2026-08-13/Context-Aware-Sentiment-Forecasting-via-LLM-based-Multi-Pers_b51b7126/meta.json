@@ -4,5 +4,30 @@
  "title": "Context-Aware-Sentiment-Forecasting-via-LLM-based-Multi-Pers",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 06:58:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e4df9164-70d0-40d7-a74d-0a5b981dc021.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e4df9164-70d0-40d7-a74d-0a5b981dc021.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:53:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "情感预测",
+    "大语言模型",
+    "角色扮演",
+    "社交媒体分析",
+    "多Agent框架",
+    "意见动力学"
+   ],
+   "field": "社交媒体情感计算",
+   "innovations": [
+    "基于LLM的多视角角色扮演框架实现前瞻性情感预测",
+    "从历史评论提取文本语调与事件态度等隐式用户特征",
+    "行为心理学家客观Agent驱动的迭代修正机制"
+   ],
+   "benchmarks": [
+    "2012 Hurricane Sandy Twitter Dataset",
+    "2020 U.S. Presidential Election Twitter Dataset"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Con-Instruction-Universal-Jailbreaking-of-Multimodal-Large-L",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 06:58:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ecc462a3-3e4a-4cf8-88b6-aa2454cf12a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ecc462a3-3e4a-4cf8-88b6-aa2454cf12a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:53:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "越狱攻击",
+    "对抗样本",
+    "安全评估",
+    "非文本模态",
+    "灰盒攻击"
+   ],
+   "field": "多模态大语言模型安全",
+   "innovations": [
+    "提出Con Instruction通用灰盒越狱方法，将恶意指令语义嵌入对抗图像/音频",
+    "引入ARC评估体系综合考量响应质量与相关性，与人工评估一致率达88%",
+    "揭示大模型对非文本模态攻击更脆弱的悖论现象及内部安全感知破坏机制"
+   ],
+   "benchmarks": [
+    "AdvBench",
+    "SafeBench"
+   ]
+  }
+ }
 }

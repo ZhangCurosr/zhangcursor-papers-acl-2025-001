@@ -4,5 +4,31 @@
  "title": "Cultural-Learning-Based-Culture-Adaptation-of-Language-Model",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 06:57:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fb681fbf-bc73-4fcf-8b63-89d9651e2070.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fb681fbf-bc73-4fcf-8b63-89d9651e2070.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:54:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文化价值对齐",
+    "大语言模型适配",
+    "文化学习",
+    "角色扮演合成数据",
+    "World Values Survey",
+    "意图理解",
+    "LoRA微调"
+   ],
+   "field": "跨文化NLP",
+   "innovations": [
+    "首次将文化学习理论（模仿学习+指导学习+意图理解）转化为LLM多任务微调框架CLCA",
+    "通过社会互动模拟生成文化适应对话数据并联合意图标注训练，证明行为驱动路径优于显式价值注入",
+    "严格的归因消融实验排除推理结构/文化知识干扰，证明社会互动是本质的；发现零样本跨语言迁移潜力"
+   ],
+   "benchmarks": [
+    "World Values Survey (WVS) Social Values Category",
+    "WorldValueBench"
+   ]
+  }
+ }
 }

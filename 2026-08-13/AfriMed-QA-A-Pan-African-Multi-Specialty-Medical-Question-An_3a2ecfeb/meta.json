@@ -4,5 +4,34 @@
  "title": "AfriMed-QA-A-Pan-African-Multi-Specialty-Medical-Question-An",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 06:58:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a58a6e59-27d4-457f-9593-45a271865d4f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a58a6e59-27d4-457f-9593-45a271865d4f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:50:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医学大模型评测",
+    "非洲医疗AI",
+    "QA基准数据集",
+    "低资源医学NLP",
+    "LLM公平性",
+    "多专科医学问答"
+   ],
+   "field": "低资源医学自然语言处理",
+   "innovations": [
+    "发布首个大规模泛非多专科医学QA基准AfriMed-QA，覆盖16国32专科共15,275题",
+    "揭示生物医学微调LLM在非洲本地化医学知识上反而不如通用大模型的反直觉现象",
+    "建立消费者与临床医生双轨盲评框架，量化LLM在正确性、幻觉、有害性与本地化维度的表现"
+   ],
+   "benchmarks": [
+    "AfriMed-QA",
+    "MedQA/USMLE",
+    "MedMCQA",
+    "PubMedQA",
+    "BioASQ",
+    "CMExam"
+   ]
+  }
+ }
 }

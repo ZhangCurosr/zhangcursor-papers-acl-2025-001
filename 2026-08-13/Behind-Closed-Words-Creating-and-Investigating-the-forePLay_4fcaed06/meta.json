@@ -4,5 +4,32 @@
  "title": "Behind-Closed-Words-Creating-and-Investigating-the-forePLay",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 06:58:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61360b7f-8b5c-46e7-8253-308ad08cfc2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61360b7f-8b5c-46e7-8253-308ad08cfc2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:51:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "内容审核",
+    "情色内容检测",
+    "低资源语言",
+    "波兰语 NLP",
+    "多标签分类",
+    "Human Label Variation"
+   ],
+   "field": "多语言敏感内容检测",
+   "innovations": [
+    "提出首个波兰语情色内容多维标注数据集 forePLay（24,768 句）",
+    "设计含暧昧/暴力/社会不可接受的优先级分类体系",
+    "系统对比波兰语专用模型与多语言 LLM 在类别不平衡下的性能差异"
+   ],
+   "benchmarks": [
+    "Basic 二元分类",
+    "Core 三元分类",
+    "Extended 四元分类",
+    "Full 五元分类"
+   ]
+  }
+ }
 }

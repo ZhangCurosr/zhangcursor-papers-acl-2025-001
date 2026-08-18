@@ -4,5 +4,32 @@
  "title": "ANDROIDGEN-Building-an-Android-Language-Agent-under-Data-Sca",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 06:58:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/99a38fde-d40e-4e8c-86ea-7d270aba6e73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/99a38fde-d40e-4e8c-86ea-7d270aba6e73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:49:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mobile agent",
+    "Android",
+    "language agent",
+    "data scarcity",
+    "in-context learning",
+    "open-source LLM",
+    "trajectory generation"
+   ],
+   "field": "移动端智能体与语言模型应用",
+   "innovations": [
+    "提出四模块框架ExpSearch/ReflectPlan/AutoCheck/StepCritic增强data-scarce场景下的Android agent能力",
+    "利用StepCritic细粒度评估构建无标注高质量轨迹数据并微调开源模型",
+    "结合轨迹检索与反思规划实现easy-to-hard的自进化agent"
+   ],
+   "benchmarks": [
+    "AndroidWorld",
+    "AitW (Android in the Wild)",
+    "Popular Applications Benchmark"
+   ]
+  }
+ }
 }

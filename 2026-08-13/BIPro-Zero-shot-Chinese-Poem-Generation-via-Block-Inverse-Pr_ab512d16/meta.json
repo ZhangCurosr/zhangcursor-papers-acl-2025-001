@@ -4,5 +4,30 @@
  "title": "BIPro-Zero-shot-Chinese-Poem-Generation-via-Block-Inverse-Pr",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 06:57:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/86c35423-5faa-4282-8b9b-f832155b2631.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/86c35423-5faa-4282-8b9b-f832155b2631.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:50:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "块生成模型",
+    "逆提示",
+    "约束生成",
+    "中文格律诗",
+    "零样本生成",
+    "推理扩展"
+   ],
+   "field": "自然语言生成与约束创作",
+   "innovations": [
+    "提出BIPro框架将逆提示扩展至块生成模型，通过遮蔽直接计算困惑度评分",
+    "设计revise+rewrite两阶段迭代策略模拟人类创作过程提升约束生成质量",
+    "零样本无额外训练使弱块模型GLM-10B超越GPT-4及领域专用系统"
+   ],
+   "benchmarks": [
+    "Open-domain Poem Generation (42 titles)",
+    "Parallel Poem Generation (87 Daily Poem entries)"
+   ]
+  }
+ }
 }

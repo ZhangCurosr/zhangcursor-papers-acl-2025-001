@@ -4,5 +4,33 @@
  "title": "Capture-the-Key-in-Reasoning-to-Enhance-CoT-Distillation-Gen",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:58:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1ebd18ff-9025-431b-9489-b8ce1c306ad9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1ebd18ff-9025-431b-9489-b8ce1c306ad9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:52:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain-of-Thought蒸馏",
+    "小语言模型",
+    "关键推理步骤",
+    "错误驱动学习",
+    "双CoT",
+    "最小编辑距离"
+   ],
+   "field": "大语言模型推理与知识蒸馏",
+   "innovations": [
+    "提出双CoT构造方法，利用相似推理路径但相反结论的对比数据定位关键步骤",
+    "设计KRSL损失函数，通过最小编辑距离实现token级关键推理步骤的细粒度学习",
+    "揭示简单SFT蒸馏的模仿缺陷，证明错误驱动学习可显著提升OOD泛化能力"
+   ],
+   "benchmarks": [
+    "BBH",
+    "BB-sub",
+    "AGIEval",
+    "ARC-E",
+    "ARC-C"
+   ]
+  }
+ }
 }

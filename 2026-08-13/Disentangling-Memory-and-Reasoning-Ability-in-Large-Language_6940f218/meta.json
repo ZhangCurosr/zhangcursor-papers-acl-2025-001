@@ -4,5 +4,31 @@
  "title": "Disentangling-Memory-and-Reasoning-Ability-in-Large-Language",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 06:57:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/91222432-6cbd-438e-a027-3ea3ae763b0a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/91222432-6cbd-438e-a027-3ea3ae763b0a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:55:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "memory-reasoning disentangling",
+    "chain-of-thought",
+    "planning tokens",
+    "parametric memory",
+    "interpretable reasoning",
+    "LLM fine-tuning"
+   ],
+   "field": "大语言模型推理可解释性",
+   "innovations": [
+    "引入<memory>和<reason>可训练标记显式解耦记忆检索与逻辑推理",
+    "构建双LLM协同的合成数据生成管线以生成高质量解耦CoT数据",
+    "通过标记注意力引导与细粒度错误归因提升推理可解释性"
+   ],
+   "benchmarks": [
+    "StrategyQA",
+    "CommonsenseQA",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

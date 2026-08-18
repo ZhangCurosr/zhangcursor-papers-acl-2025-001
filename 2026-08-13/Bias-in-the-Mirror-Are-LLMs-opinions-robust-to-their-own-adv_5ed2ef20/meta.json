@@ -4,5 +4,31 @@
  "title": "Bias-in-the-Mirror-Are-LLMs-opinions-robust-to-their-own-adv",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:00:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fb24d921-b269-461a-97d8-ca6b37bfa554.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fb24d921-b269-461a-97d8-ca6b37bfa554.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:52:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM偏见",
+    "自我辩论",
+    "偏见鲁棒性",
+    "多语言评估",
+    "人机对比",
+    "政治罗盘"
+   ],
+   "field": "LLM偏见与安全评估",
+   "innovations": [
+    "提出公平/有偏双语自我辩论框架测量LLM偏见稳健性",
+    "首次在多语言（英/阿/中）下系统对比LLM偏见表达差异",
+    "构建同任务下人类与LLM偏见鲁棒性的系统性对照实验"
+   ],
+   "benchmarks": [
+    "Political Compass",
+    "Multilingual Bias Evaluation (EN/AR/ZH)",
+    "Human vs LLM Debate Comparison"
+   ]
+  }
+ }
 }

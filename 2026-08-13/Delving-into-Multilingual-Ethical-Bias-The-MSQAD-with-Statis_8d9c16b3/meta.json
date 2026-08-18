@@ -4,5 +4,29 @@
  "title": "Delving-into-Multilingual-Ethical-Bias-The-MSQAD-with-Statis",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 06:57:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fc180691-dd62-4b2f-98ee-a6709ee48194.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fc180691-dd62-4b2f-98ee-a6709ee48194.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:54:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言偏见",
+    "伦理对齐",
+    "LLM安全",
+    "统计检验",
+    "敏感问题数据集",
+    "跨语言公平性"
+   ],
+   "field": "多语言大模型公平性与安全评估",
+   "innovations": [
+    "提出MSQAD多语言敏感问答数据集并开源",
+    "首次通过McNemar和PERMANOVA检验系统量化LLM跨语言伦理偏见",
+    "发现英语偏见显著性且偏见随模型演进可能加剧"
+   ],
+   "benchmarks": [
+    "MSQAD"
+   ]
+  }
+ }
 }

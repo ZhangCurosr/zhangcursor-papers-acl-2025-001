@@ -4,5 +4,32 @@
  "title": "Addressing-Blind-Guessing-Calibration-of-Selection-Bias-in-M",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 06:57:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/69c676d0-32d7-4edd-8a25-ffeaf3461b72.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/69c676d0-32d7-4edd-8a25-ffeaf3461b72.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:50:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "selection bias",
+    "video-language models",
+    "multiple-choice question answering",
+    "debiasing",
+    "fairness evaluation",
+    "post-processing calibration"
+   ],
+   "field": "多模态大模型评估与公平性",
+   "innovations": [
+    "首次系统分析VLM在视频MCQA中的选择偏差",
+    "提出基于任务分解的后处理去偏方法BOLD",
+    "去偏同时提升准确率与公平性指标"
+   ],
+   "benchmarks": [
+    "NExT-QA",
+    "STAR",
+    "Perception Test",
+    "Video-MME"
+   ]
+  }
+ }
 }

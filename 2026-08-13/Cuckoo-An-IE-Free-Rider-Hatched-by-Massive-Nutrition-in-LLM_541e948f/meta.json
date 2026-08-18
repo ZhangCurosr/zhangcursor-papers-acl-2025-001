@@ -4,5 +4,36 @@
  "title": "Cuckoo-An-IE-Free-Rider-Hatched-by-Massive-Nutrition-in-LLM",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 06:57:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/80f30378-0a0e-4b82-8416-e3439640c49c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/80f30378-0a0e-4b82-8416-e3439640c49c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:54:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "信息抽取",
+    "预训练",
+    "NTE",
+    "LLM",
+    "少样本学习",
+    "RoBERTa",
+    "指令遵循"
+   ],
+   "field": "信息抽取预训练",
+   "innovations": [
+    "提出NTE范式将LLM训练数据自动转换为IE预训练数据",
+    "构建102.6M规模NTE数据集训练Cuckoo模型超越8B LLM",
+    "揭示IE模型可随LLM训练资源同步演进并涌现in-context tagging能力"
+   ],
+   "benchmarks": [
+    "CoNLL03",
+    "BioNLP2004",
+    "SQuAD",
+    "SQuAD-V2",
+    "DROP",
+    "CoNLL04",
+    "ADE"
+   ]
+  }
+ }
 }

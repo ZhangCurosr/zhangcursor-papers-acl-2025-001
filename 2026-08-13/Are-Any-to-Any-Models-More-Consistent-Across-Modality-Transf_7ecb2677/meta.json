@@ -4,5 +4,30 @@
  "title": "Are-Any-to-Any-Models-More-Consistent-Across-Modality-Transf",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 06:58:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c9148dd-d3b4-481d-94f3-0c6a18265c75.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c9148dd-d3b4-481d-94f3-0c6a18265c75.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:50:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "any-to-any",
+    "cross-modal consistency",
+    "cyclic consistency",
+    "equivariance",
+    "multimodal generation",
+    "ACON benchmark"
+   ],
+   "field": "多模态统一模型评估",
+   "innovations": [
+    "提出 ACON 数据集并形式化 cyclic/equivariant 三种一致性评估协议",
+    "揭示当前 any-to-any 在点级一致性上并不稳定优于专业模型对",
+    "证明语义对齐 tokenization 对跨模态自一致性的重要影响"
+   ],
+   "benchmarks": [
+    "ACON",
+    "COCO Captions"
+   ]
+  }
+ }
 }

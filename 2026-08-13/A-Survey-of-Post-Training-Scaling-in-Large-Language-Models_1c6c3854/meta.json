@@ -4,5 +4,35 @@
  "title": "A-Survey-of-Post-Training-Scaling-in-Large-Language-Models",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 06:58:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8af9676f-9e15-45c4-9990-9541075db257.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8af9676f-9e15-45c4-9990-9541075db257.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:49:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "后训练扩展",
+    "监督微调",
+    "强化学习",
+    "测试时计算",
+    "大语言模型",
+    "Scaling Law",
+    "RLHF",
+    "合成数据"
+   ],
+   "field": "大语言模型后训练与对齐",
+   "innovations": [
+    "系统提出SFT/RL/TTC三分法后训练扩展框架",
+    "聚焦各类方法的可扩展变体而非传统方法",
+    "识别六大约束并指向未来研究方向"
+   ],
+   "benchmarks": [
+    "RewardBench",
+    "MMLU",
+    "HumanEval",
+    "AIME",
+    "GAIA"
+   ]
+  }
+ }
 }

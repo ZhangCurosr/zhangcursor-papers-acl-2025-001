@@ -4,5 +4,31 @@
  "title": "Digital-Gatekeepers-Google-s-Role-in-Curating-Hashtags-and-S",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 06:57:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/00d9ac5e-6eff-432d-b12d-1f2dd2f3fa32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/00d9ac5e-6eff-432d-b12d-1f2dd2f3fa32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:55:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "search engine bias",
+    "SERP",
+    "Reddit",
+    "Twitter/X",
+    "digital gatekeeping",
+    "rank turbulence divergence"
+   ],
+   "field": "计算社会科学 / 搜索引擎公平性",
+   "innovations": [
+    "将 SERP 偏见分析从页面级扩展到 subreddit/hashtag 社区层级，揭示宏观叙事塑造机制",
+    "跨平台对比显示搜索引擎对 Reddit 与 Twitter 的活跃度-可见性关联强度存在显著差异",
+    "结合 RTD、毒性评估与语义聚类构建多维度 SERP 偏见量化框架"
+   ],
+   "benchmarks": [
+    "Rank Turbulence Divergence (RTD)",
+    "Toxic-BERT/Detoxify 毒性评估",
+    "MPNet-Base-V2 + UMAP 语义聚类"
+   ]
+  }
+ }
 }

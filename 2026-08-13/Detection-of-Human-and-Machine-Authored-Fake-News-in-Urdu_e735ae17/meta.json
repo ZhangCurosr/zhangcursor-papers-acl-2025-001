@@ -4,5 +4,34 @@
  "title": "Detection-of-Human-and-Machine-Authored-Fake-News-in-Urdu",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 06:58:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a47ea43-6d64-4629-8cfb-ad44979c4b6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a47ea43-6d64-4629-8cfb-ad44979c4b6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:54:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "虚假新闻检测",
+    "机器生成文本检测",
+    "低资源语言",
+    "乌尔都语",
+    "四标签分类",
+    "联合检测",
+    "跨域泛化"
+   ],
+   "field": "虚假新闻检测",
+   "innovations": [
+    "首个乌尔都语四标签机器生成虚假新闻数据集",
+    "联合检测框架将四分类拆解为MGT检测和假新闻检测两个子任务",
+    "揭示文本长度偏差导致跨域泛化失败的根因并提出数据增强策略"
+   ],
+   "benchmarks": [
+    "Ax-to-Grind Urdu",
+    "UFN2023",
+    "UFN Augmented Corpus",
+    "Bend the Truth",
+    "M4 Urdu subset"
+   ]
+  }
+ }
 }
