@@ -4,5 +4,33 @@
  "title": "Which-of-These-Best-Describes-Multiple-Choice-Evaluation-wit",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 14:55:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/17a802ff-b83a-45c1-8221-866e14b9b32d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/17a802ff-b83a-45c1-8221-866e14b9b32d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:28:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MCQA",
+    "LLM评估",
+    "教育测量",
+    "多选题",
+    "Item Response Theory",
+    "生成式评估",
+    "数据集质量"
+   ],
+   "field": "大语言模型评估与评测基准",
+   "innovations": [
+    "系统提出Constructed Response和Explanation MCQA两种生成式评估格式，从教育测量视角改进LLM多选题评估",
+    "将Rubric标准、IRT难度分析、校准评分和对立集检测等教育测量学方法引入NLP基准设计"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "HellaSwag",
+    "CommonsenseQA",
+    "HELM",
+    "OpenLLM Leaderboard"
+   ]
+  }
+ }
 }
