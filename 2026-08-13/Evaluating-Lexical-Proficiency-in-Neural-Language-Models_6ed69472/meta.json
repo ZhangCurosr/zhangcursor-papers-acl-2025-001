@@ -4,5 +4,32 @@
  "title": "Evaluating-Lexical-Proficiency-in-Neural-Language-Models",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 06:57:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/25544135-be03-4884-aea6-251c15083322.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/25544135-be03-4884-aea6-251c15083322.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:51:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "lexical proficiency",
+    "reverse dictionary",
+    "definition modeling",
+    "nonce words",
+    "language model evaluation",
+    "Italian NLP",
+    "morphological creativity"
+   ],
+   "field": "语言模型词汇能力评估",
+   "innovations": [
+    "首个统一框架同时评测RD/DM/EM三任务 across 词典词/新词/临时造词三层级",
+    "引入Optimal Innovation Hypothesis的novelty-adhesion二维人类创造力评估",
+    "构建37万条目级意大利语开放词汇资源支持开放词汇生成式评测"
+   ],
+   "benchmarks": [
+    "Dictionary setting (IT5-large RD SBERT=0.73, Acc@10=0.56)",
+    "Neologism setting (IT5-large RD Acc@10=0.27)",
+    "Nonce words human evaluation (IT5-large novelty=3.11, adhesion=3.37)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Gender-Inclusivity-Fairness-Index-GIFI-A-Multilevel-Framewor",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 06:58:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9d634609-63a1-4375-8561-8b13fe899b08.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9d634609-63a1-4375-8561-8b13fe899b08.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:52:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Gender Fairness",
+    "Non-binary Pronouns",
+    "LLM Bias",
+    "Evaluation Framework",
+    "Counterfactual Fairness",
+    "Neopronouns"
+   ],
+   "field": "AI公平性与伦理",
+   "innovations": [
+    "首个覆盖二元与非二元性别的多层级LLM公平性评估框架GIFI",
+    "提出GDR/SN/NTS/CF/SA/OF/PE七个维度量化性别包容性",
+    "引入Performance Equality检验非性别任务中的隐性性别偏见"
+   ],
+   "benchmarks": [
+    "GIFI",
+    "TANGO",
+    "RealToxicityPrompts",
+    "GSM8K"
+   ]
+  }
+ }
 }

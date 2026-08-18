@@ -4,5 +4,36 @@
  "title": "Fusing-Highly-Specialized-Language-Models-for-Comprehensive",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 06:57:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ed6fe4d9-ace7-41d7-81ef-3bdcd938fed4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ed6fe4d9-ace7-41d7-81ef-3bdcd938fed4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:52:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型融合",
+    "多领域大模型",
+    "门控机制",
+    "指令微调",
+    "知识整合",
+    "专项模型"
+   ],
+   "field": "大语言模型融合与多领域适应",
+   "innovations": [
+    "提出ULTRAFUSER框架，通过token-level门控机制直接融合高度专业化模型",
+    "设计两阶段训练策略和数据级平衡采样，稳定多专家融合训练过程",
+    "构建ULTRACHAT 2高质量多领域指令数据集（30万条）支持融合训练"
+   ],
+   "benchmarks": [
+    "TruthfulQA",
+    "AlpacaEval",
+    "HumanEval",
+    "GSM8K",
+    "MATH",
+    "SAT-Math",
+    "AQuA",
+    "MT-Bench"
+   ]
+  }
+ }
 }

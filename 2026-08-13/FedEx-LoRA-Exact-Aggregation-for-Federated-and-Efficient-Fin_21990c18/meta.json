@@ -4,5 +4,32 @@
  "title": "FedEx-LoRA-Exact-Aggregation-for-Federated-and-Efficient-Fin",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 06:57:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/807217fa-79e2-4cbd-8618-f441545f51fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/807217fa-79e2-4cbd-8618-f441545f51fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:52:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Federated Learning",
+    "LoRA",
+    "Parameter-Efficient Fine-Tuning",
+    "Large Language Models",
+    "Exact Aggregation",
+    "Federated Fine-Tuning"
+   ],
+   "field": "联邦学习中的参数高效微调",
+   "innovations": [
+    "将聚合残差误差项注入预训练冻结权重矩阵以实现精确联邦 LoRA 聚合",
+    "设计通信高效的残差传输协议（Gram-Schmidt/SVD分解）及带宽受限场景下的最优低秩近似"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "COMMONSENSE170K",
+    "GLUE",
+    "E2E NLG Challenge"
+   ]
+  }
+ }
 }

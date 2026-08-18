@@ -4,5 +4,31 @@
  "title": "HotelMatch-LLM-Joint-Multi-Task-Training-of-Small-and-Large",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 06:58:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fc17bca9-d2bc-4b25-962c-5adc7d7d6184.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fc17bca9-d2bc-4b25-962c-5adc7d7d6184.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:54:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态检索",
+    "密集检索",
+    "非对称架构",
+    "多任务学习",
+    "酒店搜索",
+    "SLM-LLM 联合训练",
+    "Mean-Pooling 多图聚合"
+   ],
+   "field": "多模态信息检索",
+   "innovations": [
+    "非对称 SLM-LLM 双塔联合检索架构，查询端用小模型保障效率、文档端用大模型提升表征能力",
+    "CLIP patch 跨多图均值池化实现无限图片数量的固定维度视觉表征",
+    "面向旅行领域的检索+MLM+视觉设施学习三任务联合优化框架"
+   ],
+   "benchmarks": [
+    "HotelMatch (Real-world Main Query, Vision-driven, Text-driven, Out-of-distribution)",
+    "MRR@10, nDCG@10"
+   ]
+  }
+ }
 }

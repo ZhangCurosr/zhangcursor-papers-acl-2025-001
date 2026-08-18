@@ -4,5 +4,30 @@
  "title": "FR-Spec-Accelerating-Large-Vocabulary-Language-Models-via-Fr",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 06:58:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b338fa57-77d8-400c-b9df-33c5af620e34.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b338fa57-77d8-400c-b9df-33c5af620e34.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:52:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "投机采样",
+    "大词汇量",
+    "语言模型加速",
+    "频率排序",
+    "推理优化"
+   ],
+   "field": "大语言模型推理加速",
+   "innovations": [
+    "发现草稿过程中LM Head是主要瓶颈而非Transformer层",
+    "基于Token频率长尾分布裁剪草稿词表实现即插即用加速",
+    "证明小规模模型上词汇压缩加速效果更显著"
+   ],
+   "benchmarks": [
+    "Spec-Bench",
+    "HumanEval",
+    "GSM8K"
+   ]
+  }
+ }
 }

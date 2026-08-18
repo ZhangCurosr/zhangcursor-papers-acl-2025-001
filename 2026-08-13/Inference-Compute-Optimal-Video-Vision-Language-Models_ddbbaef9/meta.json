@@ -4,5 +4,32 @@
  "title": "Inference-Compute-Optimal-Video-Vision-Language-Models",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 06:57:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0ada0c06-fdda-4b4b-86d5-63adbbce4016.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0ada0c06-fdda-4b4b-86d5-63adbbce4016.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:54:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Vision-Language Models",
+    "Inference Compute Scaling",
+    "Scaling Laws",
+    "Model Configuration",
+    "Resource Allocation"
+   ],
+   "field": "多模态大模型高效推理与部署",
+   "innovations": [
+    "构建了包含视觉编码器成本的视频VLM推理计算最优分配框架",
+    "揭示了微调数据量增加会促使最优策略从语言模型规模转向视觉表征复杂度",
+    "提出结合Star与IsoFLOP扫描的高效参数化建模方法来预测推理最优前沿"
+   ],
+   "benchmarks": [
+    "LongVideoBench",
+    "Video-MME",
+    "PerceptionTest",
+    "MVBench",
+    "Next-QA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Hierarchical-Document-Refinement-for-Long-context-Retrieval",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-13 06:58:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/38ee1cf7-a794-4da5-959f-9f015071cceb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/38ee1cf7-a794-4da5-959f-9f015071cceb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:54:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "长文本精炼",
+    "层次化文档建模",
+    "Prompt压缩",
+    "检索增强生成"
+   ],
+   "field": "检索增强生成（RAG）与长上下文处理",
+   "innovations": [
+    "基于层次化文档结构（章节-段落树）的长文本精炼框架，取代传统 chunk/困惑度方案",
+    "查询双级分析（Local/Global）结合自适应 LS+GS 多视角评分融合",
+    "XML 扁平化结构表示配合离线/在线解耦推理，实现 10x token 压缩与 4x 延迟降低"
+   ],
+   "benchmarks": [
+    "NQ",
+    "TriviaQA",
+    "HotpotQA",
+    "2Wiki-MultiHopQA",
+    "ASQA",
+    "ELI5",
+    "PopQA"
+   ]
+  }
+ }
 }

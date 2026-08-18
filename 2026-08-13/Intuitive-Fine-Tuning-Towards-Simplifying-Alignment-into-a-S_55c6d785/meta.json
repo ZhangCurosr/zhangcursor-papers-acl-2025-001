@@ -4,5 +4,33 @@
  "title": "Intuitive-Fine-Tuning-Towards-Simplifying-Alignment-into-a-S",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:07:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bb2c9621-1299-43d3-9a56-3bbf0d5dd8ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bb2c9621-1299-43d3-9a56-3bbf0d5dd8ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:55:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "alignment",
+    "preference optimization",
+    "SFT",
+    "language model fine-tuning",
+    "residual connection",
+    "MDP"
+   ],
+   "field": "大语言模型对齐",
+   "innovations": [
+    "提出IFT统一SFT与PO，通过temporal residual connection实现直觉偏好估计",
+    "证明SFT是PO的特例（次优估计），建立统一MDP分析框架",
+    "仅需目标数据与单一策略即可达到与SFT+PO序列流程相当甚至更优的对齐效果"
+   ],
+   "benchmarks": [
+    "Open-LLM Leaderboard",
+    "Alpaca-Eval",
+    "Alpaca-Eval-2",
+    "TL;DR",
+    "Frozen Lake"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "GraphNarrator-Generating-Textual-Explanations-for-Graph-Neur",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:07:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d087c0e0-afc5-4c6a-b2c8-fdbf2ef22120.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d087c0e0-afc5-4c6a-b2c8-fdbf2ef22120.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:53:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graph Neural Network Explainability",
+    "Natural Language Explanation",
+    "Text-Attributed Graph",
+    "Expert Iteration",
+    "Knowledge Distillation",
+    "Saliency-based Explanation",
+    "PMI Faithfulness"
+   ],
+   "field": "图神经网络可解释性",
+   "innovations": [
+    "首个为TAG-GNN生成自然语言解释的框架（GraphNarrator）",
+    "提出TEI自训练机制用信息论度量在无ground truth下迭代提升伪标签质量",
+    "设计end-to-end蒸馏流程使最终解释器无需外部saliency输入"
+   ],
+   "benchmarks": [
+    "Cora",
+    "DBLP",
+    "Book-History"
+   ]
+  }
+ }
 }

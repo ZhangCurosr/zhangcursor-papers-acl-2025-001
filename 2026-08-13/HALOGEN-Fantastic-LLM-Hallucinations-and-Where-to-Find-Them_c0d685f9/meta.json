@@ -4,5 +4,33 @@
  "title": "HALOGEN-Fantastic-LLM-Hallucinations-and-Where-to-Find-Them",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 06:57:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2da233b5-71bd-47c0-b541-6c36cb5a1b8f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2da233b5-71bd-47c0-b541-6c36cb5a1b8f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:53:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination benchmark",
+    "LLM factuality",
+    "error attribution",
+    "code generation evaluation",
+    "open-ended generation",
+    "Type A/B/C classification"
+   ],
+   "field": "大语言模型事实性与幻觉评估",
+   "innovations": [
+    "提出覆盖9领域10,923提示的综合幻觉基准HALOGEN，统一响应式与拒绝式任务",
+    "构建自动分解-验证流水线实现大规模可扩展幻觉量化",
+    "提出基于预训练语料追溯的Type A/B/C三类幻觉错误分类框架"
+   ],
+   "benchmarks": [
+    "HALOGEN",
+    "FactScore",
+    "TruthfulQA",
+    "WildHallucinations",
+    "LongFACT"
+   ]
+  }
+ }
 }

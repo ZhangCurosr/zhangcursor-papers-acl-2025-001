@@ -4,5 +4,36 @@
  "title": "Fine-Tuning-on-Diverse-Reasoning-Chains-Drives-Within-Infere",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 06:58:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ef6a78a3-80fd-46a1-83cf-56aa763db314.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ef6a78a3-80fd-46a1-83cf-56aa763db314.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:52:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain of Thought",
+    "Diverse CoT",
+    "self‑correction",
+    "instruction tuning",
+    "reasoning refinement",
+    "large language models"
+   ],
+   "field": "大语言模型推理增强",
+   "innovations": [
+    "提出DCoT训练范式，使模型在单次推理中生成序列化的多样化推理链以实现内部修正",
+    "通过定量与人工分析证实修正增益源于逻辑改进而非随机扰动",
+    "证明DCoT可与self‑consistency等解码扩展兼容，且在单次修正(k=2)时性价比最高"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "ARC",
+    "HotpotQA",
+    "ConditionalQA",
+    "Big Bench Hard",
+    "CSQA",
+    "AQuA",
+    "SVAMP"
+   ]
+  }
+ }
 }

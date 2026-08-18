@@ -4,5 +4,32 @@
  "title": "Extending-LLM-Context-Window-with-Adaptive-Grouped-Positiona",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:58:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/39022508-ffd5-4b39-98f9-a41d348b408e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/39022508-ffd5-4b39-98f9-a41d348b408e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:51:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long context",
+    "training-free",
+    "positional encoding",
+    "RoPE",
+    "context extrapolation",
+    "adaptive grouping"
+   ],
+   "field": "大语言模型长上下文扩展",
+   "innovations": [
+    "提出渐进分组位置复用策略 AdaGroPE，按距离自适应提高复用次数",
+    "基于最小化复用与优先远端复用原则构造相对位置矩阵",
+    "设计长度自适应的在线相对位置映射，推理开销增幅低于 10%"
+   ],
+   "benchmarks": [
+    "PG19",
+    "Passkey Retrieval",
+    "LongBench",
+    "L-Eval"
+   ]
+  }
+ }
 }

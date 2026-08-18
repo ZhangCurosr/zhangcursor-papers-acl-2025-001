@@ -4,5 +4,30 @@
  "title": "GAPO-Learning-Preferential-Prompt-through-Generative-Adversa",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 06:57:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4421e13-b437-45d8-bc06-1f3e49b00b1f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4421e13-b437-45d8-bc06-1f3e49b00b1f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:52:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "约束生成",
+    "偏好优化",
+    "对抗训练",
+    "大语言模型对齐",
+    "Reward Model",
+    "指令遵循"
+   ],
+   "field": "大语言模型约束生成与对齐",
+   "innovations": [
+    "融合GAN与PPO的对抗策略优化框架GAPO",
+    "Encoder-only Reward Model用于细粒度约束理解",
+    "Preferential Prompt数据增强策略通过约束扰动自动生成reject样本"
+   ],
+   "benchmarks": [
+    "IFEval",
+    "PDD"
+   ]
+  }
+ }
 }

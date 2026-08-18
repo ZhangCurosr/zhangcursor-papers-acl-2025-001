@@ -4,5 +4,31 @@
  "title": "EscapeBench-Towards-Advancing-Creative-Intelligence-of-Langu",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 06:57:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9cb782eb-6a7c-4a97-ab10-d839a0a44734.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9cb782eb-6a7c-4a97-ab10-d839a0a44734.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:51:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "creative intelligence",
+    "language model agent",
+    "benchmark",
+    "room escape game",
+    "tool use",
+    "reasoning",
+    "Foresight",
+    "Reflection"
+   ],
+   "field": "Agent 评测与创造性推理",
+   "innovations": [
+    "提出首个基于密室逃脱游戏的创造性智力评测基准 EscapeBench",
+    "设计双模块 EscapeAgent 框架（Foresight+Reflection）提升 Agent 创造性推理",
+    "定义 Early Exit Progress 等细粒度创造性推理评估指标体系"
+   ],
+   "benchmarks": [
+    "EscapeBench"
+   ]
+  }
+ }
 }

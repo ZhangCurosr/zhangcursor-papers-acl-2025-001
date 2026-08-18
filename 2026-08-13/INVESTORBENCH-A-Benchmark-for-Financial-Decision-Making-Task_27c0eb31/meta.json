@@ -4,5 +4,29 @@
  "title": "INVESTORBENCH-A-Benchmark-for-Financial-Decision-Making-Task",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 06:58:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a9924870-6536-49c3-869b-f1927cb87dd3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a9924870-6536-49c3-869b-f1927cb87dd3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:54:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Financial Decision Making",
+    "Benchmark",
+    "Reinforcement Learning",
+    "Multi-modal Data",
+    "Stock Trading"
+   ],
+   "field": "金融智能体与量化决策",
+   "innovations": [
+    "提出首个覆盖股票/加密货币/ETF三类的LLM金融决策统一基准",
+    "设计基于分层衰减记忆的长短期金融洞察存储与检索机制",
+    "开放多源开源数据集与标准化评测协议"
+   ],
+   "benchmarks": [
+    "INVESTORBENCH"
+   ]
+  }
+ }
 }

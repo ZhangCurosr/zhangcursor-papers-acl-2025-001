@@ -4,5 +4,29 @@
  "title": "FOLDMOE-Efficient-Long-Sequence-MoE-Training-via-Attention-M",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 06:58:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e4867284-f4fc-469f-8e29-94fa14b7e5b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e4867284-f4fc-469f-8e29-94fa14b7e5b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:51:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Long Sequence Training",
+    "Communication-Computation Overlap",
+    "Pipeline Parallelism",
+    "Expert Parallelism",
+    "Attention-MoE Pipelining"
+   ],
+   "field": "大模型高效分布式训练",
+   "innovations": [
+    "首次将 token-level 通信-计算重叠从 MoE 层扩展至整个 Transformer block，通过 Attention-MoE 流水线实现端到端 A2A 隐藏",
+    "提出 1A1M 调度与 token buffer 解耦设计，消除 pipeline stage imbalance 与 micro-batch latency 不均导致的 bubble"
+   ],
+   "benchmarks": [
+    "GPT-MoE-S/M/L on Wikipedia, seq len 4K-32K",
+    "对比 Megatron-MoE（non-overlap）与 Tutel（SOTA token-level overlap）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Generating-Diverse-Training-Samples-for-Relation-Extraction",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 06:57:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9db6d686-fe55-46c4-abbd-8a58d9f0a5ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9db6d686-fe55-46c4-abbd-8a58d9f0a5ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:53:10",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Have-We-Designed-Generalizable-Structural-Knowledge-Promptin",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:00:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b7bc7404-642b-4e35-a6cc-f2a65b92eb96.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b7bc7404-642b-4e35-a6cc-f2a65b92eb96.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:54:04",
+  "chunks": 1
+ }
 }

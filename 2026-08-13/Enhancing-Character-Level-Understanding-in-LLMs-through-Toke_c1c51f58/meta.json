@@ -4,5 +4,39 @@
  "title": "Enhancing-Character-Level-Understanding-in-LLMs-through-Toke",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 06:58:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8cefd44d-32a3-4217-bc52-1039f3b86a29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8cefd44d-32a3-4217-bc52-1039f3b86a29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:49:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "字符级理解",
+    "中文拼写纠错",
+    "Token化",
+    "大语言模型",
+    "位置预测",
+    "反向字符预测",
+    "TIPA",
+    "MTIPA"
+   ],
+   "field": "大语言模型字符级能力增强",
+   "innovations": [
+    "提出TIPA方法，利用tokenizer词表构造反向字符预测任务增强模型token内部字符位置感知，无需修改架构",
+    "提出MTIPA扩展至句子级多token序列，进一步提升位置预测精度",
+    "重新定义CSC任务为带位置预测的版本，设计PPA等细粒度评估指标"
+   ],
+   "benchmarks": [
+    "CSCD-NS",
+    "LEMON",
+    "TyDi QA",
+    "IFEVAL",
+    "GSM8K",
+    "MMLU",
+    "HumanEval",
+    "AExams",
+    "KoBEST"
+   ]
+  }
+ }
 }

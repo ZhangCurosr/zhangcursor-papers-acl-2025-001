@@ -4,5 +4,35 @@
  "title": "Centurio-On-Drivers-of-Multilingual-Ability-of-Large-Vision",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 06:58:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/395caac5-09dc-4549-9100-00f10e02c691.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/395caac5-09dc-4549-9100-00f10e02c691.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:50:37",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "多语言视觉语言模型",
+    "LVLM",
+    "多语言训练策略",
+    "OCR",
+    "语言保真度",
+    "多模态"
+   ],
+   "field": "多语言多模态学习",
+   "innovations": [
+    "系统性揭示语言数量与比例对多语言LVLM性能的驱动规律",
+    "提出SMPQA多语言图表OCR评测数据集",
+    "实证发现预训练阶段比指令微调更需要多语言数据"
+   ],
+   "benchmarks": [
+    "XM3600",
+    "xGQA",
+    "M3Exam",
+    "CVQA",
+    "SMPQA",
+    "MTVQA",
+    "xMMMU"
+   ]
+  }
+ }
 }

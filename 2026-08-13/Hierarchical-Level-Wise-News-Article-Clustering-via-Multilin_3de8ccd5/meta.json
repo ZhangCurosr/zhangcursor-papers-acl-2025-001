@@ -4,5 +4,30 @@
  "title": "Hierarchical-Level-Wise-News-Article-Clustering-via-Multilin",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 06:58:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6ab71c28-c842-428e-bdf1-d97cea939249.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6ab71c28-c842-428e-bdf1-d97cea939249.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:53:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Matryoshka Embeddings",
+    "Hierarchical Clustering",
+    "Multilingual News",
+    "Semantic Similarity",
+    "Contrastive Learning",
+    "Level-Wise RAC"
+   ],
+   "field": "多语言语义嵌入与层次化聚类",
+   "innovations": [
+    "多语言Matryoshka嵌入实现分层语义粒度学习",
+    "Level-Wise RAC自适应层次聚类算法无需预设类别数"
+   ],
+   "benchmarks": [
+    "SemEval 2022 Task 8",
+    "Miranda et al. 2018",
+    "20 NewsGroup"
+   ]
+  }
+ }
 }

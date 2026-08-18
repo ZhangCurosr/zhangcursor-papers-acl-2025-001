@@ -4,5 +4,30 @@
  "title": "How-Much-Do-Encoder-Models-Know-About-Word-Senses",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:00:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f62f7636-c40b-4683-b8d1-31dc8af996b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f62f7636-c40b-4683-b8d1-31dc8af996b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:54:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Word Sense Disambiguation",
+    "Probing",
+    "Pretrained Language Models",
+    "DeBERTa",
+    "Semantic Representations"
+   ],
+   "field": "词义消解与语义表示分析",
+   "innovations": [
+    "首次系统评估四种PLM逐层WSD能力，发现DeBERTa-v3中间层最优",
+    "揭示词义库示例同质性是造成ODE/SemCor性能差距的主因",
+    "基于研究发现设计轻量WSD模型GlossDeBERTa-small，降低70%训练时间"
+   ],
+   "benchmarks": [
+    "SemCor",
+    "ODE",
+    "ALL"
+   ]
+  }
+ }
 }

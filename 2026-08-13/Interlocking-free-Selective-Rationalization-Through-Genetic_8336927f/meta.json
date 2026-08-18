@@ -4,5 +4,30 @@
  "title": "Interlocking-free-Selective-Rationalization-Through-Genetic",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 06:59:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dbc3c955-9789-4a07-983f-98395dd698e8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dbc3c955-9789-4a07-983f-98395dd698e8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:55:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "selective rationalization",
+    "interlocking",
+    "genetic algorithm",
+    "neuroevolution",
+    "explainable AI",
+    "mask selection"
+   ],
+   "field": "可解释机器学习",
+   "innovations": [
+    "首个基于遗传算法分离训练的无互锁选择性合理化框架",
+    "设计无需权重调优的非线性适应度评估函数",
+    "构建受控合成数据集系统评估局部最优规避能力"
+   ],
+   "benchmarks": [
+    "Toy Synthetic Dataset",
+    "HateXplain"
+   ]
+  }
+ }
 }

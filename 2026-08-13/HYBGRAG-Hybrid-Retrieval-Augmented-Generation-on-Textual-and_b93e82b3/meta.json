@@ -4,5 +4,31 @@
  "title": "HYBGRAG-Hybrid-Retrieval-Augmented-Generation-on-Textual-and",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 06:57:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/515af89b-20c1-4fbf-bb2f-b72bcb6ed2c1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/515af89b-20c1-4fbf-bb2f-b72bcb6ed2c1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:53:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval-Augmented Generation",
+    "Graph RAG",
+    "Hybrid Question Answering",
+    "Self-Reflection",
+    "Semi-structured Knowledge Base",
+    "Knowledge Graph"
+   ],
+   "field": "检索增强生成与知识图谱问答",
+   "innovations": [
+    "Retriever Bank: 统一文本与关系检索的多模块协同检索框架",
+    "Critic Module: 双组件（validator+commenter）分治自反思机制与结构化纠正反馈",
+    "无需训练的零样本部署: 仅依赖few-shot ICL实现高效迭代修正"
+   ],
+   "benchmarks": [
+    "STARK-MAG",
+    "STARK-PRIME",
+    "CRAG"
+   ]
+  }
+ }
 }

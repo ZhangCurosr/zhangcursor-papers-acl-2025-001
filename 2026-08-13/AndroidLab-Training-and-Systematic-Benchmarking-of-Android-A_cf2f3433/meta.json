@@ -4,5 +4,30 @@
  "title": "AndroidLab-Training-and-Systematic-Benchmarking-of-Android-A",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:01:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/54d5301d-5bef-4d41-b11d-4d9cbb1bc9a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/54d5301d-5bef-4d41-b11d-4d9cbb1bc9a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:48:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Android Agent",
+    "Mobile AI",
+    "Instruction Tuning",
+    "Vision-Language Model",
+    "Benchmark",
+    "Reinforcement Learning"
+   ],
+   "field": "移动端自主智能体",
+   "innovations": [
+    "统一操作空间支持LLM/VLM双模态公平对比",
+    "离线可复现基准测试设计消除外部依赖",
+    "Android Instruct指令微调数据集弥合开源与闭源模型性能差距"
+   ],
+   "benchmarks": [
+    "ANDROIDLAB",
+    "138 tasks across 9 apps"
+   ]
+  }
+ }
 }

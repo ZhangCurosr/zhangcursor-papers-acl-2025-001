@@ -4,5 +4,31 @@
  "title": "Evaluation-of-LLM-Vulnerabilities-to-Being-Misused-for-Perso",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 06:57:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/12aa95f4-652a-4da2-8ef5-f2f6dc5362ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/12aa95f4-652a-4da2-8ef5-f2f6dc5362ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:50:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化虚假信息",
+    "LLM安全评估",
+    "meta-evaluation",
+    "AI文本检测",
+    "安全过滤器",
+    "jailbreak"
+   ],
+   "field": "大语言模型安全与虚假信息检测",
+   "innovations": [
+    "发现个性化提示可作为弱化安全过滤器的jailbreak机制，触发率从5.2%降至3.5%",
+    "提出三模型ensemble的meta-evaluation方案，与5人人工标注达Spearman rho=0.76",
+    "首次量化个性化程度对AI生成虚假信息可检测性的负面影响（TPR平均下降3.4%)"
+   ],
+   "benchmarks": [
+    "MULTI-TuDE",
+    "PerDisNews",
+    "METAL"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "From-Information-to-Insight-Leveraging-LLMs-for-Open-Aspect",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 06:58:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9ada8874-59de-4c03-83a3-cea7670d1098.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9ada8874-59de-4c03-83a3-cea7670d1098.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:53:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Open Aspect-Based Summarization",
+    "Educational NLP",
+    "LLM Refinement",
+    "ReflectASP",
+    "Fact-Checking",
+    "Zero-shot Summarization"
+   ],
+   "field": "教育领域文本摘要与方面级生成",
+   "innovations": [
+    "提出ReflectASP首个教育领域开放方面摘要数据集，含313个人工改写摘要",
+    "提出E2A两阶段方法及E2A w/ MC-Refine改进方案，结合MINICHECK事实检查器提升忠实度",
+    "系统性基准测试零样本LLM在开放方面教育摘要上的表现并分析修订策略"
+   ],
+   "benchmarks": [
+    "ReflectASP",
+    "SPACE",
+    "ROUGE-1/2/L",
+    "BERTScore",
+    "MINICHECK MC_EXT",
+    "GPT-4 Factuality Evaluation"
+   ]
+  }
+ }
 }

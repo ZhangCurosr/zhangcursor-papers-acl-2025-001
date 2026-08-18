@@ -4,5 +4,31 @@
  "title": "GigaSpeech-2-An-Evolving-Large-Scale-and-Multi-domain-ASR-Co",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 06:58:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9376c04a-591a-460d-b175-de97f9284395.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9376c04a-591a-460d-b175-de97f9284395.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:53:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "low-resource ASR",
+    "GigaSpeech 2",
+    "Noisy Student Training",
+    "pseudo-label refinement",
+    "multilingual speech corpus",
+    "YouTube audio"
+   ],
+   "field": "低资源自动语音识别与多语言语料构建",
+   "innovations": [
+    "提出纯音频驱动的 YouTube 规模化建库流水线，摆脱配对文本依赖",
+    "改进 NST：以伪标签为监督信号、CER 滚动筛选并重标、叠加 SpecAugment/Bypass/feature mask 噪声实现迭代精炼",
+    "在 ~150M 参数下使泰/印尼/越南语在真实 YouTube 测试集上超越 Whisper large-v3 25%-40%"
+   ],
+   "benchmarks": [
+    "GigaSpeech 2 DEV/TEST",
+    "Common Voice 17.0",
+    "FLEURS"
+   ]
+  }
+ }
 }

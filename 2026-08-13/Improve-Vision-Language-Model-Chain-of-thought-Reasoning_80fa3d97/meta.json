@@ -4,5 +4,40 @@
  "title": "Improve-Vision-Language-Model-Chain-of-thought-Reasoning",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 06:57:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/520f9c59-e78c-45f9-8503-d864cd14ae9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/520f9c59-e78c-45f9-8503-d864cd14ae9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:54:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain-of-Thought",
+    "Vision-Language Model",
+    "Direct Preference Optimization",
+    "Outcome Reward",
+    "Multimodal Reasoning",
+    "SFT",
+    "VLM Alignment"
+   ],
+   "field": "视觉-语言模型推理对齐",
+   "innovations": [
+    "用GPT-4o将短答案蒸馏为多领域CoT数据并进行SFT",
+    "将短答案作为结果奖励构建DPO偏好对实现零标注推理对齐",
+    "验证DPO模型可作为强验证器进行CoT重排序与信用分配"
+   ],
+   "benchmarks": [
+    "ChartQA",
+    "A-OKVQA",
+    "DocVQA",
+    "InfoVQA",
+    "TextVQA",
+    "AI2D",
+    "ScienceQA",
+    "MathVista",
+    "MMMU",
+    "OCRBench",
+    "MMStar"
+   ]
+  }
+ }
 }

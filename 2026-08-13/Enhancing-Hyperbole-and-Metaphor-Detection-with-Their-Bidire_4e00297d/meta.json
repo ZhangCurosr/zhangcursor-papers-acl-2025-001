@@ -4,5 +4,32 @@
  "title": "Enhancing-Hyperbole-and-Metaphor-Detection-with-Their-Bidire",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:58:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4a16a1ac-8049-4e0f-8310-832c051fd332.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4a16a1ac-8049-4e0f-8310-832c051fd332.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:50:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "夸张检测",
+    "隐喻检测",
+    "情感分析",
+    "双向动态交互",
+    "大语言模型提示",
+    "修辞理解"
+   ],
+   "field": "修辞语言理解与大模型推理",
+   "innovations": [
+    "提出情感引导的夸张与隐喻联合检测框架，首次将情感分析作为修辞检测的显式先验知识",
+    "设计基于情感驱动的源域/目标域映射模块，增强跨域语义理解",
+    "构建夸张与隐喻双向动态交互机制，实现任务间知识相互促进"
+   ],
+   "benchmarks": [
+    "HYPO",
+    "HYPO-L",
+    "LCC",
+    "TroFi"
+   ]
+  }
+ }
 }
