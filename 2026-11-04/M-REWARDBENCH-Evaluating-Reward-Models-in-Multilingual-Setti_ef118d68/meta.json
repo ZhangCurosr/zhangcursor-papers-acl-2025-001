@@ -4,5 +4,31 @@
  "title": "M-REWARDBENCH-Evaluating-Reward-Models-in-Multilingual-Setti",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-11-04 21:04:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7d9edc7a-8efa-471f-8d58-fa331a9aa590.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7d9edc7a-8efa-471f-8d58-fa331a9aa590.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:04:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reward model",
+    "multilingual evaluation",
+    "preference learning",
+    "LLM alignment",
+    "cross-lingual consistency",
+    "machine translation preference"
+   ],
+   "field": "多语言大语言模型对齐与评测",
+   "innovations": [
+    "构建首个覆盖23种语言的多语言奖励模型评测基准M-REWARDBENCH",
+    "揭示生成式RM在多语言场景下比分类式/隐式RM更具跨语言鲁棒性（性能降幅3% vs >8%）",
+    "首次将机器翻译偏好判断纳入RM评测体系并量化翻译质量对RM性能的影响"
+   ],
+   "benchmarks": [
+    "M-REWARDBENCH",
+    "RewardBench",
+    "MAPLE"
+   ]
+  }
+ }
 }

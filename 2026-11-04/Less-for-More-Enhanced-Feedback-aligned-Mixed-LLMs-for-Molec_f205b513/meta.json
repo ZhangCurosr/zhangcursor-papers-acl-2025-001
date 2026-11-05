@@ -4,5 +4,31 @@
  "title": "Less-for-More-Enhanced-Feedback-aligned-Mixed-LLMs-for-Molec",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-11-04 21:01:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c9146333-95cb-4b6d-b21c-352ad316f485.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c9146333-95cb-4b6d-b21c-352ad316f485.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:03:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型融合",
+    "对齐微调",
+    "化学语言模型",
+    "NLI评估",
+    "跨模态学习",
+    "分布外泛化"
+   ],
+   "field": "科学领域大模型",
+   "innovations": [
+    "模型融合与对齐微调协同的跨模态通用模型构建方法",
+    "原子级跨NLI细粒度评估方法解决化学领域文本生成评估粒度不足问题",
+    "发现CPO在最小化训练设置下最适合跨模态任务的对齐方法"
+   ],
+   "benchmarks": [
+    "L+M-24",
+    "Molecule Caption Generation",
+    "Molecule Generation"
+   ]
+  }
+ }
 }

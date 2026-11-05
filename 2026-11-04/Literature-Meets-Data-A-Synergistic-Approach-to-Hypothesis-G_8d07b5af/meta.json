@@ -4,5 +4,35 @@
  "title": "Literature-Meets-Data-A-Synergistic-Approach-to-Hypothesis-G",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-11-04 21:06:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4d97b7ea-f2a3-41f4-893f-270bd4609ee7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4d97b7ea-f2a3-41f4-893f-270bd4609ee7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:04:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "假说生成",
+    "大语言模型",
+    "文献驱动",
+    "数据驱动",
+    "科学发现",
+    "可解释AI",
+    "人-AI协作"
+   ],
+   "field": "LLM辅助科学发现与假说生成",
+   "innovations": [
+    "提出首个文献与数据双驱动的假说生成框架HYPOREFINE，通过迭代精炼与联合去冗余策略实现理论-实证融合",
+    "构建跨模型、跨数据集的假说效用评估体系，并在欺骗检测与AIGC检测上验证对人类决策显著提升",
+    "引入UCB式奖励与双代理交替精炼机制，实现假说库的动态演化与泛化控制"
+   ],
+   "benchmarks": [
+    "DECEPTIVE REVIEWS",
+    "LLAMAGC",
+    "GPTGC",
+    "PERSUASIVE PAIRS",
+    "DREADDIT",
+    "FOUR-CITIES"
+   ]
+  }
+ }
 }

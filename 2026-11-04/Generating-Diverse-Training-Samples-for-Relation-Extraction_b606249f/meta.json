@@ -4,5 +4,32 @@
  "title": "Generating-Diverse-Training-Samples-for-Relation-Extraction",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-11-04 21:19:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0a7530c3-f8ff-44b5-8db1-edc95afc1826.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0a7530c3-f8ff-44b5-8db1-edc95afc1826.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:03:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Relation Extraction",
+    "Large Language Models",
+    "Data Generation",
+    "DPO",
+    "In-Context Learning",
+    "Few-shot Learning"
+   ],
+   "field": "关系抽取与数据增强",
+   "innovations": [
+    "提出OBO迭代生成策略提升LLM生成样本多样性",
+    "首次将DPO引入训练样本生成任务并自动化构建偏好数据对",
+    "证实生成样本训练非LLM模型优于直接LLM推理的少样本RE新范式"
+   ],
+   "benchmarks": [
+    "TACRED",
+    "TACRED-Revisit",
+    "Re-TACRED",
+    "SemEval 2010 Task 8"
+   ]
+  }
+ }
 }
