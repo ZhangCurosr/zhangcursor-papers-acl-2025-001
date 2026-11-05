@@ -4,5 +4,30 @@
  "title": "Evaluation-of-LLM-Vulnerabilities-to-Being-Misused-for-Perso",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-11-04 20:55:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d07a26fb-11a9-4896-b502-f3e637cbc9da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d07a26fb-11a9-4896-b502-f3e637cbc9da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:32:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型",
+    "虚假信息",
+    "个性化生成",
+    "安全过滤器",
+    "可检测性",
+    "元评估"
+   ],
+   "field": "AI安全与内容生成",
+   "innovations": [
+    "首次系统评估LLM生成个性化虚假新闻的漏洞，发现个性化降低安全过滤器激活率",
+    "验证多LLM元评估与人类判断的强相关性（ρ=0.76）",
+    "揭示个性化对机器生成内容可检测性的轻微负面影响"
+   ],
+   "benchmarks": [
+    "PerDisNews",
+    "MULTI-TuDE"
+   ]
+  }
+ }
 }

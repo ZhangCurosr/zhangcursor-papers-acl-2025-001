@@ -4,5 +4,29 @@
  "title": "How-to-Enable-Effective-Cooperation-Between-Humans-and-NLP-M",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-11-04 21:15:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3bf09b5a-8a75-44a2-9e4a-c8f7ae211618.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3bf09b5a-8a75-44a2-9e4a-c8f7ae211618.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:34:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human-Model Cooperation",
+    "Human-AI Collaboration",
+    "Cooperation Formalization",
+    "Large Language Models",
+    "Interactive NLP",
+    "Decision Making Taxonomy"
+   ],
+   "field": "人机协同与自然语言处理",
+   "innovations": [
+    "首次将Grice会话合作原则形式化迁移至人机NLP协作语境",
+    "提出基于决策责任与角色框架的顺序/分诊/联合三分法统一分类学",
+    "系统界定Assistor-executor与Equal-partnership双框架的适用边界与监管差异"
+   ],
+   "benchmarks": [
+    "暂无统一基准（论文明确呼吁构建跨任务标准化评测协议）"
+   ]
+  }
+ }
 }

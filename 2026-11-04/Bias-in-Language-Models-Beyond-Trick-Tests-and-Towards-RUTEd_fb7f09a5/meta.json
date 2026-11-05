@@ -4,5 +4,31 @@
  "title": "Bias-in-Language-Models-Beyond-Trick-Tests-and-Towards-RUTEd",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-11-04 21:15:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d0c7a353-4769-4385-8525-05ded5063e11.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d0c7a353-4769-4385-8525-05ded5063e11.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:30:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM偏见评估",
+    "RUTEd评估",
+    "性别职业偏见",
+    "基准测试",
+    "长文本生成",
+    "公平性度量"
+   ],
+   "field": "语言模型公平性与偏见评估",
+   "innovations": [
+    "提出RUTEd评估框架，用真实长文本生成任务替代去情境化技巧测试评估LLM偏见",
+    "证明标准基准与真实使用场景中的偏见度量之间几乎无相关性",
+    "揭示不同真实使用场景间的偏见度量也缺乏泛化性"
+   ],
+   "benchmarks": [
+    "BIG-bench Gender Sensitivity-English",
+    "WinoBias职业数据集",
+    "BBQ"
+   ]
+  }
+ }
 }

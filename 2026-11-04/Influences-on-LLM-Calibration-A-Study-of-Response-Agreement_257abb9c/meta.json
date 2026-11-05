@@ -4,5 +4,32 @@
  "title": "Influences-on-LLM-Calibration-A-Study-of-Response-Agreement",
  "token": "sk-f9bQDVs2Y...",
  "created_at": "2026-11-04 21:10:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/12c4e0a3-0269-43dc-9a4b-be6f543561c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/12c4e0a3-0269-43dc-9a4b-be6f543561c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:39:08",
+  "chunks": 9,
+  "meta": {
+   "keywords": [
+    "LLM Calibration",
+    "Probability Calibration",
+    "APRICOT",
+    "Post-hoc Scaling",
+    "Response Agreement",
+    "ECE",
+    "Calibration Error"
+   ],
+   "field": "Large Language Model Reliability and Alignment",
+   "innovations": [
+    "系统性揭示了响应协议、模型规模、训练数据对LLM校准的影响",
+    "提出了结合离线校准器与在线概率标度(PS)的APRICOT框架"
+   ],
+   "benchmarks": [
+    "TriviaQA",
+    "SciQ",
+    "WikiQA",
+    "Natural Questions"
+   ]
+  }
+ }
 }

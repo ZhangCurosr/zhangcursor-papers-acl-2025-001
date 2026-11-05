@@ -4,5 +4,37 @@
  "title": "Iron-Sharpens-Iron-Defending-Against-Attacks-in-Machine-Gene",
  "token": "sk-kPtjfXaXd...",
  "created_at": "2026-11-04 21:21:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/20731f46-ec57-42ba-acba-d76143b82af6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/20731f46-ec57-42ba-acba-d76143b82af6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:36:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Machine-Generated Text Detection",
+    "Adversarial Training",
+    "Black-box Attack",
+    "Robustness",
+    "NLP Security",
+    "GREATER"
+   ],
+   "field": "NLP安全与对抗鲁棒性",
+   "innovations": [
+    "提出GREATER对抗训练框架，同步更新对抗器与检测器实现多攻击泛化防御",
+    "设计黑盒高效攻击方法GREATER-A，仅需62.63次查询即达96.58%ASR",
+    "首次系统评估MGT检测器在16种攻击下的鲁棒性并给出针对性防御方案"
+   ],
+   "benchmarks": [
+    "SemEval Task 8",
+    "Mixed Edit Attack",
+    "Paraphrasing Attack",
+    "PWWS",
+    "TextFooler",
+    "BERTAttack",
+    "HQA",
+    "A2T",
+    "T-PGD"
+   ]
+  }
+ }
 }

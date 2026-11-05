@@ -4,5 +4,31 @@
  "title": "Bias-in-the-Mirror-Are-LLMs-opinions-robust-to-their-own-adv",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-11-04 20:54:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a6aaf6d4-308a-4c8f-a391-e2fe8c0e3798.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a6aaf6d4-308a-4c8f-a391-e2fe8c0e3798.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:30:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM偏见评估",
+    "对抗性辩论",
+    "多语言鲁棒性",
+    "价值观对齐",
+    "人机对比",
+    "偏见度量"
+   ],
+   "field": "大语言模型偏见与对齐评估",
+   "innovations": [
+    "提出fair/biased双通道自辩论框架以量化偏见强度与易受说服性",
+    "在多模型与多语言（英/阿/中）下系统评测偏见转变幅度与方向",
+    "引入人类前后测对照揭示模型与人类在偏见根植度上的差异"
+   ],
+   "benchmarks": [
+    "Political Compass扩展题库",
+    "多语言（EN/AR/ZH）子集评测",
+    "人机对照八主题实验"
+   ]
+  }
+ }
 }

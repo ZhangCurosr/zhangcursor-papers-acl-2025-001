@@ -4,5 +4,32 @@
  "title": "Extending-LLM-Context-Window-with-Adaptive-Grouped-Positiona",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-11-04 20:58:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7e6c7b77-74b4-48ce-9b1c-949d0474808e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7e6c7b77-74b4-48ce-9b1c-949d0474808e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:32:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文",
+    "位置编码",
+    "RoPE",
+    "免训练",
+    "LLM",
+    "上下文扩展"
+   ],
+   "field": "大语言模型长上下文处理",
+   "innovations": [
+    "提出渐进式距离感知复用策略，复用次数随 token 距离递增",
+    "动态自适应位置编码映射，无需预设固定分桶大小",
+    "免训练即插即用方法在多项基准上超越部分原生长上下文微调模型"
+   ],
+   "benchmarks": [
+    "PG19",
+    "LongBench",
+    "L-Eval",
+    "Passkey Retrieval"
+   ]
+  }
+ }
 }

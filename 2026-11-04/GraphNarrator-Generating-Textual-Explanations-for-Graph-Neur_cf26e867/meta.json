@@ -4,5 +4,32 @@
  "title": "GraphNarrator-Generating-Textual-Explanations-for-Graph-Neur",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-11-04 21:26:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/178f552d-ad5c-4509-8206-95773436a723.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/178f552d-ad5c-4509-8206-95773436a723.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:33:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图神经网络可解释性",
+    "自然语言解释生成",
+    "文本属性图",
+    "专家迭代",
+    "知识蒸馏",
+    "显著性解释文本化",
+    "信息论评估"
+   ],
+   "field": "图深度学习可解释性",
+   "innovations": [
+    "首个GNN自然语言解释生成框架GraphNarrator",
+    "基于信息论的三目标专家迭代伪标签自训练机制",
+    "显著性图BFS前序遍历文本化方法"
+   ],
+   "benchmarks": [
+    "Cora",
+    "DBLP",
+    "Book-History"
+   ]
+  }
+ }
 }

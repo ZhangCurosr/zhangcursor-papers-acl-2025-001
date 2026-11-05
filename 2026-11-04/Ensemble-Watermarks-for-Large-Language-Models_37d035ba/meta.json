@@ -4,5 +4,32 @@
  "title": "Ensemble-Watermarks-for-Large-Language-Models",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-11-04 21:26:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4415fea5-1397-4132-b9b4-25a02f39014c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4415fea5-1397-4132-b9b4-25a02f39014c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:31:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "watermark",
+    "large language models",
+    "stylometry",
+    "red-green watermark",
+    "paraphrasing attack",
+    "logits manipulation"
+   ],
+   "field": "AI安全与文本水印",
+   "innovations": [
+    "提出acrostica+sensorimotor+red-green三特征集成水印框架",
+    "设计通用检测函数适用于所有特征组合",
+    "系统性评估集成水印对改写攻击的鲁棒性"
+   ],
+   "benchmarks": [
+    "C4 RealNewsLike",
+    "Llama 3.1 8B",
+    "Llama 3.2 3B",
+    "Mistral 7B"
+   ]
+  }
+ }
 }

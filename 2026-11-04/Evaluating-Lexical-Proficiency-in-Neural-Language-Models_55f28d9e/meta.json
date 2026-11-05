@@ -4,5 +4,30 @@
  "title": "Evaluating-Lexical-Proficiency-in-Neural-Language-Models",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-11-04 21:01:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/88eb5af0-3af5-4397-9a40-c273a5b0192a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/88eb5af0-3af5-4397-9a40-c273a5b0192a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:32:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "词汇熟练度",
+    "逆向词典",
+    "临时造词",
+    "语言创造力",
+    "形态学泛化",
+    "T5"
+   ],
+   "field": "语言模型语言学能力评估",
+   "innovations": [
+    "首个统一框架同时评估RD/DM/EM三项任务跨越词典词/新词/临时造词三种环境",
+    "提出带源文本惩罚的SBERT语义度量m评估释义生成质量",
+    "基于Optimal Innovation Hypothesis的双维度人类创造力评估方案"
+   ],
+   "benchmarks": [
+    "Neo-Bench",
+    "GLAW-IT"
+   ]
+  }
+ }
 }

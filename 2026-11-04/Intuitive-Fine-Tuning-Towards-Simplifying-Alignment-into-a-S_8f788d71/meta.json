@@ -4,5 +4,30 @@
  "title": "Intuitive-Fine-Tuning-Towards-Simplifying-Alignment-into-a-S",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-11-04 21:10:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1bf168bf-6485-47d9-8c23-899866339a33.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1bf168bf-6485-47d9-8c23-899866339a33.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:36:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对齐",
+    "偏好优化",
+    "监督微调",
+    "残差连接",
+    "大语言模型"
+   ],
+   "field": "语言模型对齐",
+   "innovations": [
+    "通过时间残差连接将SFT与PO统一为单过程，仅需目标数据无需偏好标注",
+    "提出Dynamic Relation Propagation满足Bellman方程，兼顾效率与有效性"
+   ],
+   "benchmarks": [
+    "Open-LLM Leaderboard",
+    "Alpaca-Eval",
+    "TL;DR",
+    "Frozen Lake"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "AndroidLab-Training-and-Systematic-Benchmarking-of-Android-A",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-11-04 21:22:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1950a216-747b-4e20-9b05-a65a7d03a34d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1950a216-747b-4e20-9b05-a65a7d03a34d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:30:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Android Agent",
+    "Mobile GUI Agent",
+    "Vision-Language Model",
+    "Benchmark",
+    "Instruction Tuning",
+    "SoM",
+    "ReAct"
+   ],
+   "field": "多模态Agent与移动端交互",
+   "innovations": [
+    "提出统一XML/SoM双模式的Android agent操作框架，共享action space",
+    "构建可复现的138任务benchmark与Android Instruct微调数据集",
+    "证明开源小模型经微调后可接近GPT-4o等闭源模型的Android操作能力"
+   ],
+   "benchmarks": [
+    "ANDROIDLAB"
+   ]
+  }
+ }
 }

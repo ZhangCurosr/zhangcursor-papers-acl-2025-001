@@ -4,5 +4,34 @@
  "title": "BelarusianGLUE-Towards-a-Natural-Language-Understanding-Benc",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-11-04 20:56:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0bc42604-6c85-4eef-af27-82eec41dc18d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0bc42604-6c85-4eef-af27-82eec41dc18d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:30:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源语言",
+    "白俄罗斯语",
+    "NLU基准",
+    "Winograd模式挑战",
+    "多语言LLM评测",
+    "迁移学习"
+   ],
+   "field": "低资源语言自然语言理解",
+   "innovations": [
+    "首个白俄罗斯语NLU基准BelarusianGLUE，5个任务15K实例",
+    "BeWiC严格同音异义区分设计与BeRTE-WD二元蕴含定义",
+    "系统比较BERT微调与LLM零/少样本在低资源语言上的任务适应性差异"
+   ],
+   "benchmarks": [
+    "BelarusianGLUE",
+    "BeSLS",
+    "BelaCoLA",
+    "BeWiC",
+    "BeWSC",
+    "BeRTE-WD"
+   ]
+  }
+ }
 }

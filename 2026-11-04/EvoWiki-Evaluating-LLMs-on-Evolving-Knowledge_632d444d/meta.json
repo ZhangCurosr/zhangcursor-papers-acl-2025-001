@@ -4,5 +4,29 @@
  "title": "EvoWiki-Evaluating-LLMs-on-Evolving-Knowledge",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-11-04 21:25:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/38e49181-53ea-4728-a38b-952b218af1f5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/38e49181-53ea-4728-a38b-952b218af1f5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:32:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EvoWiki",
+    "Dynamic Benchmark",
+    "Evolving Knowledge",
+    "RAG",
+    "Continual Learning",
+    "LLM Evaluation"
+   ],
+   "field": "大型语言模型评估与基准测试",
+   "innovations": [
+    "提出三级知识演化状态分类框架（稳定/演化/未探索）以解耦内部记忆与外部动态知识",
+    "构建首个同时具备自动更新、多维属性（上下文、多跳、流行度）的动态评估基准",
+    "揭示检索增强（RAG）与持续学习（CL）在动态知识利用上的协同效应"
+   ],
+   "benchmarks": [
+    "EvoWiki"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "GigaSpeech-2-An-Evolving-Large-Scale-and-Multi-domain-ASR-Co",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-11-04 21:26:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c527a3d2-9e1c-4f4b-b0ee-4a6a15fb5a9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c527a3d2-9e1c-4f4b-b0ee-4a6a15fb5a9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:33:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动语音识别",
+    "低资源语言",
+    "伪标签",
+    "Noisy Student Training",
+    "多语种ASR",
+    "YouTube语料",
+    "标签精修"
+   ],
+   "field": "低资源语音识别",
+   "innovations": [
+    "提出完全无需人工标注的大规模多语种ASR语料自动构建流水线，结合Whisper转录、强制对齐与多维度过滤",
+    "设计改进的Noisy Student Training方法，以有缺陷的伪标签为初始监督信号迭代精修，消除对真实标注数据的依赖",
+    "以10%参数量（151.9M vs 1.54B）在YouTube真实口语场景超越Whisper large-v3及商业ASR服务"
+   ],
+   "benchmarks": [
+    "GigaSpeech 2 TEST",
+    "Common Voice 17.0 TEST",
+    "FLEURS TEST"
+   ]
+  }
+ }
 }

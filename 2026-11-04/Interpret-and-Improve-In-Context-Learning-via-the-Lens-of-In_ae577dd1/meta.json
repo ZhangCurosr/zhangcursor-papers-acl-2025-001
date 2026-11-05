@@ -4,5 +4,35 @@
  "title": "Interpret-and-Improve-In-Context-Learning-via-the-Lens-of-In",
  "token": "sk-bXaG87Ajl...",
  "created_at": "2026-11-04 21:10:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b678bd05-c355-4a24-bc88-c73e0b43d2e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b678bd05-c355-4a24-bc88-c73e0b43d2e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:36:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "In-Context Learning",
+    "Mechanistic Interpretability",
+    "PC Patching",
+    "Pinpoint SFT",
+    "Attention Heads",
+    "Input-Label Mapping"
+   ],
+   "field": "大语言模型可解释性与高效微调",
+   "innovations": [
+    "提出PC Patching方法，无需人工反事实文本即可定位ICL关键模块",
+    "发现输入-标签映射以主成分形式存储于中层网络，具有人类可解释语义",
+    "仅微调5%关键注意力头即可显著提升ICL性能并保持通用能力"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "ETHOS",
+    "QQP",
+    "SUBJ",
+    "RTE",
+    "MMLU",
+    "BIG-Bench List Functions"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Have-We-Designed-Generalizable-Structural-Knowledge-Promptin",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-11-04 21:23:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/47d585a5-5eb2-4a18-90e0-d4d7c6ff9886.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/47d585a5-5eb2-4a18-90e0-d4d7c6ff9886.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:33:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "结构化知识提示",
+    "SKP",
+    "知识图谱",
+    "大语言模型",
+    "泛化能力评估",
+    "SUBARU",
+    "知识增强"
+   ],
+   "field": "知识图谱与大语言模型融合",
+   "innovations": [
+    "提出SUBARU多粒度多难度基准系统性评估SKP泛化能力",
+    "发现MLP简单适配器在多数SKP任务上优于复杂架构",
+    "揭示SKP在粗粒度推理上有效但细粒度理解存在瓶颈"
+   ],
+   "benchmarks": [
+    "SUBARU",
+    "CoDeX",
+    "WikiData"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "How-Much-Do-Encoder-Models-Know-About-Word-Senses",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-11-04 21:07:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9bf55d1d-2dbb-41ee-88a3-686a90e8e182.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9bf55d1d-2dbb-41ee-88a3-686a90e8e182.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:34:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "词义消歧",
+    "探测定量分析",
+    "预训练语言模型",
+    "Transformer层位分析",
+    "DeBERTa-v3",
+    "centroid-based probing"
+   ],
+   "field": "词义表征与语义理解",
+   "innovations": [
+    "首次跨模型族逐层探测PLM在WSD任务上的内在语义表征能力，发现DeBERTa-v3中间层(第7-8层)显著优于输出层(~15 F1点)",
+    "揭示词义库例句同质性/多样性是导致ODE与SemCor性能差距的主因，排除粒度和频率因素",
+    "基于最优层位构建轻量WSD模型GlossDeBERTa-small，F1达79.5%且训练时间较基线缩短28%-70.6%"
+   ],
+   "benchmarks": [
+    "SemCor(WordNet)",
+    "ODE(Oxford Dictionary of English)",
+    "ALL(all-words WSD benchmark)"
+   ]
+  }
+ }
 }

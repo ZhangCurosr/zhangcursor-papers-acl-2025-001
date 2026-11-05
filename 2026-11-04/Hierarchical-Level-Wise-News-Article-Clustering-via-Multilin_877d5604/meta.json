@@ -4,5 +4,30 @@
  "title": "Hierarchical-Level-Wise-News-Article-Clustering-via-Multilin",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-11-04 21:27:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/15367e74-f92f-4c51-bdd2-e2ce84af8e31.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/15367e74-f92f-4c51-bdd2-e2ce84af8e31.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:34:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言文本嵌入",
+    "Matryoshka表示学习",
+    "层次聚类",
+    "新闻文章相似度",
+    "对比学习",
+    "Reciprocal Agglomerative Clustering"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "将Matryoshka嵌入维度与语义层次（主题/话题/故事）显式对齐，通过差异化AngIE损失阈值实现层次语义学习",
+    "提出Level-Wise RAC层次聚类算法，利用MRL嵌入的层次结构自动识别多级新闻主题而无需预设聚类数"
+   ],
+   "benchmarks": [
+    "SemEval 2022 Task 8",
+    "Miranda et al. (2018)多语言新闻聚类数据集",
+    "20 Newsgroups"
+   ]
+  }
+ }
 }

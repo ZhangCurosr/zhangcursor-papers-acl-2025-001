@@ -4,5 +4,33 @@
  "title": "Establishing-Trustworthy-LLM-Evaluation-via-Shortcut-Neuron",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-11-04 21:10:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/742a714e-c659-4dc7-9191-ee20b3dd8d87.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/742a714e-c659-4dc7-9191-ee20b3dd8d87.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:31:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数据污染",
+    "大语言模型评估",
+    "神经元机制",
+    "激活插值",
+    "可信评估",
+    "捷径神经元"
+   ],
+   "field": "大语言模型评估与可解释性",
+   "innovations": [
+    "首次从神经元层面揭示污染导致评分虚高的机制并提出捷径神经元概念",
+    "提出比较分析与因果分析相结合的两阶段捷径神经元识别方法",
+    "引入动态插值框架实现捷径神经元修补以达成可信评估"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "MAWPS",
+    "MixEval",
+    "OpenMathInstruct-2"
+   ]
+  }
+ }
 }

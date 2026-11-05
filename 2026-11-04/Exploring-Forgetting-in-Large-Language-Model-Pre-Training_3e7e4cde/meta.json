@@ -4,5 +4,31 @@
  "title": "Exploring-Forgetting-in-Large-Language-Model-Pre-Training",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-11-04 21:08:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5072605c-788a-4bc2-82a1-c29af1a335a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5072605c-788a-4bc2-82a1-c29af1a335a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:32:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "灾难性遗忘",
+    "预训练",
+    "大语言模型",
+    "记忆重放",
+    "评估指标",
+    "持续学习"
+   ],
+   "field": "大语言模型训练与记忆机制",
+   "innovations": [
+    "首次系统提出预训练阶段的实体遗忘评估体系",
+    "发现 PPL/M(f) 指标的局限性并提出 $M_{in}/M_{ex}$",
+    "将人类遗忘曲线理论引入 LLM 重放策略设计"
+   ],
+   "benchmarks": [
+    "Hellaswag",
+    "MMLU",
+    "Winograd"
+   ]
+  }
+ }
 }

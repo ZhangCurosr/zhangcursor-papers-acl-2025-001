@@ -4,5 +4,34 @@
  "title": "Beyond-Demographics-Fine-tuning-Large-Language-Models-to-Pre",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-11-04 21:26:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/46edd0ce-1c49-48dd-b72b-da0e3c5dabd9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/46edd0ce-1c49-48dd-b72b-da0e3c5dabd9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 07:30:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型微调",
+    "标注者建模",
+    "社会人口学提示",
+    "主观NLP",
+    "个体偏好模拟",
+    "生态谬误"
+   ],
+   "field": "大语言模型与主观NLP",
+   "innovations": [
+    "系统揭示微调后LLM利用人口统计学信息实为代理特定标注者身份，而非学习可泛化的人口统计学规律",
+    "提出Unique/Frequent属性组合分析方法以诊断模型学习机制",
+    "证明在捕捉标注者意见分歧方面，个体ID比人口统计学属性更有效"
+   ],
+   "benchmarks": [
+    "DEMO数据集",
+    "Intimacy/MINT",
+    "Offensiveness/POPQUORN",
+    "Politeness/POPQUORN",
+    "Safety/DICES-350",
+    "Sentiment/Díaz2018"
+   ]
+  }
+ }
 }
