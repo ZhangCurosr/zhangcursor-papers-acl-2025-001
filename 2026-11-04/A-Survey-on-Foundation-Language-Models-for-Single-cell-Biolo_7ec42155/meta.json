@@ -4,5 +4,33 @@
  "title": "A-Survey-on-Foundation-Language-Models-for-Single-cell-Biolo",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-11-04 20:57:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4b86e850-4adc-41a0-95ce-a442df334c8c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4b86e850-4adc-41a0-95ce-a442df334c8c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:39:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单细胞基础模型",
+    "语言模型",
+    "预训练语言模型",
+    "大语言模型",
+    "单细胞转录组",
+    "数据分词",
+    "掩码语言建模"
+   ],
+   "field": "单细胞基础语言模型综述",
+   "innovations": [
+    "首次从语言建模视角系统综述单细胞基础模型，提出 PLMs 与 LLMs 分类框架",
+    "提炼数据分词、预训练范式、下游任务三大技术主线",
+    "系统诊断数据质量、模型设计、评估协议三方面挑战并提出未来方向"
+   ],
+   "benchmarks": [
+    "Cell type annotation",
+    "Gene network analysis",
+    "Drug sensitivity prediction",
+    "Spatial transcriptomics tasks"
+   ]
+  }
+ }
 }

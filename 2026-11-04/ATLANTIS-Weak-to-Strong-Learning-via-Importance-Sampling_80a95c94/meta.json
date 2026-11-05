@@ -4,5 +4,34 @@
  "title": "ATLANTIS-Weak-to-Strong-Learning-via-Importance-Sampling",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-11-04 20:56:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d8c2b998-7b15-47e8-93b7-9ad570da45ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d8c2b998-7b15-47e8-93b7-9ad570da45ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:39:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "监督微调",
+    "重要性采样",
+    "弱到强学习",
+    "数据分布偏差",
+    "影响权重",
+    "知识理解",
+    "人类偏好"
+   ],
+   "field": "大语言模型微调与对齐",
+   "innovations": [
+    "首次将重要性采样引入SFT以bridging训练数据分布与最优分布的差距",
+    "利用小模型与参考模型的概率差估计采样比率，提出影响权重机制",
+    "证明influence weights可在不同模型结构间迁移，具备跨架构适应性"
+   ],
+   "benchmarks": [
+    "Open LLM Leaderboard 2",
+    "TruthfulQA",
+    "MT-Bench",
+    "AlpacaEval",
+    "Arena-Hard-Auto"
+   ]
+  }
+ }
 }

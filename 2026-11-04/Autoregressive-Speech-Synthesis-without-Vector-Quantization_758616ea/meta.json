@@ -4,5 +4,30 @@
  "title": "Autoregressive-Speech-Synthesis-without-Vector-Quantization",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-11-04 21:26:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/04cd45b9-dad4-4f5b-b92d-1088382a3ae9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/04cd45b9-dad4-4f5b-b92d-1088382a3ae9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:41:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本语音合成",
+    "自回归语言建模",
+    "连续表示",
+    "变分推断",
+    "无向量量化",
+    "单阶段TTS"
+   ],
+   "field": "语音合成与语音语言建模",
+   "innovations": [
+    "提出无需向量量化的单阶段连续mel-spectrogram自回归TTS框架MELLE",
+    "设计基于变分推断的潜在采样模块以增强输出多样性与鲁棒性",
+    "引入谱流损失正则化抑制重复帧并提升时序动态性"
+   ],
+   "benchmarks": [
+    "LibriSpeech test-clean Continuation",
+    "LibriSpeech test-clean Cross-sentence"
+   ]
+  }
+ }
 }

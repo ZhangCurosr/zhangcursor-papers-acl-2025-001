@@ -4,5 +4,10 @@
  "title": "Delving-into-Multilingual-Ethical-Bias-The-MSQAD-with-Statis",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-11-04 21:14:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/caf9c16f-089d-4024-9291-707242d958c1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/caf9c16f-089d-4024-9291-707242d958c1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:43:27",
+  "chunks": 1
+ }
 }

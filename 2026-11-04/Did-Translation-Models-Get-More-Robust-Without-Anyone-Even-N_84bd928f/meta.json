@@ -4,5 +4,31 @@
  "title": "Did-Translation-Models-Get-More-Robust-Without-Anyone-Even-N",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-11-04 21:27:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/37fe7511-62d9-4d57-aa69-68a86f476b1a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/37fe7511-62d9-4d57-aa69-68a86f476b1a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:43:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译鲁棒性",
+    "大语言模型翻译",
+    "合成噪声",
+    "源文本校正",
+    "无参考评估",
+    "MultiLexNorm"
+   ],
+   "field": "机器翻译鲁棒性与评估",
+   "innovations": [
+    "提出COMET-slope量化多语言MT模型对字符噪声的鲁棒性",
+    "证明训练数据比模型规模/架构是鲁棒性主因",
+    "首次将MultiLexNorm用于无参考多语言MT评测"
+   ],
+   "benchmarks": [
+    "FLORES-200",
+    "MTNT",
+    "MultiLexNorm"
+   ]
+  }
+ }
 }

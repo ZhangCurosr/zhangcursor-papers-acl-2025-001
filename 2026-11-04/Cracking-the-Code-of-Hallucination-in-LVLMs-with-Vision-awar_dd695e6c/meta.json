@@ -4,5 +4,33 @@
  "title": "Cracking-the-Code-of-Hallucination-in-LVLMs-with-Vision-awar",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-11-04 21:22:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3ea21c7b-92f0-422e-a95d-c95a390eee87.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3ea21c7b-92f0-422e-a95d-c95a390eee87.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:42:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LVLM",
+    "幻觉",
+    "多头注意力",
+    "VHD",
+    "VHR",
+    "免训练干预",
+    "语言偏差",
+    "对比解码"
+   ],
+   "field": "多模态大模型幻觉缓解",
+   "innovations": [
+    "提出VHD度量量化注意力头对视觉上下文的敏感性，揭示语言偏差与幻觉的关联",
+    "提出VHR免训练方法，通过放大视觉敏感注意力头输出减轻幻觉，理论证明输出方向重定向",
+    "T-VHD指标在token级别量化视觉依赖，为幻觉诊断提供可解释归因工具"
+   ],
+   "benchmarks": [
+    "CHAIR",
+    "POPE",
+    "LLaVA-Bench"
+   ]
+  }
+ }
 }

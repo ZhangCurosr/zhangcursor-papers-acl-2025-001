@@ -4,5 +4,31 @@
  "title": "Behind-Closed-Words-Creating-and-Investigating-the-forePLay",
  "token": "sk-Gq5lt3OzO...",
  "created_at": "2026-11-04 21:05:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e7cd703a-7c98-4096-a264-7056bc1e907c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e7cd703a-7c98-4096-a264-7056bc1e907c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:41:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "情色内容检测",
+    "多语言 NLP",
+    "内容审查",
+    "波兰语",
+    "标注数据集",
+    "human label variation",
+    "content moderation"
+   ],
+   "field": "多语言内容安全与审查",
+   "innovations": [
+    "首个波兰语情色内容多维标注数据集 forePLay（24,768 句，五维分类）",
+    "系统性对比专用波兰语模型与多语言 LLM 在情色检测上的性能差异",
+    "揭示 encoder 模型在不平衡多分类场景下优于 LLM 的发现，并提出 LeWiDi 框架的应用方向"
+   ],
+   "benchmarks": [
+    "forePLay (Basic/Core/Extended/Full)",
+    "KLEJ Benchmark (模型选型参考)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "ELABORATION-A-Comprehensive-Benchmark-on-Human-LLM-Competiti",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-11-04 21:08:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2726f1c7-48a0-4461-8121-a32eea4c5c4d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2726f1c7-48a0-4461-8121-a32eea4c5c4d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:45:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人机协作",
+    "竞技编程",
+    "大语言模型",
+    "评测基准",
+    "代码生成",
+    "人工反馈",
+    "Bug调试"
+   ],
+   "field": "代码生成与人类反馈",
+   "innovations": [
+    "提出首个覆盖编程全四阶段的人工反馈分类体系（理解→规划→生成→调试）",
+    "构建ELABORATIONSET数据集（8,320道标注题目）与ELABORATION基准，支持LLM模拟器+真人双轨评估",
+    "揭示人机能力互补性：人类擅长语义错误识别，LLM擅长语法修复，组合后Pass@1提升24%"
+   ],
+   "benchmarks": [
+    "ELABORATION",
+    "ELABORATIONSET"
+   ]
+  }
+ }
 }

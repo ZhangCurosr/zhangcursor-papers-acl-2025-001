@@ -4,5 +4,34 @@
  "title": "APPL-A-Prompt-Programming-Language-for-Harmonious-Integratio",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-11-04 20:56:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5ee2fda2-a728-4d8b-a085-3776c146b232.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5ee2fda2-a728-4d8b-a085-3776c146b232.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:39:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt programming language",
+    "LLM integration",
+    "asynchronous parallelization",
+    "tool calling",
+    "prompt context management",
+    "chain-of-thought",
+    "ReAct agent"
+   ],
+   "field": "LLM 应用系统与编程范���",
+   "innovations": [
+    "Python-native 异步并行运行时与 StringFuture 延迟同步机制",
+    "四种上下文传递模式（new/copy/same/resume）支持灵活的多函数 prompt 管理",
+    "自动工具规范生成（as_tool）与 Tracing 失败恢复"
+   ],
+   "benchmarks": [
+    "CoT-SC",
+    "Skeleton-of-Thought",
+    "MemWalker",
+    "Tree-of-Thoughts",
+    "ReAct Tool Use"
+   ]
+  }
+ }
 }

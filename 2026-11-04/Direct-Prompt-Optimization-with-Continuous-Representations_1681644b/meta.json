@@ -4,5 +4,35 @@
  "title": "Direct-Prompt-Optimization-with-Continuous-Representations",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-11-04 21:00:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/03832546-5e1c-47d8-ae70-647052436909.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/03832546-5e1c-47d8-ae70-647052436909.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:44:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Prompt Optimization",
+    "Gradient-based Attack",
+    "Gumbel-Max",
+    "Continuous Representation",
+    "White-box Prompt Tuning",
+    "LLM Alignment"
+   ],
+   "field": "大语言模型提示优化与对抗攻击",
+   "innovations": [
+    "提出SGCG框架，将连续梯度优化与贪婪接受结合，直接优化单个提示样本",
+    "使用Straight-Through恒等函数作为代理梯度，替代传统Softmax以提升离散优化稳定性",
+    "引入滑动窗口机制聚合历史梯度信息，兼顾内存效率与防止优化发散"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "IMDB",
+    "Amazon",
+    "Yelp",
+    "DBPedia",
+    "AGNews",
+    "Vicuna/LLaMA-2 Text Attack"
+   ]
+  }
+ }
 }

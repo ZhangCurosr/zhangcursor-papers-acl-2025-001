@@ -4,5 +4,35 @@
  "title": "Contrastive-Perplexity-for-Controlled-Generation-An-Applicat",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-11-04 20:58:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/046fc6c5-8efa-41e8-a78b-f2aad9daf2ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/046fc6c5-8efa-41e8-a78b-f2aad9daf2ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:42:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "contrastive learning",
+    "language model detoxification",
+    "controlled generation",
+    "perplexity optimization",
+    "hard negatives",
+    "preference optimization"
+   ],
+   "field": "LLM安全与对齐",
+   "innovations": [
+    "原型对比困惑度框架实现属性细粒度控制",
+    "LLM对抗性改写自动生成硬负样本对",
+    "白盒/黑盒双模式兼容的低成本对齐方法"
+   ],
+   "benchmarks": [
+    "SafeNLP",
+    "ToxiGen",
+    "SciQ",
+    "PIQA",
+    "GSM8K",
+    "HellaSwag",
+    "TriviaQA"
+   ]
+  }
+ }
 }

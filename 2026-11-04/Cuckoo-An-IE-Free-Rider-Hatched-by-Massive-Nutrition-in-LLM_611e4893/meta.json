@@ -4,5 +4,36 @@
  "title": "Cuckoo-An-IE-Free-Rider-Hatched-by-Massive-Nutrition-in-LLM",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-11-04 20:59:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3b833a15-cbcf-4f5e-9925-a9544e19657f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3b833a15-cbcf-4f5e-9925-a9544e19657f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:42:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "信息抽取",
+    "预训练",
+    "大语言模型",
+    "搭便车",
+    "NTE范式",
+    "序列标注",
+    "指令微调"
+   ],
+   "field": "信息抽取预训练",
+   "innovations": [
+    "提出NTE范式，将LLM的NTP数据转化为IE的BIO标注数据",
+    "构建Cuckoo模型，实现IE模型对LLM训练资源的零成本利用",
+    "证明小参数NTE模型在few-shot和指令跟随IE上优于大型生成式LLM"
+   ],
+   "benchmarks": [
+    "CoNLL03",
+    "SQuAD",
+    "TuluV3",
+    "C4",
+    "NuNER",
+    "MetaIE",
+    "MRQA"
+   ]
+  }
+ }
 }

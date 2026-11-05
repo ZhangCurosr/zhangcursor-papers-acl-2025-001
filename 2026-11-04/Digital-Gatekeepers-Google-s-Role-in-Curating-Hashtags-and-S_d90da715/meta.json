@@ -4,5 +4,31 @@
  "title": "Digital-Gatekeepers-Google-s-Role-in-Curating-Hashtags-and-S",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-11-04 21:00:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b8f9f80f-f9e8-480b-bcb6-104379528255.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b8f9f80f-f9e8-480b-bcb6-104379528255.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:43:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Search Engine Manipulation",
+    "Social Media Data Collection",
+    "Algorithmic Curation",
+    "Rank Turbulence Divergence",
+    "Post-API Era",
+    "Content Moderation Bias"
+   ],
+   "field": "计算社会科学与搜索系统公平性",
+   "innovations": [
+    "在社区/话题粒度量化Google SERP对Reddit subreddit与Twitter hashtag的系统性抑制与推广偏差",
+    "将RTD引入SERP社会数据代表性评估并提出可复现的分层采样+多代理查询审计框架",
+    "结合毒性分析、主题分类与语义嵌入聚类三重视角揭示被过滤内容的共同属性"
+   ],
+   "benchmarks": [
+    "Pushshift Reddit (2023-01)",
+    "Twitter/X Academic API Full 24h Snapshot (2022-09-20~21)",
+    "SERP-API with Multi-Proxy Sampling"
+   ]
+  }
+ }
 }

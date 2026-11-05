@@ -4,5 +4,31 @@
  "title": "Aligning-AI-Research-with-the-Needs-of-Clinical-Coding-Workf",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-11-04 21:15:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bc889a0e-4bb8-4c66-8675-fc2f5fb58bf1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bc889a0e-4bb8-4c66-8675-fc2f5fb58bf1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:40:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "clinical coding",
+    "multi-label classification",
+    "MIMIC dataset",
+    "healthcare NLP",
+    "evaluation metrics",
+    "human-AI collaboration"
+   ],
+   "field": "临床自然语言处理",
+   "innovations": [
+    "系统分析自动临床编码评估方法与实际工作流的脱节问题",
+    "提出八大评估改进建议及辅助编码新方法",
+    "揭示SOTA模型与人类编码准确率的巨大差距"
+   ],
+   "benchmarks": [
+    "MIMIC-III",
+    "MIMIC-IV ICD-9",
+    "MIMIC-IV ICD-10"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "AfriMed-QA-A-Pan-African-Multi-Specialty-Medical-Question-An",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-11-04 21:28:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0a636ac8-d4e4-4843-963c-20beb5fc9788.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0a636ac8-d4e4-4843-963c-20beb5fc9788.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:40:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical LLM benchmark",
+    "African healthcare",
+    "question-answering dataset",
+    "health equity",
+    "LLM evaluation"
+   ],
+   "field": "医疗大语言模型评测",
+   "innovations": [
+    "首个大规模泛非多专科医学QA数据集(15,275题/16国/32专科)",
+    "揭示通用大模型在非洲医学场景优于生物医学微调模型",
+    "引入消费者偏好与临床正确性双维度的盲评评估框架"
+   ],
+   "benchmarks": [
+    "MedQA",
+    "MedMCQA",
+    "CMExam",
+    "PubMedQA",
+    "BioASQ"
+   ]
+  }
+ }
 }

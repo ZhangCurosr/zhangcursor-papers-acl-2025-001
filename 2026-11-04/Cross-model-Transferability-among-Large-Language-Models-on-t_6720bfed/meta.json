@@ -4,5 +4,32 @@
  "title": "Cross-model-Transferability-among-Large-Language-Models-on-t",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-11-04 21:09:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/71a10059-2d76-4097-a01c-251a987a18ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/71a10059-2d76-4097-a01c-251a987a18ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:42:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "steering vectors",
+    "cross-model transferability",
+    "representation engineering",
+    "linear transformation",
+    "LLM interpretability",
+    "weak-to-strong transfer",
+    "Platonic representations"
+   ],
+   "field": "大语言模型可解释性与表示工程",
+   "innovations": [
+    "提出L-Cross Modulation线性变换方法实现跨模型SV迁移",
+    "发现不同概念共享同一线性变换矩阵的泛化现象",
+    "揭示小模型SV可有效调控大模型行为的弱到强迁移能力"
+   ],
+   "benchmarks": [
+    "CAA数据集",
+    "RepE数据集",
+    "HarmBench"
+   ]
+  }
+ }
 }

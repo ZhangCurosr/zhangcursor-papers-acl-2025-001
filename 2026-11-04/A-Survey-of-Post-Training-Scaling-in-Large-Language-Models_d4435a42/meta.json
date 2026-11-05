@@ -4,5 +4,35 @@
  "title": "A-Survey-of-Post-Training-Scaling-in-Large-Language-Models",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-11-04 21:05:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6d4fe625-be37-451f-b4b9-2d423a85a501.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6d4fe625-be37-451f-b4b9-2d423a85a501.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:39:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "后训练缩放",
+    "监督微调",
+    "强化学习对齐",
+    "测试时计算",
+    "大语言模型",
+    "RLHF",
+    "Chain-of-Thought"
+   ],
+   "field": "大语言模型后训练与对齐",
+   "innovations": [
+    "首次系统构建SFT/RLxF/TTC三维后训练缩放分类框架",
+    "揭示测试时计算缩放优于参数缩放的可扩展路径",
+    "提出合成数据/自我反馈/环境交互三类可扩展RL信号统一分析"
+   ],
+   "benchmarks": [
+    "RewardBench",
+    "MATH",
+    "HumanEval",
+    "AITW",
+    "WebArena",
+    "GSM8K"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Aristotle-Mastering-Logical-Reasoning-with-A-Logic-Complete",
  "token": "sk-KgtqP1w4p...",
  "created_at": "2026-11-04 21:03:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7bb800d4-9c2f-4fb6-9316-3d3aa145a4e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7bb800d4-9c2f-4fb6-9316-3d3aa145a4e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:40:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "logical reasoning",
+    "large language models",
+    "symbolic reasoning",
+    "chain-of-thought",
+    "resolution principle",
+    "proof by contradiction",
+    "decompose-search-resolve"
+   ],
+   "field": "逻辑推理与大模型",
+   "innovations": [
+    "首个将符号逻辑全面集成到分解-搜索-求解全流程的逻辑完备推理框架",
+    "基于反证法与互补子句匹配的形式化搜索路由器替代不可靠LLM自评估",
+    "应用归结原理的解析器实现近完美单步逻辑推理准确率"
+   ],
+   "benchmarks": [
+    "ProntoQA",
+    "ProofWriter",
+    "LogicNLI",
+    "FOLIO",
+    "LogiQA"
+   ]
+  }
+ }
 }

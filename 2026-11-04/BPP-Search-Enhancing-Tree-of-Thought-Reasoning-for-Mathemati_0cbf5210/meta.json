@@ -4,5 +4,30 @@
  "title": "BPP-Search-Enhancing-Tree-of-Thought-Reasoning-for-Mathemati",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-11-04 21:20:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7102ef81-94e9-42ca-93d8-5c8385493435.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7102ef81-94e9-42ca-93d8-5c8385493435.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:40:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tree of Thought",
+    "Process Reward Model",
+    "Mathematical Modeling",
+    "Operations Research",
+    "Beam Search",
+    "Preference Model"
+   ],
+   "field": "大语言模型推理与运筹优化",
+   "innovations": [
+    "提出BPP-Search算法，将PRM与成对偏好模型结合用于树搜索",
+    "发布包含完整建模过程标注的StructuredOR数据集"
+   ],
+   "benchmarks": [
+    "StructuredOR",
+    "NL4OPT",
+    "Mamo-ComplexLP"
+   ]
+  }
+ }
 }

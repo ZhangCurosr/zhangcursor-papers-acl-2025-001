@@ -4,5 +4,31 @@
  "title": "Battling-against-Tough-Resister-Strategy-Planning-with-Adver",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-11-04 21:09:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/41e21ee0-b289-4d15-9c9d-2320a3f00a62.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/41e21ee0-b289-4d15-9c9d-2320a3f00a62.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:41:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "non-collaborative dialogue",
+    "strategy planning",
+    "adversarial game",
+    "reinforcement learning",
+    "Nash equilibrium",
+    "Chain-of-Mind"
+   ],
+   "field": "非协作对话策略规划",
+   "innovations": [
+    "构建说服者与多样化抵抗者的零和博弈并通过对抗自我Play训练逼近ϵ-NE",
+    "设计Chain-of-Mind提示逐步推理抵抗者心理状态以增强策略感知",
+    "证明多样化抵抗者训练可提升说服者最优下界"
+   ],
+   "benchmarks": [
+    "Craigslist-Bargain",
+    "DIALOCONAN",
+    "Charity Persuasion"
+   ]
+  }
+ }
 }

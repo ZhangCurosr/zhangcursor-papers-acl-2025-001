@@ -4,5 +4,32 @@
  "title": "Addressing-Blind-Guessing-Calibration-of-Selection-Bias-in-M",
  "token": "sk-P8BsCmEP8...",
  "created_at": "2026-11-04 21:07:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9b73960d-ee77-40fe-a1f8-08535fdb9942.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9b73960d-ee77-40fe-a1f8-08535fdb9942.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:39:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "selection bias",
+    "video language models",
+    "multiple-choice question answering",
+    "bias calibration",
+    "post-processing debiasing",
+    "VLM evaluation"
+   ],
+   "field": "多模态模型公平性与鲁棒性",
+   "innovations": [
+    "首次系统分析VLM在MCQA中的选择偏差并提出分解式后处理校准方法BOLD",
+    "将公平性偏差指标适配到视频MCQA并引入JS_std/F1_std/Recall_std多维评估",
+    "Weighted_BOLD通过COBYLA优化器在五折CV中学习各分解维度的自适应权重"
+   ],
+   "benchmarks": [
+    "NExT-QA",
+    "STAR",
+    "Perception Test",
+    "Video-MME"
+   ]
+  }
+ }
 }

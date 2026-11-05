@@ -4,5 +4,30 @@
  "title": "Con-Instruction-Universal-Jailbreaking-of-Multimodal-Large-L",
  "token": "sk-g1W7S8UIF...",
  "created_at": "2026-11-04 21:18:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/755b7924-2568-4fd6-98eb-4a3f75223dc9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/755b7924-2568-4fd6-98eb-4a3f75223dc9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:41:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal large language models",
+    "jailbreaking attack",
+    "adversarial example",
+    "gray-box attack",
+    "non-textual modality",
+    "Attack Response Categorization"
+   ],
+   "field": "多模态大模型安全与越狱攻击",
+   "innovations": [
+    "提出 Con Instruction，通过非文本模态嵌入对齐实现通用越狱攻击，无需训练数据且支持音频模态",
+    "引入 ARC 评估框架与 LLM 裁判，综合考量响应相关性与质量，提升自动评估可靠性",
+    "揭示多模态安全对齐的模态偏差，证明较大模型对非文本指令注入更脆弱"
+   ],
+   "benchmarks": [
+    "AdvBench",
+    "SafeBench"
+   ]
+  }
+ }
 }

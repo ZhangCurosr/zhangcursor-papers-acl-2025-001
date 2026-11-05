@@ -4,5 +4,30 @@
  "title": "Algorithmic-Fidelity-of-Large-Language-Models-in-Generating",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-11-04 21:17:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0c0c50b2-901e-4ab2-8b95-9009251cbea0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0c0c50b2-901e-4ab2-8b95-9009251cbea0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:39:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "算法保真度",
+    "LLM合成数据",
+    "德国公众意见",
+    "开放题评估",
+    " persona prompt",
+    "Jensen-Shannon距离"
+   ],
+   "field": "LLM与社会计算交叉评估",
+   "innovations": [
+    "首次系统评估德语开放题场景下LLM算法保真度",
+    "提出跨波次动态保真度追踪框架并发现多样性-保真度负相关",
+    "量化政党变量对提示性能的边际贡献及WEIRD偏见"
+   ],
+   "benchmarks": [
+    "GLES Panel 12-21波",
+    "16类主题编码体系"
+   ]
+  }
+ }
 }

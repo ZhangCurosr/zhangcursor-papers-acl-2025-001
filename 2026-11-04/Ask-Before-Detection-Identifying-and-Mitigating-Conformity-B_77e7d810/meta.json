@@ -4,5 +4,29 @@
  "title": "Ask-Before-Detection-Identifying-and-Mitigating-Conformity-B",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-11-04 21:17:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c9a3734a-2cb8-4b77-b764-297041232108.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c9a3734a-2cb8-4b77-b764-297041232108.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:40:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "从众偏差",
+    "自动错误检测",
+    "数学应用题",
+    "参考解生成",
+    "LLM评估",
+    "GSM8K"
+   ],
+   "field": "教育AI / 数学推理评估",
+   "innovations": [
+    "首次系统识别LLM在MWP错误检测中的从众偏差现象",
+    "提出AskBD框架通过自适应参考解生成缓解偏差",
+    "建立解法置信度与检测性能的因果关联并提供量化诊断工具"
+   ],
+   "benchmarks": [
+    "GSM8K"
+   ]
+  }
+ }
 }
