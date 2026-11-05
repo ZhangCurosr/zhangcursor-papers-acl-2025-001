@@ -4,5 +4,29 @@
  "title": "MPVStance-Mitigating-Hallucinations-in-Stance-Detection-with",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-11-04 20:57:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9063f5f1-baa4-4b8e-ab45-efbdb77f1026.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9063f5f1-baa4-4b8e-ab45-efbdb77f1026.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:03:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Stance Detection",
+    "Hallucination Mitigation",
+    "Multi-Perspective Verification",
+    "RAG",
+    "Large Language Models"
+   ],
+   "field": "自然语言处理-姿态检测",
+   "innovations": [
+    "首个针对姿态检测幻觉的多视角验证框架",
+    "RAG增强的五步验证流程系统性降低幻觉",
+    "交叉检查与修订机制提升推理一致性"
+   ],
+   "benchmarks": [
+    "SemEval-2016",
+    "VAST"
+   ]
+  }
+ }
 }

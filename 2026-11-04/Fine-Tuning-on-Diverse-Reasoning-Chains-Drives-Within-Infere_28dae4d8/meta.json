@@ -4,5 +4,37 @@
  "title": "Fine-Tuning-on-Diverse-Reasoning-Chains-Drives-Within-Infere",
  "token": "sk-xC0qospQN...",
  "created_at": "2026-11-04 21:09:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2eea60f1-9ec3-4838-a49c-0615ab406b66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2eea60f1-9ec3-4838-a49c-0615ab406b66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:02:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain of Thought",
+    "self-correction",
+    "instruction tuning",
+    "reasoning",
+    "LLM fine-tuning",
+    "diverse reasoning chains",
+    "within-inference refinement"
+   ],
+   "field": "大语言模型推理能力增强",
+   "innovations": [
+    "提出DCoT训练范式，在单次推理步骤中顺序生成多条CoT并实现自我修正",
+    "首次实证无外部反馈的within-inference自我修正可带来稳定性能增益",
+    "仅通过重新组织训练数据格式（独立CoT对→串联多CoT序列）即可显著提升小到大模型推理性能"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "HotpotQA",
+    "ConditionalQA",
+    "ARC",
+    "Big Bench Hard",
+    "CSQA",
+    "AQuA",
+    "SVAMP"
+   ]
+  }
+ }
 }

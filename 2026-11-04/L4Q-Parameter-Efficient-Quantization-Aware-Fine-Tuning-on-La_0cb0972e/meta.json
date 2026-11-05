@@ -4,5 +4,30 @@
  "title": "L4Q-Parameter-Efficient-Quantization-Aware-Fine-Tuning-on-La",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-11-04 21:20:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2572f5e5-e366-4f7e-a73f-8ddd3a8d7678.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2572f5e5-e366-4f7e-a73f-8ddd3a8d7678.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:02:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "量化感知训练",
+    "参数高效微调",
+    "LLM压缩",
+    "LoRA",
+    "低比特量化",
+    "全量化推理"
+   ],
+   "field": "大语言模型高效训练与压缩",
+   "innovations": [
+    "先合并权重与LoRA再统一量化的全量化线性层设计，输出纯低比特模型",
+    "内存优化反向传播：权重梯度本地计算并即时flush，消除QAT显存瓶颈",
+    "联合优化QAT与LoRA参数，量化误差通过STE门控梯度直接反馈至LoRA更新"
+   ],
+   "benchmarks": [
+    "CSQA",
+    "MMLU 0-shot/5-shot"
+   ]
+  }
+ }
 }

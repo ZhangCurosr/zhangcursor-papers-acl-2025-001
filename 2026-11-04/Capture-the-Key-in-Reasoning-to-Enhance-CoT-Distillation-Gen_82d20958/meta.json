@@ -4,5 +4,34 @@
  "title": "Capture-the-Key-in-Reasoning-to-Enhance-CoT-Distillation-Gen",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-11-04 20:56:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/177505a2-378d-4afd-a808-c4a29e636319.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/177505a2-378d-4afd-a808-c4a29e636319.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:01:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CoT蒸馏",
+    "关键推理步骤",
+    "小语言模型",
+    "双CoT",
+    "错误学习",
+    "token级优化",
+    "泛化能力"
+   ],
+   "field": "大模型推理蒸馏",
+   "innovations": [
+    "提出双CoT生成机制（AHP/CCP提示）构造相似推理路径不同结论的对比样本",
+    "设计最小编辑距离定位关键推理步骤的细粒度token级加权损失",
+    "揭示逻辑错误比知识/计算错误对推理能力提升更有效"
+   ],
+   "benchmarks": [
+    "BBH",
+    "BB-sub",
+    "AGIEval",
+    "ARC-E",
+    "ARC-C"
+   ]
+  }
+ }
 }

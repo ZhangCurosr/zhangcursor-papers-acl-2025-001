@@ -4,5 +4,34 @@
  "title": "LANGSAMP-Language-Script-Aware-Multilingual-Pretraining",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-11-04 20:53:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9f69d9d4-fe00-49f6-a927-1de000d8b0d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9f69d9d4-fe00-49f6-a927-1de000d8b0d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:02:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言预训练",
+    "语言嵌入",
+    "跨语言迁移",
+    "语言中立性",
+    "零样本迁移",
+    "MLM"
+   ],
+   "field": "多语言表示学习",
+   "innovations": [
+    "将语言+文字嵌入注入Transformer输出端以解耦语言特异性信息，提升表征中立性",
+    "证明预训练辅助嵌入可用作跨语言源语言选择的副产品",
+    "在500+语言规模上验证后嵌入式设计对零样本跨语言迁移的稳定提升"
+   ],
+   "benchmarks": [
+    "Bible Sentence Retrieval",
+    "Tatoeba Sentence Retrieval",
+    "Taxi1500",
+    "SIB-200",
+    "WikiANN NER",
+    "Universal Dependencies POS"
+   ]
+  }
+ }
 }

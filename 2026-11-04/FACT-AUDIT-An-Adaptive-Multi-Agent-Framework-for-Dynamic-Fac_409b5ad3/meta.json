@@ -4,5 +4,33 @@
  "title": "FACT-AUDIT-An-Adaptive-Multi-Agent-Framework-for-Dynamic-Fac",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-11-04 21:12:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/93f063ed-2fe3-48cf-bc58-5c49231e2e35.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/93f063ed-2fe3-48cf-bc58-5c49231e2e35.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:01:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fact-checking",
+    "large language models",
+    "multi-agent framework",
+    "importance sampling",
+    "LLM evaluation",
+    "justification production",
+    "adaptive testing"
+   ],
+   "field": "大语言模型评估与可信性分析",
+   "innovations": [
+    "基于重要性采样的自适应多智能体事实核查评估框架",
+    "联合评估verdict prediction与justification production的动态审计机制",
+    "通过记忆池迭代探测持续挖掘模型事实推理局限的闭环设计"
+   ],
+   "benchmarks": [
+    "Pinocchio",
+    "LLMFake",
+    "FEVER",
+    "Feverous"
+   ]
+  }
+ }
 }

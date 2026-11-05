@@ -4,5 +4,29 @@
  "title": "LACA-Improving-Cross-lingual-Aspect-Based-Sentiment-Analysis",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-11-04 21:11:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1498e4f8-b63c-4705-99f2-c50c1cc80e0d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1498e4f8-b63c-4705-99f2-c50c1cc80e0d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:02:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-lingual ABSA",
+    "LLM data augmentation",
+    "pseudo-labeled data",
+    "aspect-based sentiment analysis",
+    "zero-shot transfer",
+    "multilingual NLP"
+   ],
+   "field": "跨语言自然语言处理",
+   "innovations": [
+    "提出LACA框架，利用LLM生成匹配预测标签的自然语句替代翻译数据增强",
+    "首次在跨语言ABS中验证微调LLM优于较小多语言模型的潜力",
+    "设计动态few-shot轮换与生成侧类别平衡策略提升生成质量"
+   ],
+   "benchmarks": [
+    "SemEval-2016 Task 5"
+   ]
+  }
+ }
 }

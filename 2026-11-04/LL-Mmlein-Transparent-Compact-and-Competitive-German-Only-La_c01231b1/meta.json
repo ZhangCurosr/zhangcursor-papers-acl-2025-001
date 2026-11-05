@@ -4,5 +4,34 @@
  "title": "LL-Mmlein-Transparent-Compact-and-Competitive-German-Only-La",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-11-04 20:57:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d12f5812-052d-42cc-a056-d88bc8cc8576.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d12f5812-052d-42cc-a056-d88bc8cc8576.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:02:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "德语语言模型",
+    "从头预训练",
+    "单语 LLM",
+    "分词器",
+    "SuperGLEBer",
+    "可复现训练"
+   ],
+   "field": "低资源/单语语言模型",
+   "innovations": [
+    "从零全透明训练纯德语 Decoder LLM 120M/1B 并开源完整数据与代码",
+    "提出 token-to-word ratio 过滤以去除低困惑度非文本噪声",
+    "揭示不同德语 NLP 任务在学习曲线上的异质性（部分任务 30% 数据后饱和）"
+   ],
+   "benchmarks": [
+    "SuperGLEBer",
+    "lm-evaluation-harness-de",
+    "ARC-Challenge-DE",
+    "MMLU-DE",
+    "HellaSwag-DE",
+    "TruthfulQA-DE"
+   ]
+  }
+ }
 }

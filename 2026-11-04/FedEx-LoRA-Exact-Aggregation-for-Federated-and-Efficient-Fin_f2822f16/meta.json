@@ -4,5 +4,33 @@
  "title": "FedEx-LoRA-Exact-Aggregation-for-Federated-and-Efficient-Fin",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-11-04 21:26:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3add6dac-d828-4acf-b04b-115bc8941974.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3add6dac-d828-4acf-b04b-115bc8941974.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:01:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "FedEx-LoRA",
+    "联邦学习",
+    "参数高效微调",
+    "LoRA",
+    "精确聚合",
+    "大语言模型"
+   ],
+   "field": "联邦参数高效微调",
+   "innovations": [
+    "通过向预训练权重添加残差误差项实现联邦LoRA的精确聚合",
+    "提出截断SVD最优低秩近似方案平衡通信效率与聚合精度",
+    "系统性量化联邦平均与理想LoRA更新的偏差并揭示变化规律"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "COMMONSENSE170K",
+    "GLUE",
+    "E2E NLG Challenge"
+   ]
+  }
+ }
 }

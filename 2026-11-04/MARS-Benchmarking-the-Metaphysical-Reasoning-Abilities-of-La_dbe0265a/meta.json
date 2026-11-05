@@ -4,5 +4,33 @@
  "title": "MARS-Benchmarking-the-Metaphysical-Reasoning-Abilities-of-La",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-11-04 20:56:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5eaa6688-79ad-4326-b9e8-8c035e852b5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5eaa6688-79ad-4326-b9e8-8c035e852b5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:03:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "形而上学推理",
+    "分布变化",
+    "大语言模型评测",
+    "多任务基准",
+    "概念化预训练",
+    "System II推理"
+   ],
+   "field": "语言模型推理能力评测",
+   "innovations": [
+    "将分布变化推理形式化为三阶段判别过程（事件判别→推论判别→转换推理）",
+    "发布首个涵盖355K样本的形而上学推理多任务基准MARS",
+    "揭示概念taxonomy预训练可显著提升LLM分布变化推理能力"
+   ],
+   "benchmarks": [
+    "MARS",
+    "TRAC",
+    "PlanBench",
+    "AbsATM",
+    "CANDLE"
+   ]
+  }
+ }
 }

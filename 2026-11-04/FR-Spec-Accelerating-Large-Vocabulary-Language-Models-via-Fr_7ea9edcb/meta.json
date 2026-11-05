@@ -4,5 +4,30 @@
  "title": "FR-Spec-Accelerating-Large-Vocabulary-Language-Models-via-Fr",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-11-04 21:10:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f56655b6-75b5-470b-8e23-cd2361f3d5ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f56655b6-75b5-470b-8e23-cd2361f3d5ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:01:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "投机采样",
+    "大词汇量",
+    "LLM加速",
+    "频率排序",
+    "LM Head优化"
+   ],
+   "field": "大语言模型推理加速",
+   "innovations": [
+    "通过词频长尾分布裁剪draft词汇空间，降低LM Head计算开销75%",
+    "提出FR-Spec即插即用框架，与EAGLE-2/Medusa兼容且无需重新训练",
+    "揭示投机采样中LM Head是主要瓶颈的系统性分析"
+   ],
+   "benchmarks": [
+    "Spec-Bench",
+    "HumanEval",
+    "GSM8K"
+   ]
+  }
+ }
 }

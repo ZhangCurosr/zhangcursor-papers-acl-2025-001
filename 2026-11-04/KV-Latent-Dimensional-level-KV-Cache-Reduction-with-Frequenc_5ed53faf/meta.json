@@ -4,5 +4,31 @@
  "title": "KV-Latent-Dimensional-level-KV-Cache-Reduction-with-Frequenc",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-11-04 20:56:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/339a5ef7-9030-4131-9693-b17eb6671904.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/339a5ef7-9030-4131-9693-b17eb6671904.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:02:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV Cache压缩",
+    "大语言模型推理优化",
+    "维度约简",
+    "Rotary Positional Embedding",
+    "模型效率"
+   ],
+   "field": "高效大语言模型推理",
+   "innovations": [
+    "提出KV-Latent范式直接降维K/V注意力头并通过两阶段训练恢复性能",
+    "设计频率感知RoPE解决低维场景位置编码稳定性问题",
+    "解耦Q/K与V/O维度揭示LLM对Key/Value压缩敏感度差异"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "OBQA",
+    "AI2ARC",
+    "Needle-in-a-Haystack"
+   ]
+  }
+ }
 }

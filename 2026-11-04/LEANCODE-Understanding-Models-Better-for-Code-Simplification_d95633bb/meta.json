@@ -4,5 +4,27 @@
  "title": "LEANCODE-Understanding-Models-Better-for-Code-Simplification",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-11-04 21:12:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/624ff954-992d-44d7-9622-54dec03b0518.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/624ff954-992d-44d7-9622-54dec03b0518.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:02:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码简化",
+    "注意力机制",
+    "预训练语言模型",
+    "代码搜索",
+    "代码摘要"
+   ],
+   "field": "代码理解与软件工程AI",
+   "innovations": [
+    "提出context-aware类别局部注意力平均替代全局平均，降低token重要性评估方差",
+    "首次系统区分并验证CLS注意力和Encoder-Decoder注意力分别适用于分类和序列生成任务的token重要性评估"
+   ],
+   "benchmarks": [
+    "CodeSearchNet"
+   ]
+  }
+ }
 }

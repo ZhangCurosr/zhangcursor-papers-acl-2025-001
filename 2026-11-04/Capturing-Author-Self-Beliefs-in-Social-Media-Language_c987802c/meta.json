@@ -4,5 +4,32 @@
  "title": "Capturing-Author-Self-Beliefs-in-Social-Media-Language",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-11-04 21:24:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2f3e892d-6672-422a-a771-b88d74e9cba1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2f3e892d-6672-422a-a771-b88d74e9cba1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:01:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自我信念识别",
+    "社交媒体语言分析",
+    "课程学习微调",
+    "心理健康预测",
+    "编码器分类器",
+    "计算心理学",
+    "主题建模"
+   ],
+   "field": "计算社会科学与心理健康",
+   "innovations": [
+    "首个人工标注的自我信念三分类数据集（显式/隐式/非）",
+    "SelfAwareNet：基于课程学习的 RoBERTa-Large 分类器，AUC 0.944 超越 GPT-4o",
+    "首次从语言数据中数据驱动地提取自我信念的 50 个主题类别并验证与心理健康关联"
+   ],
+   "benchmarks": [
+    "Twitter/X 社交媒体语料",
+    "Reddit AskReddit 数据",
+    "DS4UD 纵向心理健康数据集"
+   ]
+  }
+ }
 }

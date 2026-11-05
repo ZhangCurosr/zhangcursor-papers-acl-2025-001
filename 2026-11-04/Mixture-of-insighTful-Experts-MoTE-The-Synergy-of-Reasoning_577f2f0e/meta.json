@@ -4,5 +4,31 @@
  "title": "Mixture-of-insighTful-Experts-MoTE-The-Synergy-of-Reasoning",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-11-04 21:21:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3b8aa6b5-397f-45e1-80ce-3f7d51363180.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3b8aa6b5-397f-45e1-80ce-3f7d51363180.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:03:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM alignment",
+    "mixture of experts",
+    "reasoning chain",
+    "self-alignment",
+    "safety",
+    "LoRA"
+   ],
+   "field": "大语言模型安全对齐",
+   "innovations": [
+    "四步结构化推理链与步级路由 MoE 架构融合",
+    "共享专家与步跳过机制兼顾安全与效率",
+    "小模型实现与 o1 相当的安全对齐性能"
+   ],
+   "benchmarks": [
+    "HH-RLHF",
+    "StrongReject",
+    "XSTest"
+   ]
+  }
+ }
 }

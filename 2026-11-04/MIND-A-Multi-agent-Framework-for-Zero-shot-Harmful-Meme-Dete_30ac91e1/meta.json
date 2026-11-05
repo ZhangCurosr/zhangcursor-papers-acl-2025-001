@@ -4,5 +4,30 @@
  "title": "MIND-A-Multi-agent-Framework-for-Zero-shot-Harmful-Meme-Dete",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-11-04 21:32:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4e01d032-6d40-4ced-ae9e-8976bdfd86fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4e01d032-6d40-4ced-ae9e-8976bdfd86fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:03:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "harmful meme detection",
+    "zero-shot",
+    "multi-agent",
+    "large multimodal model",
+    "retrieval-augmented"
+   ],
+   "field": "多模态内容安全",
+   "innovations": [
+    "提出零样本多智能体meme检测框架MIND，无需标注数据",
+    "设计双向洞察推导机制克服序列处理偏差",
+    "多智能体辩论仲裁提升决策鲁棒性"
+   ],
+   "benchmarks": [
+    "HarM",
+    "FHM",
+    "MAMI"
+   ]
+  }
+ }
 }

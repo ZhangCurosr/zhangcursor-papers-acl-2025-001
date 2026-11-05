@@ -4,5 +4,10 @@
  "title": "Enhancing-Hyperbole-and-Metaphor-Detection-with-Their-Bidire",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-11-04 20:55:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3117e9b6-9fa2-4146-9b17-f4a0decca136.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3117e9b6-9fa2-4146-9b17-f4a0decca136.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:01:32",
+  "chunks": 1
+ }
 }
